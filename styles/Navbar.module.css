@@ -112,8 +112,23 @@
   opacity: 0.9;
 }
 
+.hamburger {
+  display: none;
+}
+
+.hamburger__list {
+  display: none;
+}
+
 /* Responsive */
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1430px) {
+  .header__navbar_list {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    margin: 0 0 0 auto;
+  }
 }
 
 @media screen and (max-width: 1024px) {
