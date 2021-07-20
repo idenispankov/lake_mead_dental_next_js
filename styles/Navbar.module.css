@@ -35,6 +35,8 @@
 .header__contact_list_item {
   margin-right: 40px;
   display: flex;
+  cursor: pointer;
+  line-height: 22.85px;
 }
 
 .header__contact_list_item:last-child {
@@ -48,8 +50,43 @@
 .header__contact_list_item_link {
   color: #fff;
   font-size: 14px;
+  outline: none;
 }
 
+.header__navbar {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 160px;
+  border: 1px solid red;
+}
+
+.header__navbar_logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 750;
+  color: #3393f0;
+}
+
+.header__navbar_logo_highlight {
+  color: #3393f0;
+}
+
+.header__navbar_list {
+  list-style: none;
+}
+
+.header__navbar__list_item {
+  color: #000;
+  margin-right: 35px;
+}
+
+.header__navbar__list_item:last-child {
+  margin-right: 0;
+}
+
+/* Responsive */
 @media screen and (max-width: 1024px) {
   .header__contact_container {
     padding: 0 60px;

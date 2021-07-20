@@ -2,6 +2,7 @@ import navbarStyles from '../styles/Navbar.module.css';
 import phoneIcon from '../public/images/phone_icon.svg';
 import mailIcon from '../public/images/mail_icon.svg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -42,10 +43,52 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <nav className='header__navbar'>
-        <p className='header__logo'>
-          Lake Mead <span>Dental</span>
+      <nav className={navbarStyles.header__navbar}>
+        <p className={navbarStyles.header__navbar_logo}>
+          Lake Mead{' '}
+          <span className={navbarStyles.header__navbar_logo_highlight}>
+            Dental
+          </span>
         </p>
+        <ul className={navbarStyles.header__navbar_list}>
+          <li>
+            <Link href='/'>
+              <a className={navbarStyles.header__navbar__list_item}>Home</a>
+            </Link>
+            <Link href='/new-patients'>
+              <a className={navbarStyles.header__navbar__list_item}>
+                New Patients
+              </a>
+            </Link>
+            <Link href='services'>
+              <a className={navbarStyles.header__navbar__list_item}>Services</a>
+            </Link>
+            <Link href='meet-the-doctors'>
+              <a className={navbarStyles.header__navbar__list_item}>
+                Meet The Doctors
+              </a>
+            </Link>
+            <Link href='/insurance'>
+              <a className={navbarStyles.header__navbar__list_item}>
+                Insurance
+              </a>
+            </Link>
+            <Link href='/gallery'>
+              <a className={navbarStyles.header__navbar__list_item}>Gallery</a>
+            </Link>
+            <Link href='/covid-19'>
+              <a className={navbarStyles.header__navbar__list_item}>Covid-19</a>
+            </Link>
+            <Link href='/faq'>
+              <a className={navbarStyles.header__navbar__list_item}>FAQ</a>
+            </Link>
+            <Link href='/contact-us'>
+              <a className={navbarStyles.header__navbar__list_item}>
+                Contact us
+              </a>
+            </Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );
