@@ -64,50 +64,71 @@ export default function Navbar() {
           <ul className={navbarStyles.header__navbar_list}>
             <li>
               <Link href='/'>
-                <a className={navbarStyles.header__navbar__list_item}>Home</a>
+                <a className={navbarStyles.header__navbar__list_item_link}>
+                  Home
+                </a>
               </Link>
+            </li>
+            <li>
               <Link href='/new-patients'>
-                <a className={navbarStyles.header__navbar__list_item}>
+                <a className={navbarStyles.header__navbar__list_item_link}>
                   New Patients
                 </a>
               </Link>
+            </li>
+            <li>
               <Link href='/services'>
-                <a className={navbarStyles.header__navbar__list_item}>
+                <a className={navbarStyles.header__navbar__list_item_link}>
                   Services
                 </a>
               </Link>
+            </li>
+            <li>
               <Link href='/meet-the-doctors'>
-                <a className={navbarStyles.header__navbar__list_item}>
+                <a className={navbarStyles.header__navbar__list_item_link}>
                   Meet The Doctors
                 </a>
               </Link>
+            </li>
+            <li>
               <Link href='/insurance'>
-                <a className={navbarStyles.header__navbar__list_item}>
+                <a className={navbarStyles.header__navbar__list_item_link}>
                   Insurance
                 </a>
               </Link>
+            </li>
+            <li>
               <Link href='/gallery'>
-                <a className={navbarStyles.header__navbar__list_item}>
+                <a className={navbarStyles.header__navbar__list_item_link}>
                   Gallery
                 </a>
               </Link>
+            </li>
+            <li>
               <Link href='/covid-19'>
-                <a className={navbarStyles.header__navbar__list_item}>
+                <a className={navbarStyles.header__navbar__list_item_link}>
                   Covid-19
                 </a>
               </Link>
+            </li>
+            <li>
               <Link href='/faq'>
-                <a className={navbarStyles.header__navbar__list_item}>FAQ</a>
+                <a className={navbarStyles.header__navbar__list_item_link}>
+                  FAQ
+                </a>
               </Link>
+            </li>
+            <li>
               <Link href='/contact-us'>
                 <a
-                  className={`${navbarStyles.header__navbar__list_item} ${navbarStyles.header__navbar__list_item_contact}`}
+                  className={`${navbarStyles.header__navbar__list_item_link} ${navbarStyles.header__navbar__list_item_contact}`}
                 >
                   Contact us
                 </a>
               </Link>
             </li>
           </ul>
+          {/* Hamburger */}
           <HamburgerMenu
             className={navbarStyles.hamburger}
             isOpen={isOpen}
@@ -120,55 +141,101 @@ export default function Navbar() {
             borderRadius={10}
             animationDuration={0.5}
           />
-
-          {isOpen && (
-            <div className={navbarStyles.hamburger__container}>
-              <ul className={navbarStyles.hamburger__list}>
-                <li>
-                  <Link href='/'>
-                    <a className={navbarStyles.hamburger__list_item}>Home</a>
-                  </Link>
-                  <Link href='/new-patients'>
-                    <a className={navbarStyles.hamburger__list_item}>
-                      New Patients
-                    </a>
-                  </Link>
-                  <Link href='/services'>
-                    <a className={navbarStyles.hamburger__list_item}>
-                      Services
-                    </a>
-                  </Link>
-                  <Link href='/meet-the-doctors'>
-                    <a className={navbarStyles.hamburger__list_item}>
-                      Meet The Doctors
-                    </a>
-                  </Link>
-                  <Link href='/insurance'>
-                    <a className={navbarStyles.hamburger__list_item}>
-                      Insurance
-                    </a>
-                  </Link>
-                  <Link href='/gallery'>
-                    <a className={navbarStyles.hamburger__list_item}>Gallery</a>
-                  </Link>
-                  <Link href='/covid-19'>
-                    <a className={navbarStyles.hamburger__list_item}>
-                      Covid-19
-                    </a>
-                  </Link>
-                  <Link href='/faq'>
-                    <a className={navbarStyles.hamburger__list_item}>FAQ</a>
-                  </Link>
-                  <Link href='/contact-us'>
-                    <a className={navbarStyles.hamburger__list_item}>
-                      Contact us
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          )}
         </div>
+        {isOpen && (
+          <ul className={navbarStyles.hamburger__navbar_list}>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/new-patients'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  New Patients
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/services'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  Services
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/meet-the-doctors'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  Meet The Doctors
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/insurance'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  Insurance
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/gallery'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  Gallery
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/covid-19'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  Covid-19
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/faq'>
+                <a
+                  onClick={handleClick}
+                  className={navbarStyles.hamburger__navbar__list_item_link}
+                >
+                  FAQ
+                </a>
+              </Link>
+            </li>
+            <li className={navbarStyles.hamburger__navbar_list_item}>
+              <Link href='/contact-us'>
+                <a
+                  onClick={handleClick}
+                  className={`${navbarStyles.hamburger__navbar__list_item_link} ${navbarStyles.hamburger__navbar__list_item_contact}`}
+                >
+                  Contact us
+                </a>
+              </Link>
+            </li>
+          </ul>
+        )}
       </nav>
     </header>
   );
