@@ -42,11 +42,11 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      {/* <nav className='header__navbar'>
+      <nav className='header__navbar'>
         <p className='header__logo'>
           Lake Mead <span>Dental</span>
         </p>
-      </nav> */}
+      </nav>
     </header>
   );
 }
