@@ -26,7 +26,7 @@ export default function Navbar() {
                 className={navbarStyles.header__contact_list_item_link}
                 href='tel:8888888888'
               >
-                848-888-8888
+                888-888-8888
               </a>
             </li>
             <li className={navbarStyles.header__contact_list_item}>
@@ -43,7 +43,7 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <nav className={navbarStyles.header__navbar}>
+      {/* <nav className={navbarStyles.header__navbar}>
         <p className={navbarStyles.header__navbar_logo}>
           Lake Mead{' '}
           <span className={navbarStyles.header__navbar_logo_highlight}>
@@ -89,7 +89,7 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 }

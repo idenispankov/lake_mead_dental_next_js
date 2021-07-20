@@ -16,7 +16,7 @@
   align-items: center;
   padding: 0 160px;
   margin: 0 auto;
-  height: 60px;
+  min-height: 60px;
 }
 
 .header__contact_greeting {
@@ -45,6 +45,7 @@
 
 .header__contact_list_image {
   margin-right: 15px;
+  display: flex;
 }
 
 .header__contact_list_item_link {
@@ -94,7 +95,33 @@
 }
 
 @media screen and (max-width: 650px) {
-  .header__contact {
-    display: none;
+  .header__contact_list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__contact_list_item {
+    margin: 0;
+  }
+  .header__contact_container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__contact_container {
+    padding: 20px;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+  }
+  .header__contact_greeting {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+  }
+  .header__contact_list_item {
+    padding-bottom: 10px;
+  }
+  .header__contact_list_item:last-child {
+    padding-bottom: 0;
   }
 }
