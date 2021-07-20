@@ -1,9 +1,10 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Link from 'next/link';
+import homeStyles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={homeStyles.container}>
       <Head>
         <title>
           Lake Mead Dental | Home | Best Family Dentists in Summerlin, Las Vegas
@@ -12,11 +13,39 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <header className={styles.header}>Home</header>
+      <header className={homeStyles.header}>Home</header>
 
-      <main className={styles.main}></main>
+      <main className={homeStyles.main}>
+        <Link href='/'>
+          <a className={homeStyles.link}>Home</a>
+        </Link>
+        <Link href='/new-patients'>
+          <a className={homeStyles.link}>New Patients</a>
+        </Link>
+        <Link href='/services'>
+          <a className={homeStyles.link}>Services</a>
+        </Link>
+        <Link href='/meet-the-doctors'>
+          <a className={homeStyles.link}>Meet The Doctors</a>
+        </Link>
+        <Link href='/insurance'>
+          <a className={homeStyles.link}>Insurance</a>
+        </Link>
+        <Link href='/gallery'>
+          <a className={homeStyles.link}>Gallery</a>
+        </Link>
+        <Link href='/covid-19'>
+          <a className={homeStyles.link}>Covid-19</a>
+        </Link>
+        <Link href='/faq'>
+          <a className={homeStyles.link}>FAQ</a>
+        </Link>
+        <Link href='/contact-us'>
+          <a className={homeStyles.link}>Contact us</a>
+        </Link>
+      </main>
 
-      <footer className={styles.footer}></footer>
+      <footer className={homeStyles.footer}></footer>
     </div>
   );
 }
