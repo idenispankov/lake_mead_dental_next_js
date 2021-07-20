@@ -5,6 +5,7 @@ import mailIcon from '../public/images/mail_icon.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import HamburgerMenu from 'react-hamburger-menu';
+import Button from '../components/Button';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -119,13 +120,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href='/contact-us'>
-                <a
-                  className={`${navbarStyles.header__navbar__list_item_link} ${navbarStyles.header__navbar__list_item_contact}`}
-                >
-                  Contact us
-                </a>
-              </Link>
+              <Button buttonText='Contact us' linkTo='/contact-us' />
             </li>
           </ul>
           {/* Hamburger */}

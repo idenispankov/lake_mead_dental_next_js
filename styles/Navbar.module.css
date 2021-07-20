@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .header__contact {
@@ -101,18 +102,6 @@
 
 .header__navbar__list_item_link:hover {
   color: #3393f0;
-}
-
-.header__navbar__list_item_contact {
-  background: #3393f0;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 100px;
-}
-
-.header__navbar__list_item_contact:hover {
-  color: #fff;
-  opacity: 0.9;
 }
 
 .hamburger {
