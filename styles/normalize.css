@@ -42,6 +42,12 @@ main {
   padding-top: 145px;
 }
 
+@media screen and (max-width: 450px) {
+  main {
+    padding-top: 213px;
+  }
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.

@@ -43,53 +43,65 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      {/* <nav className={navbarStyles.header__navbar}>
-        <p className={navbarStyles.header__navbar_logo}>
-          Lake Mead{' '}
-          <span className={navbarStyles.header__navbar_logo_highlight}>
-            Dental
-          </span>
-        </p>
-        <ul className={navbarStyles.header__navbar_list}>
-          <li>
-            <Link href='/'>
-              <a className={navbarStyles.header__navbar__list_item}>Home</a>
-            </Link>
-            <Link href='/new-patients'>
-              <a className={navbarStyles.header__navbar__list_item}>
-                New Patients
-              </a>
-            </Link>
-            <Link href='services'>
-              <a className={navbarStyles.header__navbar__list_item}>Services</a>
-            </Link>
-            <Link href='meet-the-doctors'>
-              <a className={navbarStyles.header__navbar__list_item}>
-                Meet The Doctors
-              </a>
-            </Link>
-            <Link href='/insurance'>
-              <a className={navbarStyles.header__navbar__list_item}>
-                Insurance
-              </a>
-            </Link>
-            <Link href='/gallery'>
-              <a className={navbarStyles.header__navbar__list_item}>Gallery</a>
-            </Link>
-            <Link href='/covid-19'>
-              <a className={navbarStyles.header__navbar__list_item}>Covid-19</a>
-            </Link>
-            <Link href='/faq'>
-              <a className={navbarStyles.header__navbar__list_item}>FAQ</a>
-            </Link>
-            <Link href='/contact-us'>
-              <a className={navbarStyles.header__navbar__list_item}>
-                Contact us
-              </a>
-            </Link>
-          </li>
-        </ul>
-      </nav> */}
+      <nav className={navbarStyles.header__navbar}>
+        <div className={navbarStyles.header__navbar_container}>
+          <Link href='/'>
+            <a className={navbarStyles.header__navbar_logo}>
+              Lake Mead{' '}
+              <span className={navbarStyles.header__navbar_logo_highlight}>
+                Dental
+              </span>
+            </a>
+          </Link>
+          <ul className={navbarStyles.header__navbar_list}>
+            <li>
+              <Link href='/'>
+                <a className={navbarStyles.header__navbar__list_item}>Home</a>
+              </Link>
+              <Link href='/new-patients'>
+                <a className={navbarStyles.header__navbar__list_item}>
+                  New Patients
+                </a>
+              </Link>
+              <Link href='/services'>
+                <a className={navbarStyles.header__navbar__list_item}>
+                  Services
+                </a>
+              </Link>
+              <Link href='/meet-the-doctors'>
+                <a className={navbarStyles.header__navbar__list_item}>
+                  Meet The Doctors
+                </a>
+              </Link>
+              <Link href='/insurance'>
+                <a className={navbarStyles.header__navbar__list_item}>
+                  Insurance
+                </a>
+              </Link>
+              <Link href='/gallery'>
+                <a className={navbarStyles.header__navbar__list_item}>
+                  Gallery
+                </a>
+              </Link>
+              <Link href='/covid-19'>
+                <a className={navbarStyles.header__navbar__list_item}>
+                  Covid-19
+                </a>
+              </Link>
+              <Link href='/faq'>
+                <a className={navbarStyles.header__navbar__list_item}>FAQ</a>
+              </Link>
+              <Link href='/contact-us'>
+                <a
+                  className={`${navbarStyles.header__navbar__list_item} ${navbarStyles.header__navbar__list_item_contact}`}
+                >
+                  Contact us
+                </a>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
   );
 }

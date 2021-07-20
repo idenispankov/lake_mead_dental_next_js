@@ -23,7 +23,6 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 22.85px;
 }
 
 .header__contact_list {
@@ -55,19 +54,25 @@
 }
 
 .header__navbar {
-  height: 85px;
+  background: #fff;
+  border-bottom: 1px dotted #ccc;
+}
+
+.header__navbar_container {
+  min-height: 85px;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 160px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 160px;
-  border: 1px solid red;
 }
 
 .header__navbar_logo {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 750;
-  color: #3393f0;
+  color: #000;
 }
 
 .header__navbar_logo_highlight {
@@ -80,16 +85,43 @@
 
 .header__navbar__list_item {
   color: #000;
-  margin-right: 35px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  transition: all 0.3s linear;
 }
 
 .header__navbar__list_item:last-child {
   margin-right: 0;
 }
 
+.header__navbar__list_item:hover {
+  color: #3393f0;
+}
+
+.header__navbar__list_item_contact {
+  background: #3393f0;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+
+.header__navbar__list_item_contact:hover {
+  color: #fff;
+  opacity: 0.9;
+}
+
 /* Responsive */
+@media screen and (max-width: 1420px) {
+}
+
 @media screen and (max-width: 1024px) {
   .header__contact_container {
+    padding: 0 60px;
+  }
+
+  .header__navbar_container {
     padding: 0 60px;
   }
 }
@@ -104,6 +136,9 @@
     margin: 0;
   }
   .header__contact_container {
+    padding: 0 30px;
+  }
+  .header__navbar_container {
     padding: 0 30px;
   }
 }
