@@ -1,9 +1,9 @@
-import LandscapeModeStyles from '../styles/LandscapeMode.module.css';
+import landscapeModeStyles from '../styles/LandscapeMode.module.css';
 
 export default function LandscapeMode() {
   return (
-    <div className={LandscapeModeStyles.container}>
-      <h2 className={LandscapeModeStyles.text}>
+    <div className={landscapeModeStyles.container}>
+      <h2 className={landscapeModeStyles.text}>
         Please return you smartphone to portrait mode for better experience
       </h2>
     </div>

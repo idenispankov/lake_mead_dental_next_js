@@ -145,12 +145,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    padding: 50px 0;
     list-style: none;
     transition: all 0.5s linear;
   }
   .hamburger__navbar_list_item {
-    padding: 10px;
+    padding: 30px;
     border-bottom: 1px solid #fff;
   }
   .hamburger__navbar_list_item:last-child {
@@ -176,6 +178,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .hamburger__navbar_list {
+    min-height: 100vh;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .header__contact_greeting {
     display: none;
@@ -189,8 +197,11 @@
   .header__navbar_logo {
     font-size: 24px;
   }
+  .hamburger__navbar_list {
+    padding: 20px 0;
+  }
   .hamburger__navbar_list_item {
-    padding: 10px;
+    padding: 20px;
   }
 }
 
@@ -207,12 +218,20 @@
   }
 }
 
-.landscape {
-  display: none;
+@media screen and (max-width: 440px) {
+  .hamburger__navbar_list {
+    padding: 30px 0;
+  }
+  .hamburger__navbar_list_item {
+    padding: 15px;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
+  .hamburger__navbar_list {
+    padding: 20px 0;
+  }
   .hamburger__navbar_list_item {
-    padding: 5px;
+    padding: 10px;
   }
 }

@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import HomeBanner from '../components/HomeBanner';
 
 export default function Home() {

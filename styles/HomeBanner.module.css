@@ -62,21 +62,6 @@
   }
 }
 
-@media screen and (min-width: 1601px) {
-  .banner {
-    width: 1280px;
-    margin: 0 auto;
-  }
-  .overlay {
-    padding: 0;
-  }
-  .container {
-    text-align: center;
-    margin: 150px auto 0 auto;
-    align-items: center;
-  }
-}
-
 @media screen and (max-width: 510px) {
   .banner {
     width: 100%;
@@ -84,6 +69,9 @@
     background: url(../public/images/home_banner_mobile.jpg) no-repeat center
       center/cover;
     position: relative;
+  }
+  .heading {
+    padding-bottom: 50px;
   }
 }
 

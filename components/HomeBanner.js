@@ -1,21 +1,21 @@
-import HomeBannerStyles from '../styles/HomeBanner.module.css';
+import homeBannerStyles from '../styles/HomeBanner.module.css';
 import Link from 'next/link';
 
 export default function HomeBanner() {
   return (
     <>
-      <div className={HomeBannerStyles.banner}>
-        <div className={HomeBannerStyles.overlay}>
-          <div className={HomeBannerStyles.container}>
-            <h1 className={HomeBannerStyles.heading}>
+      <div className={homeBannerStyles.banner}>
+        <div className={homeBannerStyles.overlay}>
+          <div className={homeBannerStyles.container}>
+            <h1 className={homeBannerStyles.heading}>
               Own a Smile You Love to Share.
             </h1>
-            <p className={HomeBannerStyles.text}>
+            <p className={homeBannerStyles.text}>
               {`Your Family Dentist In Summerlin, Las Vegas . We're Open During
               Quarantine - We're Here For You!`}
             </p>
             <Link href='/contact-us'>
-              <a className={HomeBannerStyles.button}>Contact us</a>
+              <a className={homeBannerStyles.button}>Contact us</a>
             </Link>
           </div>
         </div>
