@@ -24,7 +24,7 @@ export default function Footer() {
             <li className={footerStyles.social__item}>
               <a
                 className={footerStyles.logo__container_social}
-                href='https://facebook.com'
+                href='https://www.facebook.com/lakemeaddental'
                 rel='noopener noreferrer'
                 target='_blank'
               >
@@ -40,14 +40,14 @@ export default function Footer() {
             <li className={footerStyles.social__item}>
               <a
                 className={footerStyles.logo__container_social}
-                href='https://facebook.com'
+                href='https://www.instagram.com/lakemeaddental'
                 rel='noopener noreferrer'
                 target='_blank'
               >
                 <Image
                   className={footerStyles.image}
                   src={instagramIcon}
-                  alt='facebook icon'
+                  alt='instagram icon'
                   height={25}
                   width={25}
                 />
@@ -56,14 +56,14 @@ export default function Footer() {
             <li className={footerStyles.social__item}>
               <a
                 className={footerStyles.logo__container_social}
-                href='https://facebook.com'
+                href='https://www.linkedin.com/company/lake-mead-dental'
                 rel='noopener noreferrer'
                 target='_blank'
               >
                 <Image
                   className={footerStyles.image}
                   src={linkedinIcon}
-                  alt='facebook icon'
+                  alt='linkedin icon'
                   height={25}
                   width={25}
                 />
@@ -72,14 +72,14 @@ export default function Footer() {
             <li className={footerStyles.social__item}>
               <a
                 className={footerStyles.logo__container_social}
-                href='https://facebook.com'
+                href='https://twitter.com/lakemeaddental'
                 rel='noopener noreferrer'
                 target='_blank'
               >
                 <Image
                   className={footerStyles.image}
                   src={twitterIcon}
-                  alt='facebook icon'
+                  alt='twitter icon'
                   height={25}
                   width={25}
                 />
@@ -98,14 +98,14 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 7481 W Lake Mead blvd. Suite: 100. Las Vegas, NV, 89128
               </p>
-              <a href='tel:8888888888' className={footerStyles.contact__phone}>
-                888-888-8888
+              <a href='tel:7023041234' className={footerStyles.contact__phone}>
+                (702) 304 - 1234
               </a>
               <a
-                href='mailto:some@gmail.com'
+                href='mailto:lakemeaddental@gmail.com'
                 className={footerStyles.contact__email}
               >
-                email@email.com
+                lakemeaddental@gmail.com
               </a>
             </li>
           </ul>
@@ -117,20 +117,19 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 2649 Wigwam Pkwy. Suite: 106. Henderson, NV, 89074
               </p>
-              <a href='tel:8888888888' className={footerStyles.contact__phone}>
-                888-888-8888
+              <a href='tel:7026173333' className={footerStyles.contact__phone}>
+                (702) 617-3333
               </a>
               <a
-                href='mailto:some@gmail.com'
+                href='mailto:wigwamdental@gmail.com'
                 className={footerStyles.contact__email}
               >
-                email@email.com
+                wigwamdental@gmail.com
               </a>
             </li>
           </ul>
         </div>
 
-        {/* dublicate */}
         <div className={footerStyles.contact__container_reponsive}>
           <ul className={footerStyles.contact__list}>
             <li>
@@ -140,14 +139,14 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 7481 W Lake Mead blvd. Suite: 100. Las Vegas, NV, 89128
               </p>
-              <a href='tel:8888888888' className={footerStyles.contact__phone}>
-                888-888-8888
+              <a href='tel:7023041234' className={footerStyles.contact__phone}>
+                (702) 304 - 1234
               </a>
               <a
-                href='mailto:some@gmail.com'
+                href='mailto:lakemeaddental@gmail.com'
                 className={footerStyles.contact__email}
               >
-                email@email.com
+                lakemeaddental@gmail.com
               </a>
             </li>
           </ul>
@@ -158,14 +157,14 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 2649 Wigwam Pkwy. Suite: 106. Henderson, NV, 89074
               </p>
-              <a href='tel:8888888888' className={footerStyles.contact__phone}>
-                888-888-8888
+              <a href='tel:7026173333' className={footerStyles.contact__phone}>
+                (702) 617-3333
               </a>
               <a
-                href='mailto:some@gmail.com'
+                href='mailto:wigwamdental@gmail.com'
                 className={footerStyles.contact__email}
               >
-                email@email.com
+                wigwamdental@gmail.com
               </a>
             </li>
           </ul>

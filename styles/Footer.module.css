@@ -76,7 +76,6 @@
   transform: scale(1.2);
 }
 
-/* Contact */
 .contact__list {
   color: #fff;
   max-width: 260px;
@@ -97,11 +96,21 @@
   line-height: 24px;
   margin-bottom: 10px;
   display: block;
+  transition: all 0.3s linear;
+}
+
+.contact__phone:hover {
+  font-size: 17px;
 }
 
 .contact__email {
   line-height: 24px;
   display: block;
+  transition: all 0.3s linear;
+}
+
+.contact__email:hover {
+  font-size: 17px;
 }
 
 .contact__container_reponsive {
