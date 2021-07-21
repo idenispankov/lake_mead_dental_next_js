@@ -1,7 +1,6 @@
 .footer {
   width: 100%;
   max-width: 1600px;
-  min-height: 434px;
   background: #3393f0;
   display: flex;
   flex-direction: column;
@@ -23,9 +22,8 @@
 }
 
 .container {
-  padding: 68px 363px 49px 160px;
+  padding: 40px 160px 40px 160px;
   border-bottom: none;
-  min-height: 366px;
   display: flex;
   justify-content: space-between;
 }
@@ -78,25 +76,29 @@
   transform: scale(1.2);
 }
 
-/* Navigation */
-.nav__container_list {
-  min-height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top: 10px;
-}
-
-.nav__container_list_link {
-  line-height: 30px;
+/* Contact */
+.contact__list {
   color: #fff;
+  max-width: 260px;
 }
 
-/* Social */
-.social__container_list {
-  min-height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top: 10px;
+.contact__heading {
+  line-height: 49px;
+  font-size: 24px;
+  /* color: #fff; */
+  margin-bottom: 25px;
+}
+
+.contact__address {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.contact__phone {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.contact__email {
+  line-height: 24px;
 }

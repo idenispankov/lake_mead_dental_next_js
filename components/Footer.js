@@ -87,126 +87,34 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-
-        {/* Navigation */}
-        <div className={footerStyles.nav__container}>
-          <ul className={footerStyles.nav__container_list}>
+        <div className={footerStyles.contact__container}>
+          <ul className={footerStyles.contact__list}>
             <li>
-              <Link href='/'>
-                <a className={footerStyles.nav__container_list_link}>Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/new-patients'>
-                <a className={footerStyles.nav__container_list_link}>
-                  New Patients
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/services'>
-                <a className={footerStyles.nav__container_list_link}>
-                  Services
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/meet-the-doctors'>
-                <a className={footerStyles.nav__container_list_link}>
-                  Meet The Doctors
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/insurance'>
-                <a className={footerStyles.nav__container_list_link}>
-                  Insurance
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/gallery'>
-                <a className={footerStyles.nav__container_list_link}>Gallery</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/covid-19'>
-                <a className={footerStyles.nav__container_list_link}>
-                  Covid-19
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/faq'>
-                <a className={footerStyles.nav__container_list_link}>FAQ</a>
-              </Link>
+              <h3 className={footerStyles.contact__heading}>
+                Lake Mead Dental
+              </h3>
+              <p className={footerStyles.contact__address}>
+                7481 W Lake Mead blvd. Suite: 100. Las Vegas, NV, 89128
+              </p>
+              <p className={footerStyles.contact__phone}>888-888-8888</p>
+              <p className={footerStyles.contact__email}>email@email.com</p>
             </li>
           </ul>
         </div>
-
-        {/* Social */}
-        <div className={footerStyles.social__container}>
-          <ul className={footerStyles.social__container_list}>
+        <div className={footerStyles.address__container}>
+          <ul className={footerStyles.contact__list}>
             <li>
-              <a
-                className={footerStyles.nav__container_list_link}
-                href='https://facebook.com'
-                rel='noreferrer noopener'
-                target='_blank'
-              >
-                Facebook
-              </a>
-            </li>
-            <li>
-              <a
-                className={footerStyles.nav__container_list_link}
-                href='https://facebook.com'
-                rel='noreferrer noopener'
-                target='_blank'
-              >
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a
-                className={footerStyles.nav__container_list_link}
-                href='https://facebook.com'
-                rel='noreferrer noopener'
-                target='_blank'
-              >
-                Linkedin
-              </a>
-            </li>
-            <li>
-              <a
-                className={footerStyles.nav__container_list_link}
-                href='https://facebook.com'
-                rel='noreferrer noopener'
-                target='_blank'
-              >
-                Instagram
-              </a>
+              <h3 className={footerStyles.contact__heading}>Wigwam Dental</h3>
+              <p className={footerStyles.contact__address}>
+                2649 Wigwam Pkwy. Suite: 106. Henderson, NV, 89074
+              </p>
+              <p className={footerStyles.contact__phone}>888-888-8888</p>
+              <p className={footerStyles.contact__email}>email@email.com</p>
             </li>
           </ul>
         </div>
 
         {/* Contact */}
-        <div className={footerStyles.contact__container}>
-          <ul className={footerStyles.contact__container_list}>
-            <li>
-              <p>7481 W Lake Mead blvd. Suite 100</p>
-              <p>Las Vegas, NV, 89128</p>
-              <p>888-888-8888</p>
-              <p>email@gmail.com</p>
-            </li>
-            <li>
-              <p>7481 W Lake Mead blvd. Suite 100</p>
-              <p>Las Vegas, NV, 89128</p>
-              <p>888-888-8888</p>
-              <p>email@gmail.com</p>
-            </li>
-          </ul>
-        </div>
       </div>
 
       <div className={footerStyles.copyright__container}>
