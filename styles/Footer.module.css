@@ -3,9 +3,6 @@
   max-width: 1600px;
   min-height: 434px;
   background: #3393f0;
-  /* temporary */
-  /* margin-top: 500px; */
-  /* padding: 68px 160px 0 160px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -26,7 +23,6 @@
 }
 
 .container {
-  /* sould be padding later */
   padding: 68px 363px 49px 160px;
   border-bottom: none;
   min-height: 366px;
@@ -83,15 +79,24 @@
 }
 
 /* Navigation */
-
 .nav__container_list {
   min-height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 10px;
 }
 
 .nav__container_list_link {
   line-height: 30px;
   color: #fff;
+}
+
+/* Social */
+.social__container_list {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
 }

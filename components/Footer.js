@@ -4,6 +4,7 @@ import Image from 'next/image';
 import facebookIcon from '../public/images/facebook_icon.svg';
 import instagramIcon from '../public/images/instagram_icon.svg';
 import linkedinIcon from '../public/images/linkedin_icon.svg';
+import twitterIcon from '../public/images/twitter_icon.svg';
 
 export default function Footer() {
   function getYear() {
@@ -62,6 +63,22 @@ export default function Footer() {
                 <Image
                   className={footerStyles.image}
                   src={linkedinIcon}
+                  alt='facebook icon'
+                  height={25}
+                  width={25}
+                />
+              </a>
+            </li>
+            <li className={footerStyles.social__item}>
+              <a
+                className={footerStyles.logo__container_social}
+                href='https://facebook.com'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <Image
+                  className={footerStyles.image}
+                  src={twitterIcon}
                   alt='facebook icon'
                   height={25}
                   width={25}
@@ -132,6 +149,7 @@ export default function Footer() {
           <ul className={footerStyles.social__container_list}>
             <li>
               <a
+                className={footerStyles.nav__container_list_link}
                 href='https://facebook.com'
                 rel='noreferrer noopener'
                 target='_blank'
@@ -141,29 +159,32 @@ export default function Footer() {
             </li>
             <li>
               <a
+                className={footerStyles.nav__container_list_link}
                 href='https://facebook.com'
                 rel='noreferrer noopener'
                 target='_blank'
               >
-                Facebook
+                Twitter
               </a>
             </li>
             <li>
               <a
+                className={footerStyles.nav__container_list_link}
                 href='https://facebook.com'
                 rel='noreferrer noopener'
                 target='_blank'
               >
-                Facebook
+                Linkedin
               </a>
             </li>
             <li>
               <a
+                className={footerStyles.nav__container_list_link}
                 href='https://facebook.com'
                 rel='noreferrer noopener'
                 target='_blank'
               >
-                Facebook
+                Instagram
               </a>
             </li>
           </ul>
