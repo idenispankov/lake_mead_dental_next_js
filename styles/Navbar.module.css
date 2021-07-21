@@ -73,9 +73,14 @@
   font-size: 30px;
   font-weight: 750;
   color: #000;
+  transition: all 0.3s linear;
 }
 
 .header__navbar_logo_highlight {
+  color: #3393f0;
+}
+
+.header__navbar_logo:hover {
   color: #3393f0;
 }
 
