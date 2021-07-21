@@ -18,8 +18,6 @@
 
 .container {
   max-width: 480px;
-  /* min-height: 329px; */
-  /* border: 1px solid red; */
 }
 
 .heading {
@@ -37,6 +35,18 @@
   padding-bottom: 40px;
 }
 
+.button {
+  background: #3393f0;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 100px;
+  transition: all 0.3s linear;
+}
+
+.button:hover {
+  background-color: #02509e;
+}
+
 @media screen and (max-width: 768px) {
   .overlay {
     text-align: center;
@@ -52,22 +62,33 @@
   }
 }
 
+@media screen and (min-width: 1601px) {
+  .banner {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .overlay {
+    padding: 0;
+  }
+  .container {
+    text-align: center;
+    margin: 150px auto 0 auto;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .banner {
+    width: 100%;
+    min-height: 660px;
+    background: url(../public/images/home_banner_mobile.jpg) no-repeat center
+      center/cover;
+    position: relative;
+  }
+}
+
 @media screen and (orientation: landscape) and (max-width: 823px) {
   .banner {
     display: none;
   }
 }
-
-/* @media screen and (max-width: 702px) {
-  .overlay {
-    text-align: center;
-    padding: 40px 80px;
-  }
-  .container {
-    max-width: 250px;
-  }
-  .heading {
-    font-size: 22px;
-    line-height: 25px;
-  }
-} */

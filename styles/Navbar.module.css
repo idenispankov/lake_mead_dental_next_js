@@ -56,7 +56,6 @@
 
 .header__navbar {
   background: #fff;
-  border-bottom: 1px dotted #ccc;
 }
 
 .header__navbar_container {
@@ -102,6 +101,18 @@
 
 .header__navbar__list_item_link:hover {
   color: #3393f0;
+}
+
+.button {
+  background: #3393f0;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 100px;
+  transition: all 0.3s linear;
+}
+
+.button:hover {
+  background-color: #02509e;
 }
 
 .hamburger {

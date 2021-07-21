@@ -5,7 +5,6 @@ import mailIcon from '../public/images/mail_icon.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import HamburgerMenu from 'react-hamburger-menu';
-import Button from '../components/Button';
 import LandscapeMode from './LandscapeMode';
 
 export default function Navbar() {
@@ -128,7 +127,9 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Button buttonText='Contact us' linkTo='/contact-us' />
+                <Link href='/contact-us'>
+                  <a className={navbarStyles.button}>Contact us</a>
+                </Link>
               </li>
             </ul>
             {/* Hamburger */}
