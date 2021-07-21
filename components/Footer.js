@@ -87,6 +87,8 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+        {/* Contact */}
+
         <div className={footerStyles.contact__container}>
           <ul className={footerStyles.contact__list}>
             <li>
@@ -102,6 +104,33 @@ export default function Footer() {
           </ul>
         </div>
         <div className={footerStyles.address__container}>
+          <ul className={footerStyles.contact__list}>
+            <li>
+              <h3 className={footerStyles.contact__heading}>Wigwam Dental</h3>
+              <p className={footerStyles.contact__address}>
+                2649 Wigwam Pkwy. Suite: 106. Henderson, NV, 89074
+              </p>
+              <p className={footerStyles.contact__phone}>888-888-8888</p>
+              <p className={footerStyles.contact__email}>email@email.com</p>
+            </li>
+          </ul>
+        </div>
+
+        {/* dublicate */}
+        <div className={footerStyles.contact__container_reponsive}>
+          <ul className={footerStyles.contact__list}>
+            <li>
+              <h3 className={footerStyles.contact__heading}>
+                Lake Mead Dental
+              </h3>
+              <p className={footerStyles.contact__address}>
+                7481 W Lake Mead blvd. Suite: 100. Las Vegas, NV, 89128
+              </p>
+              <p className={footerStyles.contact__phone}>888-888-8888</p>
+              <p className={footerStyles.contact__email}>email@email.com</p>
+            </li>
+          </ul>
+
           <ul className={footerStyles.contact__list}>
             <li>
               <h3 className={footerStyles.contact__heading}>Wigwam Dental</h3>

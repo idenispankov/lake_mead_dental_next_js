@@ -85,7 +85,6 @@
 .contact__heading {
   line-height: 49px;
   font-size: 24px;
-  /* color: #fff; */
   margin-bottom: 25px;
 }
 
@@ -101,4 +100,121 @@
 
 .contact__email {
   line-height: 24px;
+}
+
+.contact__container_reponsive {
+  display: none;
+}
+
+@media screen and (max-width: 1230px) {
+  .logo {
+    font-size: 24px;
+  }
+  .contact__heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .logo {
+    font-size: 20px;
+  }
+  .contact__heading {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 40px 60px 40px 60px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .contact__heading {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .logo__container {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .logo__container_list {
+    justify-content: center;
+  }
+  .contact__container {
+    display: none;
+  }
+  .address__container {
+    display: none;
+  }
+  .contact__container_reponsive {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+  }
+  .contact__heading {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact__container_reponsive {
+    display: none;
+  }
+  .contact__container {
+    display: flex;
+    text-align: center;
+  }
+  .address__container {
+    display: flex;
+  }
+  .contact__heading {
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .address__container {
+    text-align: center;
+  }
+  .contact__address {
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .contact__phone {
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+  .contact__email {
+    margin-bottom: 20px;
+  }
+  .logo__container_list {
+    margin-bottom: 20px;
+  }
+  .container {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .copyright__container {
+    text-align: center;
+  }
+
+  .copyright {
+    color: #fff;
+    line-height: 24px;
+    max-width: 200px;
+  }
 }
