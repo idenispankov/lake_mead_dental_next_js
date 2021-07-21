@@ -8,8 +8,11 @@ import twitterIcon from '../public/images/twitter_icon.svg';
 
 export default function Footer() {
   function getYear() {
-    console.log('fullYear');
+    let year = new Date().getFullYear();
+    return year;
   }
+
+  const copyrightYear = getYear();
 
   return (
     <footer className={footerStyles.footer}>
@@ -175,7 +178,7 @@ export default function Footer() {
 
       <div className={footerStyles.copyright__container}>
         <p className={footerStyles.copyright}>
-          &copy; 2021. Lake Mead Dental. All rights reserved.
+          &copy; {copyrightYear}. Lake Mead Dental. All rights reserved.
         </p>
       </div>
     </footer>
