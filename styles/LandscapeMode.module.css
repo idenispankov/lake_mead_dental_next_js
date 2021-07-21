@@ -1,13 +1,15 @@
 .container {
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
   text-align: center;
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (orientation: landscape) and (max-width: 823px) {
@@ -17,7 +19,6 @@
   .text {
     color: #fff;
     margin: 0 auto;
-    margin-top: 175px;
     max-width: 400px;
     line-height: 30px;
   }

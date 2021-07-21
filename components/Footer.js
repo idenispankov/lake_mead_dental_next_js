@@ -98,8 +98,15 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 7481 W Lake Mead blvd. Suite: 100. Las Vegas, NV, 89128
               </p>
-              <p className={footerStyles.contact__phone}>888-888-8888</p>
-              <p className={footerStyles.contact__email}>email@email.com</p>
+              <a href='tel:8888888888' className={footerStyles.contact__phone}>
+                888-888-8888
+              </a>
+              <a
+                href='mailto:some@gmail.com'
+                className={footerStyles.contact__email}
+              >
+                email@email.com
+              </a>
             </li>
           </ul>
         </div>
@@ -110,8 +117,15 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 2649 Wigwam Pkwy. Suite: 106. Henderson, NV, 89074
               </p>
-              <p className={footerStyles.contact__phone}>888-888-8888</p>
-              <p className={footerStyles.contact__email}>email@email.com</p>
+              <a href='tel:8888888888' className={footerStyles.contact__phone}>
+                888-888-8888
+              </a>
+              <a
+                href='mailto:some@gmail.com'
+                className={footerStyles.contact__email}
+              >
+                email@email.com
+              </a>
             </li>
           </ul>
         </div>
@@ -126,8 +140,15 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 7481 W Lake Mead blvd. Suite: 100. Las Vegas, NV, 89128
               </p>
-              <p className={footerStyles.contact__phone}>888-888-8888</p>
-              <p className={footerStyles.contact__email}>email@email.com</p>
+              <a href='tel:8888888888' className={footerStyles.contact__phone}>
+                888-888-8888
+              </a>
+              <a
+                href='mailto:some@gmail.com'
+                className={footerStyles.contact__email}
+              >
+                email@email.com
+              </a>
             </li>
           </ul>
 
@@ -137,8 +158,15 @@ export default function Footer() {
               <p className={footerStyles.contact__address}>
                 2649 Wigwam Pkwy. Suite: 106. Henderson, NV, 89074
               </p>
-              <p className={footerStyles.contact__phone}>888-888-8888</p>
-              <p className={footerStyles.contact__email}>email@email.com</p>
+              <a href='tel:8888888888' className={footerStyles.contact__phone}>
+                888-888-8888
+              </a>
+              <a
+                href='mailto:some@gmail.com'
+                className={footerStyles.contact__email}
+              >
+                email@email.com
+              </a>
             </li>
           </ul>
         </div>
