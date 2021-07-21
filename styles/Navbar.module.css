@@ -196,21 +196,8 @@
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 823px) {
-  .hamburger__navbar_list_item {
-    padding: 3px;
-    border-bottom: none;
-  }
-  .hamburger__navbar__list_item_link {
-    font-size: 10px;
-  }
-}
-
-@media screen and (orientation: landscape) and (max-width: 568px) {
-  .hamburger__navbar_list_item {
-    padding: 0;
-    border-bottom: none;
-  }
+.landscape {
+  display: none;
 }
 
 @media screen and (max-width: 320px) {

@@ -52,6 +52,12 @@
   }
 }
 
+@media screen and (orientation: landscape) and (max-width: 823px) {
+  .banner {
+    display: none;
+  }
+}
+
 /* @media screen and (max-width: 702px) {
   .overlay {
     text-align: center;
