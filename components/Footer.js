@@ -92,9 +92,9 @@ export default function Footer() {
         <div className={footerStyles.contact__container}>
           <ul className={footerStyles.contact__list}>
             <li>
-              <h3 className={footerStyles.contact__heading}>
+              <h2 className={footerStyles.contact__heading}>
                 Lake Mead Dental
-              </h3>
+              </h2>
               <p className={footerStyles.contact__address}>
                 7481 W Lake Mead blvd. Suite: 100. Las Vegas, NV, 89128
               </p>
