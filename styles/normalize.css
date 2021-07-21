@@ -39,13 +39,7 @@ body {
 
 main {
   display: block;
-  padding-top: 145px;
-}
-
-@media screen and (max-width: 450px) {
-  main {
-    padding-top: 213px;
-  }
+  padding-top: 125px;
 }
 
 /**
