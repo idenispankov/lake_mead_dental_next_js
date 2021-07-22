@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HamburgerMenu from 'react-hamburger-menu';
 import LandscapeMode from './LandscapeMode';
+import logoImage from '../public/images/logo_blue.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,6 +64,15 @@ export default function Navbar() {
           <div className={navbarStyles.header__navbar_container}>
             <Link href='/'>
               <a className={navbarStyles.header__navbar_logo}>
+                {' '}
+                <div className={navbarStyles.logo__image}>
+                  <Image
+                    src={logoImage}
+                    alt='phone icon'
+                    width={40}
+                    height={40}
+                  />
+                </div>
                 Lake Mead{' '}
                 <span className={navbarStyles.header__navbar_logo_highlight}>
                   Dental

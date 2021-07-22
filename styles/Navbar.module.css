@@ -70,10 +70,16 @@
 }
 
 .header__navbar_logo {
+  display: flex;
+  align-items: center;
   font-size: 30px;
   font-weight: 750;
   color: #000;
   transition: all 0.3s linear;
+}
+
+.logo__image {
+  margin-right: 10px;
 }
 
 .header__navbar_logo_highlight {
