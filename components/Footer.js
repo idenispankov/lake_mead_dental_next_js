@@ -5,6 +5,8 @@ import facebookIcon from '../public/images/facebook_icon.svg';
 import instagramIcon from '../public/images/instagram_icon.svg';
 import linkedinIcon from '../public/images/linkedin_icon.svg';
 import twitterIcon from '../public/images/twitter_icon.svg';
+import logoImage from '../public/images/logo_blue.png';
+import whiteLogoImage from '../public/images/white_logo.png';
 
 export default function Footer() {
   function getYear() {
@@ -20,7 +22,16 @@ export default function Footer() {
         <div className={footerStyles.logo__container}>
           <Link href='/'>
             <a className={footerStyles.logo}>
-              Lake Mead <span className={footerStyles.logo_span}>Dental</span>
+              {' '}
+              <div className={footerStyles.logo__image}>
+                <Image
+                  src={whiteLogoImage}
+                  alt='phone icon'
+                  width={40}
+                  height={40}
+                />
+              </div>
+              Lake Mead <span className={footerStyles.logo_span}> Dental</span>
             </a>
           </Link>
           <ul className={footerStyles.logo__container_list}>
