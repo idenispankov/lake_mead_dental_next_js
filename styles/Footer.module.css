@@ -29,9 +29,6 @@
 }
 
 /* Logo and Icons */
-.logo__container {
-}
-
 .logo__container_list {
   list-style: none;
   display: flex;
