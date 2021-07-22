@@ -135,7 +135,7 @@ export default function Footer() {
               </a>
               <a
                 href='mailto:wigwamdental@gmail.com'
-                className={footerStyles.contact__email}
+                className={`${footerStyles.contact__email} ${footerStyles.contact_email_last} `}
               >
                 wigwamdental@gmail.com
               </a>

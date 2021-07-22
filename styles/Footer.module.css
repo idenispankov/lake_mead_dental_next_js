@@ -175,6 +175,9 @@
   .contact__email {
     margin-bottom: 30px;
   }
+  .contact_email_last {
+    margin-bottom: 0;
+  }
   .container {
     padding: 30px;
   }
