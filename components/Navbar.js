@@ -36,9 +36,9 @@ export default function Navbar() {
                 </div>
                 <a
                   className={navbarStyles.header__contact_list_item_link}
-                  href='tel:8888888888'
+                  href='tel:7023041234'
                 >
-                  888-888-8888
+                  (702) 304 - 1234
                 </a>
               </li>
               <li className={navbarStyles.header__contact_list_item}>
@@ -52,9 +52,9 @@ export default function Navbar() {
                 </div>
                 <a
                   className={navbarStyles.header__contact_list_item_link}
-                  href='mailto:some@gmail.com'
+                  href='mailto:lakemeaddental@gmail.com'
                 >
-                  email@gmail.com
+                  lakemeaddental@gmail.com
                 </a>
               </li>
             </ul>

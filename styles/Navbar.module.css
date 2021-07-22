@@ -196,7 +196,7 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 720px) {
   .header__contact_greeting {
     display: none;
   }
@@ -248,8 +248,23 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
   .header__navbar_logo {
     font-size: 18px;
+  }
+  .header__contact_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__contact_container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+  }
+  .header__contact_list_item {
+    margin: 0;
+    padding-bottom: 5px;
   }
 }
