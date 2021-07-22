@@ -30,9 +30,6 @@
 
 /* Logo and Icons */
 .logo__container {
-  /* max-width: 260px; */
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .logo__container_list {
@@ -121,10 +118,6 @@
   font-size: 17px;
 }
 
-.contact__container_reponsive {
-  display: none;
-}
-
 @media screen and (max-width: 1230px) {
   .logo {
     font-size: 24px;
@@ -143,7 +136,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1090px) {
   .container {
     padding: 40px 60px 40px 60px;
   }
@@ -155,10 +148,11 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .container {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .logo {
     font-size: 30px;
@@ -171,69 +165,29 @@
   .logo__container_list {
     justify-content: center;
   }
-  .contact__container {
-    display: none;
-  }
-  .address__container {
-    display: none;
-  }
-  .contact__container_reponsive {
-    display: flex;
-    justify-content: space-between;
-    width: 600px;
-  }
   .contact__heading {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .contact__container_reponsive {
-    display: none;
-  }
-  .contact__container {
-    display: flex;
-    text-align: center;
-  }
-  .address__container {
-    display: flex;
-  }
-  .contact__heading {
-    line-height: 20px;
-    margin-bottom: 5px;
-  }
-  .address__container {
-    text-align: center;
-  }
-  .contact__address {
     line-height: 24px;
     margin-bottom: 10px;
   }
-
-  .contact__phone {
-    line-height: 24px;
-    margin-bottom: 0;
+  .contact__address {
+    margin-bottom: 10px;
   }
-
   .contact__email {
-    margin-bottom: 20px;
-  }
-  .logo__container_list {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .container {
-    padding: 20px;
+    padding: 30px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 360px) {
   .copyright__container {
     text-align: center;
   }
+}
 
-  .copyright {
-    color: #fff;
-    line-height: 24px;
-    max-width: 200px;
+@media screen and (max-width: 360px) {
+  .logo {
+    font-size: 24px;
   }
 }

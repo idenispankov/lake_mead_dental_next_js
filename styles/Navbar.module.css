@@ -84,6 +84,7 @@
 
 .header__navbar_logo_highlight {
   color: #3393f0;
+  margin-left: 10px;
 }
 
 .header__navbar_logo:hover {
@@ -139,7 +140,7 @@
 }
 
 /* Responsive */
-@media screen and (max-width: 1480px) {
+@media screen and (max-width: 1500px) {
   .header__navbar_list {
     display: none;
   }
@@ -244,5 +245,11 @@
   }
   .hamburger__navbar_list_item {
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header__navbar_logo {
+    font-size: 18px;
   }
 }
