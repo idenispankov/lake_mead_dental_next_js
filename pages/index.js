@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import HomeBanner from '../components/HomeBanner';
+import HomeDoctor from '../components/HomeDoctor';
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <HomeBanner />
+      <HomeDoctor />
     </div>
   );
 }
