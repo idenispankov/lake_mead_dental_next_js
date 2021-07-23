@@ -1,7 +1,7 @@
 import homeDoctorStyles from '../styles/HomeDoctor.module.css';
-import Link from 'next/link';
+import Button from '../components/Button';
 
-export default function HomeDoctor() {
+export default function HomeDoctor({ linkTo, buttonText, customButtonStyles }) {
   return (
     <section className={homeDoctorStyles.section}>
       <div className={homeDoctorStyles.lines__image}></div>
@@ -29,13 +29,11 @@ export default function HomeDoctor() {
             positive dental experience possible, combined with personalized care
             in a modern, comfortable environment. Learn More...
           </p>
-          <Link href='/meet-the-doctors'>
-            <a>
-              <button className={homeDoctorStyles.button}>
-                Meet Our Doctors
-              </button>
-            </a>
-          </Link>
+          <Button
+            customButtonStyles={homeDoctorStyles.button}
+            linkTo='/meet-the-doctors'
+            buttonText='Meet Our Doctors'
+          />
         </div>
       </div>
     </section>

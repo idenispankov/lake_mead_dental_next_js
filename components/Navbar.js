@@ -7,8 +7,9 @@ import Link from 'next/link';
 import HamburgerMenu from 'react-hamburger-menu';
 import LandscapeMode from './LandscapeMode';
 import logoImage from '../public/images/logo_blue.png';
+import Button from '../components/Button';
 
-export default function Navbar() {
+export default function Navbar({ linkTo }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
@@ -137,9 +138,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href='/contact-us'>
-                  <a className={navbarStyles.button}>Contact us</a>
-                </Link>
+                <Button linkTo={'/contact-us'} buttonText='Contact us' />
               </li>
             </ul>
             {/* Hamburger */}

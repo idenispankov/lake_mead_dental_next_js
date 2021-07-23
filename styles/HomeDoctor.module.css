@@ -1,7 +1,5 @@
 .section {
   padding: 125px 160px;
-  /* border: 1px solid red; */
-  /* min-height: 754px; */
   position: relative;
 }
 
@@ -62,20 +60,6 @@
 
 .text:nth-child(4) {
   margin-bottom: 31px;
-}
-
-.button {
-  border: none;
-  cursor: pointer;
-  background: #3393f0;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 100px;
-  transition: all 0.3s linear;
-}
-
-.button:hover {
-  background-color: #02509e;
 }
 
 @media screen and (max-width: 1470px) {
