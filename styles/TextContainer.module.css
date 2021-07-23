@@ -1,0 +1,22 @@
+.text__container {
+  margin-left: 38px;
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 1280px) {
+  .text__container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .text__container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .text__container {
+    max-width: 480px;
+  }
+}

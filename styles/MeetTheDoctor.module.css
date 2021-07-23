@@ -10,8 +10,9 @@
   margin: 50px 0;
 }
 
-.flex__container:last-child {
+.flex__container_reverse {
   margin: 0;
+  flex-direction: row-reverse;
 }
 
 .heading {
@@ -27,6 +28,21 @@
   opacity: 0.8;
 }
 
+.doctor__image_ellen {
+  background: url('../public/images/doctor_ellen.jpg') no-repeat center
+    center/cover;
+  min-width: 652px;
+  height: 483px;
+}
+
+.doctor__image_nikki {
+  background: url('../public/images/doctor_ellen.jpg') no-repeat center
+    center/cover;
+  min-width: 652px;
+  height: 483px;
+}
+
+/* Responsive */
 @media screen and (max-width: 768px) {
   .heading__container {
     max-width: 485px;
