@@ -32,19 +32,7 @@
 .text {
   color: #fff;
   line-height: 27px;
-  padding-bottom: 40px;
-}
-
-.button {
-  background: #3393f0;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 100px;
-  transition: all 0.3s linear;
-}
-
-.button:hover {
-  background-color: #02509e;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {

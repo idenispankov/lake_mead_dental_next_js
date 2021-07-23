@@ -29,7 +29,7 @@ export default function Home() {
         />
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
-      {/* <HomeBanner /> */}
+      <HomeBanner />
       <HomeDoctor />
     </div>
   );

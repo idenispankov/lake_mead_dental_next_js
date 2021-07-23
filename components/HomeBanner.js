@@ -1,7 +1,7 @@
 import homeBannerStyles from '../styles/HomeBanner.module.css';
-import Link from 'next/link';
+import Button from '../components/Button';
 
-export default function HomeBanner() {
+export default function HomeBanner({ linkTo, buttonText }) {
   return (
     <>
       <div className={homeBannerStyles.banner}>
@@ -14,9 +14,7 @@ export default function HomeBanner() {
               {`Your Family Dentist In Summerlin, Las Vegas . We're Open During
               Quarantine - We're Here For You!`}
             </p>
-            <Link href='/contact-us'>
-              <a className={homeBannerStyles.button}>Contact us</a>
-            </Link>
+            <Button linkTo='/contact-us' buttonText='Contact us' />
           </div>
         </div>
       </div>
