@@ -29,9 +29,11 @@ export default function HomeDoctor() {
             positive dental experience possible, combined with personalized care
             in a modern, comfortable environment. Learn More...
           </p>
-          <Link href='meet-the-doctors'>
+          <Link href='/meet-the-doctors'>
             <a>
-              <button className={homeDoctorStyles.button}>Read More</button>
+              <button className={homeDoctorStyles.button}>
+                Meet Our Doctors
+              </button>
             </a>
           </Link>
         </div>

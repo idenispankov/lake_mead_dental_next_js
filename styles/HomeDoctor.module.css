@@ -139,9 +139,6 @@
   .dotes__image {
     display: none;
   }
-  .text__container {
-    margin: 0;
-  }
 }
 
 @media screen and (max-width: 950px) {
@@ -158,6 +155,9 @@
     max-width: 351px;
     min-height: 248px;
     margin-bottom: 50px;
+  }
+  .text__container {
+    margin: 0;
   }
 }
 
@@ -183,5 +183,9 @@
   .doctor__image {
     min-width: 300px;
     max-height: 200px;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
   }
 }
