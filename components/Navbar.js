@@ -9,7 +9,7 @@ import LandscapeMode from './LandscapeMode';
 import logoImage from '../public/images/logo_blue.png';
 import Button from '../components/Button';
 
-export default function Navbar({ linkTo }) {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {

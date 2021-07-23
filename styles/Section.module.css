@@ -1,0 +1,32 @@
+.section {
+  padding: 125px 160px;
+  position: relative;
+  /* TEMPORARY */
+  min-height: 754px;
+  border: 5px solid red;
+  margin: 100px 0;
+}
+
+@media screen and (max-width: 1470px) {
+  .section {
+    padding: 75px 60px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .section {
+    padding: 60px 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .section {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section {
+    padding: 30px;
+  }
+}
