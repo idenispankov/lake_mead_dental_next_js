@@ -1,12 +1,11 @@
-import link from 'next/link';
+import styles from '../styles/Button.module.css';
 import Link from 'next/link';
-import buttonStyles from '../styles/Button.module.css';
 
 export default function Button({ linkTo, buttonText, customButtonStyles }) {
   return (
     <Link href={`${linkTo}`}>
       <a>
-        <button className={`${buttonStyles.button} ${customButtonStyles}`}>
+        <button className={`${styles.button} ${customButtonStyles}`}>
           {buttonText}
         </button>
       </a>
