@@ -1,3 +1,7 @@
+.section {
+  padding: 0;
+}
+
 .heading__container {
   max-width: 541px;
   text-align: center;
@@ -5,9 +9,9 @@
 }
 
 .flex__container {
-  min-height: 714px;
+  /* min-height: 714px; */
   background: #f8fbfe;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .flex__container_reverse {
@@ -31,8 +35,8 @@
 .doctor__image_ellen {
   background: url('../public/images/doctor_ellen.jpg') no-repeat center
     center/cover;
-  min-width: 652px;
-  height: 483px;
+  min-width: 595px;
+  height: 575px;
 }
 
 .doctor__image_nikki {

@@ -1,17 +1,15 @@
 import styles from '../styles/DoctorSection.module.css';
 import Button from './Button';
-import Section from '../components/Section';
 import FlexContainer from '../components/FlexContainer';
-import TextContainer from './TextContainer';
 
 export default function DoctorSection() {
   return (
-    <Section>
+    <section className={styles.section}>
       <div className={styles.lines__image}></div>
       <div className={styles.dotes__image}></div>
       <FlexContainer>
         <div className={styles.doctor__image}></div>
-        <TextContainer>
+        <div className={styles.text__container}>
           <h2 className={styles.heading}>Meet Dr. Ellen</h2>
           <p className={styles.text}>
             <span className={styles.text__span}>Dr Ellen Piyevsky, DDS </span>
@@ -35,8 +33,8 @@ export default function DoctorSection() {
             linkTo='/meet-the-doctors'
             buttonText='Meet Our Doctors'
           />
-        </TextContainer>
+        </div>
       </FlexContainer>
-    </Section>
+    </section>
   );
 }
