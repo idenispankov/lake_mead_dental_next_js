@@ -1,21 +1,13 @@
 import homeDoctorStyles from '../styles/HomeDoctor.module.css';
-import Image from 'next/image';
 import Link from 'next/link';
-import roundlInesImage from '../public/images/round_lines_doctor.svg';
-import dotsImage from '../public/images/dots_doctor.svg';
-import doctorEllenImage from '../public/images/doctor_ellen.jpg';
 
 export default function HomeDoctor() {
   return (
     <section className={homeDoctorStyles.section}>
-      <div className={homeDoctorStyles.lines__image}>
-        <Image src={roundlInesImage} alt='round blue lines for background' />
-      </div>
-      <div className={homeDoctorStyles.dotes__image}>
-        <Image src={dotsImage} alt='round blue lines for background' />
-      </div>
+      <div className={homeDoctorStyles.lines__image}></div>
+      <div className={homeDoctorStyles.dotes__image}></div>
       <div className={homeDoctorStyles.container}>
-        <Image src={doctorEllenImage} alt='Doctor Ellen' />
+        <div className={homeDoctorStyles.doctor__image}></div>
         <div className={homeDoctorStyles.text__container}>
           <h2 className={homeDoctorStyles.heading}>Meet Dr. Ellen</h2>
           <p className={homeDoctorStyles.text}>
