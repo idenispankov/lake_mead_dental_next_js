@@ -66,6 +66,9 @@
   .section {
     padding: 75px 60px;
   }
+  .dotes__image {
+    left: 30px;
+  }
 }
 
 @media screen and (max-width: 1280px) {

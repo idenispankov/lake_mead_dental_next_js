@@ -1,7 +1,4 @@
 .section {
-  /* Temporary */
-  min-height: 609px;
-  border: 1px solid blue;
   background: #f8fbfe;
   padding: 90px 160px;
   display: flex;
@@ -13,9 +10,12 @@
 .section__image {
   background: url('../public/images/doctor_ellen.jpg') no-repeat center
     center/cover;
-  min-width: 618px;
-  height: 426px;
-  margin-left: 50px;
+  min-width: 652px;
+  min-height: 483px;
+}
+
+.section__image_mobile {
+  display: none;
 }
 
 .section__image_dots {
@@ -29,8 +29,7 @@
 }
 
 .section__text_container {
-  /* border: 1px solid red; */
-  min-width: 600px;
+  margin-right: 38px;
 }
 
 .section__text_container_heading {
@@ -65,4 +64,123 @@
 
 .list__container {
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1470px) {
+  .section {
+    padding: 100px;
+  }
+  .section__image_dots {
+    right: 30px;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .section {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .section__image {
+    min-width: 520px;
+  }
+  .section__text_container {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section__image {
+    background: url('../public/images/doctor_ellen_1280.jpg') no-repeat center
+      center/cover;
+    min-width: 40%;
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .section {
+    flex-direction: column-reverse;
+    padding: 60px 30px;
+  }
+  .section__image_dots {
+    display: none;
+  }
+  .section__image {
+    display: none;
+  }
+  .section__text_container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .list__container {
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  .list__item {
+    display: block;
+  }
+  .section__text_container_text {
+    font-size: 14px;
+  }
+  .list__item {
+    font-size: 14px;
+  }
+  .section__image_mobile {
+    background: url('../public/images/doctor_ellen_mobile.png') no-repeat center
+      center/cover;
+    max-width: 439px;
+    min-height: 386px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section {
+    padding: 30px;
+  }
+  .section__text_container_heading {
+    font-size: 30px;
+  }
+  .section__text_container_text {
+    text-align: left;
+  }
+  .list__container {
+    flex-direction: column;
+  }
+  .button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section {
+    padding: 30px;
+  }
+  .section__image_mobile {
+    max-width: 300px;
+    min-height: 248px;
+  }
+  .section__text_container_heading {
+    font-size: 24px;
+  }
+  .button {
+    min-width: 100%;
+    margin: auto;
+    line-height: 187%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section__text_container_heading {
+    font-size: 18px;
+  }
 }

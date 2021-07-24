@@ -14,9 +14,10 @@ export default function AboutUs() {
           Our office, provides you with an estimate before each treatment so you
           can be financially prepared, whether it applies to full procedure or
           copayment. We gladly check and bill your insurance for each covered
-          procedure. We accept all major credit cards: MasterCard, Visa ,
+          procedure. We accept all major credit cards: MasterCard, Visa,
           Discover, American Express, and all debit cards. ​
         </p>
+        <div className={styles.section__image_mobile}></div>
         <div className={styles.list__container}>
           <ul className={styles.list__container__list}>
             <li className={styles.list__item}>
@@ -30,7 +31,7 @@ export default function AboutUs() {
             <li className={styles.list__item}>
               {' '}
               <span className={styles.list__item_span}>&radic;</span> 2nd
-              Location in Green Valley, Henderson
+              Location in Henderson
             </li>
           </ul>
           <ul className={styles.list__container__list}>
@@ -52,8 +53,9 @@ export default function AboutUs() {
           </ul>
         </div>
         <Button
-          linkTo='/insurance'
-          buttonText='COVID-19 Office Sterilization Protocols'
+          linkTo='/covid-19'
+          buttonText='COVID-19 Protocol'
+          customButtonStyles={styles.button}
         />
       </div>
     </section>
