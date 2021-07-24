@@ -23,6 +23,10 @@
   z-index: -1;
 }
 
+.container {
+  display: flex;
+}
+
 .doctor__image {
   background: url('../public//images/doctor_ellen.jpg') no-repeat center
     center/cover;
@@ -119,6 +123,10 @@
 @media screen and (max-width: 950px) {
   .section {
     padding: 60px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
   }
   .doctor__image {
     background: url('../public/images/doctor_ellen_mobile.png') no-repeat center

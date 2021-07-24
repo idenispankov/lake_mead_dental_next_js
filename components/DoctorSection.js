@@ -1,13 +1,12 @@
 import styles from '../styles/DoctorSection.module.css';
 import Button from './Button';
-import FlexContainer from '../components/FlexContainer';
 
 export default function DoctorSection() {
   return (
     <section className={styles.section}>
       <div className={styles.lines__image}></div>
       <div className={styles.dotes__image}></div>
-      <FlexContainer>
+      <div className={styles.container}>
         <div className={styles.doctor__image}></div>
         <div className={styles.text__container}>
           <h2 className={styles.heading}>Meet Dr. Ellen</h2>
@@ -34,7 +33,7 @@ export default function DoctorSection() {
             buttonText='Meet Our Doctors'
           />
         </div>
-      </FlexContainer>
+      </div>
     </section>
   );
 }
