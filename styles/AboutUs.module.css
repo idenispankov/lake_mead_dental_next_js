@@ -1,0 +1,68 @@
+.section {
+  /* Temporary */
+  min-height: 609px;
+  border: 1px solid blue;
+  background: #f8fbfe;
+  padding: 90px 160px;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  z-index: 1;
+}
+
+.section__image {
+  background: url('../public/images/doctor_ellen.jpg') no-repeat center
+    center/cover;
+  min-width: 618px;
+  height: 426px;
+  margin-left: 50px;
+}
+
+.section__image_dots {
+  background: url('../public/images/dots_image_yellow.svg');
+  position: absolute;
+  top: 30px;
+  right: 85px;
+  width: 176px;
+  height: 191px;
+  z-index: -1;
+}
+
+.section__text_container {
+  /* border: 1px solid red; */
+  min-width: 600px;
+}
+
+.section__text_container_heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 106.5%;
+  margin-bottom: 22px;
+}
+
+.section__text_container_text {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 22px;
+}
+
+.list__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__item {
+  line-height: 170%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.list__item_span {
+  color: #3292ef;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.list__container {
+  margin-bottom: 50px;
+}

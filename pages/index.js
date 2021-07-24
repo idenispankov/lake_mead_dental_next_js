@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import HomeBanner from '../components/HomeBanner';
 import DoctorSection from '../components/DoctorSection';
+import AboutUs from '../components/AboutUs';
 
 export default function Home() {
   return (
@@ -27,10 +28,11 @@ export default function Home() {
           sizes='16x16'
           href='/favicon-16x16.png'
         />
-        <link rel='manifest' href='/site.webmanifest' />
+        <link rel='covid-19' href='/site.webmanifest' />
       </Head>
       <HomeBanner />
       <DoctorSection />
+      <AboutUs />
     </div>
   );
 }
