@@ -34,6 +34,53 @@ export default function Header() {
           <div className={styles.hamburger__menu_present}></div>
           <div className={styles.hamburger__menu_after}></div>
         </div>
+        <ul className={`${styles.navbar__list} ${isOpen && styles.show}`}>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>Home</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>New Patients</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>Services</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>Meet The Doctors</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>Insurance</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>Gallery</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>Covid 19</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>FAQ</a>
+            </Link>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Link href='/'>
+              <a className={styles.navbar__list_link}>Contact us</a>
+            </Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );

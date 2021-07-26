@@ -1,5 +1,5 @@
 .header {
-  /* min-height: 3000px; */
+  min-height: 3000px;
   position: relative;
 }
 
@@ -48,6 +48,7 @@
   width: 24px;
   height: 21px;
   transition: all 0.5s linear;
+  z-index: 1;
 }
 
 .hamburger__menu_before {
@@ -92,4 +93,35 @@
 
 .open .hamburger__menu_present {
   display: none;
+}
+
+/* Nav bar List */
+.navbar__list {
+  overflow-y: scroll;
+  position: absolute;
+  background: #262626;
+  top: 48px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  list-style: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  /* transform: translateY(-120vh); */
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.show {
+  /* transform: translateY(0); */
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.navbar__list_item {
+  padding: 18px 0;
+}
+
+.navbar__list_link {
+  color: #fff;
 }
