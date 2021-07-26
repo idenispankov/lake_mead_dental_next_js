@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import styles from '../styles/Header.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../public/images/logo_blue.png';
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>
@@ -23,7 +26,10 @@ export default function Header() {
             </p>
           </a>
         </Link>
-        <div className={styles.hamburger__menu}>
+        <div
+          className={`${styles.hamburger__menu} ${isOpen && styles.open}`}
+          onClick={() => setIsOpen(!isOpen)}
+        >
           <div className={styles.hamburger__menu_before}></div>
           <div className={styles.hamburger__menu_present}></div>
           <div className={styles.hamburger__menu_after}></div>
