@@ -23,6 +23,11 @@ export default function Header() {
             </p>
           </a>
         </Link>
+        <div className={styles.hamburger__menu}>
+          <div className={styles.hamburger__menu_before}></div>
+          <div className={styles.hamburger__menu_present}></div>
+          <div className={styles.hamburger__menu_after}></div>
+        </div>
       </nav>
     </header>
   );
