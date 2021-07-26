@@ -39,7 +39,6 @@ body {
 
 main {
   display: block;
-  padding-top: 125px;
 }
 
 /**
@@ -86,11 +85,6 @@ pre {
 a {
   background-color: transparent;
   text-decoration: none;
-  color: inherit;
-}
-
-li {
-  list-style: none;
 }
 
 /**

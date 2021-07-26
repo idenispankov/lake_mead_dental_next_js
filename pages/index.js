@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import HomeBanner from '../components/HomeBanner';
-import DoctorSection from '../components/DoctorSection';
-import AboutUs from '../components/AboutUs';
 
 export default function Home() {
   return (
@@ -30,9 +27,6 @@ export default function Home() {
         />
         <link rel='covid-19' href='/site.webmanifest' />
       </Head>
-      <HomeBanner />
-      <DoctorSection />
-      <AboutUs />
     </div>
   );
 }
