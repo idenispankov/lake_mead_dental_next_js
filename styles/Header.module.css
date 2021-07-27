@@ -5,7 +5,7 @@
 
 .navbar {
   background: #262626;
-  min-height: 48px;
+  height: 48px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -14,6 +14,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 .logo {
@@ -53,7 +54,6 @@
 
 .hamburger__menu_before {
   background: #fff;
-  color: #fff;
   height: 3px;
   width: 100%;
   border-radius: 5px;
@@ -63,7 +63,6 @@
 }
 .hamburger__menu_present {
   background: #fff;
-  color: #fff;
   height: 3px;
   width: 100%;
   border-radius: 5px;
@@ -72,7 +71,6 @@
 }
 .hamburger__menu_after {
   background: #fff;
-  color: #fff;
   height: 3px;
   width: 100%;
   border-radius: 5px;
@@ -107,7 +105,6 @@
   width: 100vw;
   height: 100vh;
   list-style: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
   text-align: center;
   transform: translateX(-120vw);
   /* opacity: 0; */
@@ -121,7 +118,7 @@
 }
 
 .navbar__list_item {
-  padding: 18px 0;
+  padding: 20px 0;
 }
 
 .navbar__list_link {
@@ -134,12 +131,53 @@
     font-size: 32px;
     line-height: 163.2%;
   }
-  .navbar__list_item {
-    font-size: 24px;
-    padding: 24px;
+  .navbar {
+    border-bottom: 1px solid rgba(36, 36, 36, 0.5);
   }
   .logo__image {
     width: 32px;
     height: 32px;
+  }
+  .navbar {
+    background: #fff;
+  }
+  .logo {
+    color: #242424;
+  }
+  .hamburger__menu_before {
+    background: #242424;
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s linear;
+  }
+  .hamburger__menu_present {
+    background: #242424;
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    /* transition: all 0.5s linear; */
+  }
+  .hamburger__menu_after {
+    background: #242424;
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s linear;
+  }
+  .navbar__list {
+    background: #3393f0;
+  }
+  .navbar__list_link {
+    color: #fff;
+  }
+  .navbar__list_item {
+    font-size: 24px;
+    padding: 30px;
   }
 }
