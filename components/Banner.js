@@ -1,9 +1,8 @@
-import styles from '../styles/Header.module.css';
+import styles from '../styles/Banner.module.css';
 import Button from './Button';
 
 export default function Header() {
   return (
-    // <div className={styles.banner}>Banner</div>
     <div className={styles.header__banner}>
       <div className={styles.header__banner_overlay}>
         <h1 className={styles.header__banner_heading}>

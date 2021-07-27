@@ -1,4 +1,3 @@
-import styles from '../styles/Layout.module.css';
 import Navbar from '../components/Navbar';
 import Footer from './Footer';
 
@@ -9,7 +8,7 @@ export default function Layout({ children }) {
       <div>
         <main>{children}</main>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
