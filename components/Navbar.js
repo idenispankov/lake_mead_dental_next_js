@@ -10,36 +10,39 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className={styles.header}>
+    <header>
       <div className={styles.contact__info}>
-        <p className={styles.contact__info_greeting}>
-          Welcome to Lake Mead Dental
-        </p>
-        <ul className={styles.contact__info_list}>
-          <li className={styles.contact__info_list_item}>
-            <div className={styles.contact__info_list_image}>
-              <Image src={phoneIcon} alt='phone icon' />
-            </div>
-            <a
-              className={styles.contact__info_list_item_link}
-              href='tel:7023041234'
-            >
-              (702) 304 - 1234
-            </a>
-          </li>
-          <li className={styles.contact__info_list_item}>
-            <div className={styles.contact__info_list_image}>
-              <Image src={mailIcon} alt='mail icon' />
-            </div>
-            <a
-              className={styles.contact__info_list_item_link}
-              href='mailto:lakemeaddental@gmail.com'
-            >
-              lakemeaddental@gmail.com
-            </a>
-          </li>
-        </ul>
+        <div className={styles.contact__info_container}>
+          <p className={styles.contact__info_greeting}>
+            Welcome to Lake Mead Dental
+          </p>
+          <ul className={styles.contact__info_list}>
+            <li className={styles.contact__info_list_item}>
+              <div className={styles.contact__info_list_image}>
+                <Image src={phoneIcon} alt='phone icon' />
+              </div>
+              <a
+                className={styles.contact__info_list_item_link}
+                href='tel:7023041234'
+              >
+                (702) 304 - 1234
+              </a>
+            </li>
+            <li className={styles.contact__info_list_item}>
+              <div className={styles.contact__info_list_image}>
+                <Image src={mailIcon} alt='mail icon' />
+              </div>
+              <a
+                className={styles.contact__info_list_item_link}
+                href='mailto:lakemeaddental@gmail.com'
+              >
+                lakemeaddental@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+
       <nav className={styles.navbar}>
         <Link href='/'>
           <a className={styles.logo}>
