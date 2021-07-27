@@ -12,65 +12,68 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer__container}>
-        <Link href='/'>
-          <a className={styles.footer__logo}>
-            {' '}
-            <div className={styles.footer__logo__image}></div>
-            Lake Mead <span className={styles.footer__logo_span}> Dental</span>
-          </a>
-        </Link>
+        <div className={styles.footer__logo_container}>
+          <Link href='/'>
+            <a className={styles.footer__logo}>
+              {' '}
+              <div className={styles.footer__logo__image}></div>
+              Lake Mead{' '}
+              <span className={styles.footer__logo_span}> Dental</span>
+            </a>
+          </Link>
 
-        {/* social icons */}
-        <ul className={styles.social__icons_list}>
-          <li className={styles.social__icons_list_item}>
-            <a
-              className={styles.social__icons_list_item_link}
-              href='https://www.facebook.com/lakemeaddental'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <div
-                className={`${styles.social__icons_list_item_icon} ${styles.facebook}`}
-              ></div>
-            </a>
-          </li>
-          <li className={styles.social__icons_list_item}>
-            <a
-              className={styles.social__icons_list_item_link}
-              href='https://www.facebook.com/lakemeaddental'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <div
-                className={`${styles.social__icons_list_item_icon} ${styles.instagram}`}
-              ></div>
-            </a>
-          </li>
-          <li className={styles.social__icons_list_item}>
-            <a
-              className={styles.social__icons_list_item_link}
-              href='https://www.facebook.com/lakemeaddental'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <div
-                className={`${styles.social__icons_list_item_icon} ${styles.linkedin}`}
-              ></div>
-            </a>
-          </li>
-          <li className={styles.social__icons_list_item}>
-            <a
-              className={styles.social__icons_list_item_link}
-              href='https://www.facebook.com/lakemeaddental'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <div
-                className={`${styles.social__icons_list_item_icon} ${styles.twitter}`}
-              ></div>
-            </a>
-          </li>
-        </ul>
+          {/* social icons */}
+          <ul className={styles.social__icons_list}>
+            <li className={styles.social__icons_list_item}>
+              <a
+                className={styles.social__icons_list_item_link}
+                href='https://www.facebook.com/lakemeaddental'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <div
+                  className={`${styles.social__icons_list_item_icon} ${styles.facebook}`}
+                ></div>
+              </a>
+            </li>
+            <li className={styles.social__icons_list_item}>
+              <a
+                className={styles.social__icons_list_item_link}
+                href='https://www.facebook.com/lakemeaddental'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <div
+                  className={`${styles.social__icons_list_item_icon} ${styles.instagram}`}
+                ></div>
+              </a>
+            </li>
+            <li className={styles.social__icons_list_item}>
+              <a
+                className={styles.social__icons_list_item_link}
+                href='https://www.facebook.com/lakemeaddental'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <div
+                  className={`${styles.social__icons_list_item_icon} ${styles.linkedin}`}
+                ></div>
+              </a>
+            </li>
+            <li className={styles.social__icons_list_item}>
+              <a
+                className={styles.social__icons_list_item_link}
+                href='https://www.facebook.com/lakemeaddental'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <div
+                  className={`${styles.social__icons_list_item_icon} ${styles.twitter}`}
+                ></div>
+              </a>
+            </li>
+          </ul>
+        </div>
         {/* Contacts and Address */}
         <div className={styles.contact__container}>
           <div className={styles.contact__location}>

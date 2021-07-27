@@ -31,6 +31,8 @@ html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 /**
@@ -40,6 +42,18 @@ body {
 main {
   display: block;
   margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    margin-top: 98px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin-top: 142px;
+  }
 }
 
 /**
