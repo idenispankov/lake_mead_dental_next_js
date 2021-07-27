@@ -5,12 +5,25 @@ import Image from 'next/image';
 import logo from '../public/images/logo_blue.png';
 import phoneIcon from '../public/images/phone_icon.svg';
 import mailIcon from '../public/images/mail_icon.svg';
+import Button from './Button';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className={styles.header}>
+      <div className={styles.header__banner}>
+        <div className={styles.header__banner_overlay}>
+          <h1 className={styles.header__banner_heading}>
+            Own a Smile You Love to Share.
+          </h1>
+          <p className={styles.header__banner_text}>
+            {`Your Family Dentist In Summerlin, Las Vegas . We're Open During
+              Quarantine - We're Here For You!`}
+          </p>
+          <Button linkTo='/' buttonText='Browse Services' />
+        </div>
+      </div>
       <div className={styles.contact__info}>
         <p className={styles.contact__info_greeting}>
           Welcome to Lake Mead Dental
