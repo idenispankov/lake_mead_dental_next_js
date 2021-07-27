@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Banner from '../components/Banner';
+import MeetDoctor from '../components/MeetDoctor';
 
 export default function Home() {
   return (
@@ -28,8 +29,8 @@ export default function Home() {
         />
         <link rel='covid-19' href='/site.webmanifest' />
       </Head>
-      {/* Components */}
       <Banner />
+      <MeetDoctor />
     </div>
   );
 }
