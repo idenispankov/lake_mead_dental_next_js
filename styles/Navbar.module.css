@@ -199,8 +199,11 @@
     display: flex;
     align-items: center;
     margin-right: 30px;
-    font-size: 14px;
-    line-height: 163.2%;
+    font-size: 16px;
+    transition: all 0.5s linear;
+  }
+  .contact__info_list_item:hover {
+    transform: scale(1.1);
   }
   .contact__info_list_item:last-child {
     margin-right: 0;
@@ -213,6 +216,7 @@
     width: 16px;
     height: 16px;
     margin-right: 10px;
+    cursor: pointer;
   }
 }
 

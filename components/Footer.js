@@ -21,8 +21,6 @@ export default function Footer() {
               <span className={styles.footer__logo_span}> Dental</span>
             </a>
           </Link>
-
-          {/* social icons */}
           <ul className={styles.social__icons_list}>
             <li className={styles.social__icons_list_item}>
               <a
@@ -74,7 +72,6 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        {/* Contacts and Address */}
         <div className={styles.contact__container}>
           <div className={styles.contact__location}>
             <h2 className={styles.contact__heading}>Lake Mead Dental</h2>

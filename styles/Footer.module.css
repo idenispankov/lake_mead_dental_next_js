@@ -102,11 +102,23 @@
   line-height: 24px;
   color: #fff;
   margin-bottom: 10px;
+  display: inline-block;
+  transition: all 0.5s linear;
 }
+
+.contact__phone:hover {
+  transform: scale(1.2);
+}
+
 .contact__email {
   display: block;
   line-height: 24px;
   color: #fff;
+  transition: all 0.5s linear;
+}
+
+.contact__email:hover {
+  transform: scale(1.2);
 }
 
 .copyright__container {
@@ -126,7 +138,7 @@
 @media screen and (min-width: 768px) {
   .footer__container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 30px;
   }
   .contact__container {
@@ -140,9 +152,10 @@
   .footer__logo {
     font-size: 24px;
     line-height: 49px;
+    margin-bottom: 0;
   }
   .social__icons_list {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   .footer__logo__image {
     width: 30px;
@@ -151,6 +164,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .footer {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
   .footer__container {
     flex-direction: row;
     justify-content: space-between;
@@ -179,11 +196,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    /* justify-content: space-evenly; */
-    max-width: 1600px;
-    margin: 0 auto;
-  }
   .footer__container {
     justify-content: space-evenly;
   }
