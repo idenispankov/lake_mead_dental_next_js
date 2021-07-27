@@ -1,11 +1,11 @@
 import styles from '../styles/Layout.module.css';
-import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import Footer from './Footer';
 
 export default function Layout({ children }) {
   return (
     <>
-      <Header />
+      <Navbar />
       <div>
         <main>{children}</main>
       </div>
