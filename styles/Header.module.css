@@ -24,6 +24,8 @@
 
 .logo__image {
   margin-right: 10px;
+  width: 26px;
+  height: 26px;
 }
 
 .logo__text {
@@ -38,8 +40,6 @@
 
 /* Hamburger */
 .hamburger__menu {
-  /* background: green; */
-  /* border: 1px solid red; */
   cursor: pointer;
   position: relative;
   display: flex;
@@ -68,7 +68,7 @@
   width: 100%;
   border-radius: 5px;
   position: absolute;
-  transition: all 0.5s linear;
+  /* transition: all 0.5s linear; */
 }
 .hamburger__menu_after {
   background: #fff;
@@ -93,6 +93,8 @@
 
 .open .hamburger__menu_present {
   display: none;
+  /* opacity: 0; */
+  /* transform: translateX(100px); */
 }
 
 /* Nav bar List */
@@ -107,14 +109,14 @@
   list-style: none;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   text-align: center;
-  /* transform: translateY(-120vh); */
-  opacity: 0;
+  transform: translateX(-120vw);
+  /* opacity: 0; */
   transition: all 0.5s linear;
 }
 
 .show {
-  /* transform: translateY(0); */
-  opacity: 1;
+  transform: translateX(0);
+  /* opacity: 1; */
   transition: all 0.5s linear;
 }
 
@@ -124,4 +126,20 @@
 
 .navbar__list_link {
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .logo__text {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 163.2%;
+  }
+  .navbar__list_item {
+    font-size: 24px;
+    padding: 24px;
+  }
+  .logo__image {
+    width: 32px;
+    height: 32px;
+  }
 }

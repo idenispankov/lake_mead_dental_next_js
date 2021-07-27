@@ -16,8 +16,8 @@ export default function Header() {
               <Image
                 src={logo}
                 alt='logo'
-                width={26}
-                height={26}
+                // width={26}
+                // height={26}
                 className={styles.logo__image}
               />
             </div>
