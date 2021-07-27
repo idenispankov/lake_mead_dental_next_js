@@ -102,7 +102,11 @@ export default function Header() {
           </li>
           <li className={styles.navbar__list_item}>
             <Link href='/'>
-              <a className={styles.navbar__list_link}>Contact us</a>
+              <a
+                className={`${styles.navbar__list_link} ${styles.navbar__list_link_last_child}`}
+              >
+                Contact us
+              </a>
             </Link>
           </li>
         </ul>
