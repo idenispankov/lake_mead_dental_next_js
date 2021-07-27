@@ -1,17 +1,3 @@
-.button {
-  border: none;
-  cursor: pointer;
-  background: #3393f0;
-  color: #fff;
-  padding: 20px 10px;
-  border-radius: 100px;
-  transition: all 0.3s linear;
-}
-
-.button:hover {
-  background-color: #02509e;
-}
-
 .contact__info {
   display: none;
 }
@@ -24,6 +10,13 @@
   top: 0;
   left: 0;
   right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__container {
+  height: 48px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,29 +139,21 @@
   color: #3393f0;
 }
 
-@media screen and (min-width: 430px) {
-}
-
-@media screen and (min-width: 600px) {
-}
-
 @media screen and (min-width: 768px) {
+  .navbar {
+    background: #fff;
+    top: 50px;
+  }
   .logo__text {
     font-weight: bold;
     font-size: 25px;
     line-height: 163.2%;
   }
-  .navbar {
-    padding: 0 60px;
-  }
   .logo__image {
     width: 25px;
     height: 25px;
   }
-  .navbar {
-    background: #fff;
-    top: 50px;
-  }
+
   .logo {
     color: #242424;
   }
@@ -230,8 +215,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 0 60px;
-    /* max-width: 1600px; */
+    padding: 0 30px;
   }
   .contact__info_greeting {
     opacity: 0.7;
@@ -265,7 +249,6 @@
 
 @media screen and (min-width: 1024px) {
   .navbar {
-    padding: 0 100px;
     height: 84px;
     top: 58px;
   }
@@ -280,7 +263,7 @@
     height: 58px;
   }
   .contact__info_container {
-    padding: 0 100px;
+    /* padding: 0 100px; */
     height: 58px;
   }
   .contact__info_greeting {
@@ -315,7 +298,7 @@
     flex-direction: row;
     top: 0;
     position: relative;
-    max-width: 800px;
+    max-width: 900px;
     justify-content: space-between;
     border: none;
   }
@@ -336,7 +319,7 @@
   }
   .navbar__list_link_last_child {
     background: #3393f0;
-    padding: 15px 20px;
+    padding: 10px 20px;
     display: block;
     border-radius: 100px;
     color: #fff;
@@ -364,6 +347,10 @@
   .navbar {
     border-bottom: none;
   }
+  .navbar__container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
   .contact__info_container {
     max-width: 1600px;
   }
@@ -371,7 +358,7 @@
 
 @media screen and (orientation: landscape) and (max-width: 1024px) {
   .navbar__list {
-    height: 82vh;
+    height: 85vh;
   }
 }
 
