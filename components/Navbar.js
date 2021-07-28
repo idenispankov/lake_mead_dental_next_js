@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header>
+    <header className={styles.header}>
       <div className={styles.contact__info}>
         <div className={styles.contact__info_container}>
           <p className={styles.contact__info_greeting}>

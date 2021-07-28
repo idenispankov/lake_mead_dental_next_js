@@ -2,6 +2,12 @@
   display: none;
 }
 
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
 .navbar {
   background: #262626;
   height: 48px;
@@ -60,7 +66,7 @@
   flex-direction: column;
   justify-content: space-between;
   transition: all 0.5s linear;
-  /* background: green; */
+  position: relative;
 }
 
 .hamburger__menu_before,
@@ -102,7 +108,6 @@
 
 .show {
   transform: translateX(0);
-  transition: all 0.5s linear;
 }
 
 .navbar__list_item {

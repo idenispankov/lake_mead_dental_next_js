@@ -2,6 +2,7 @@
   max-width: 1600px;
   margin: 0 auto;
   padding: 30px;
+  position: relative;
 }
 
 .section__image {
@@ -10,6 +11,15 @@
   height: 248px;
   margin: 0 auto;
   margin-block-end: 20px;
+  display: block;
+}
+
+.section__image_dots {
+  display: none;
+}
+
+.section__image_lines {
+  display: none;
 }
 
 .section__heading {
@@ -75,7 +85,30 @@
   }
   .section__text {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
+  }
+  .section__image_dots {
+    background: url('../public/images/dots_doctor.svg') no-repeat center;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 176px;
+    height: 191px;
+    z-index: -1;
+  }
+  .section__image_lines {
+    background: url('../public/images/round_lines_doctor.svg') no-repeat center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 816px;
+    height: 712px;
+    z-index: -1;
+  }
+  .button {
+    font-size: 14px;
   }
 }
 
@@ -96,6 +129,7 @@
   }
   .section__text {
     font-size: 20px;
+    margin-bottom: 30px;
   }
   .button {
     font-size: 20px;

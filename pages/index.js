@@ -4,7 +4,7 @@ import MeetDoctor from '../components/MeetDoctor';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>
           Lake Mead Dental | Home | Best Family Dentists in Summerlin, Las Vegas
@@ -30,7 +30,7 @@ export default function Home() {
         <link rel='covid-19' href='/site.webmanifest' />
       </Head>
       <Banner />
-      {/* <MeetDoctor /> */}
-    </div>
+      <MeetDoctor />
+    </>
   );
 }

@@ -39,6 +39,7 @@ body {
 
 main {
   display: block;
+  /* min-height: 2000px; */
   margin-top: 48px;
 }
 

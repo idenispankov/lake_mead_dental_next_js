@@ -5,6 +5,8 @@ import Button from './Button';
 export default function MeetDoctor() {
   return (
     <section className={styles.section}>
+      <span className={styles.section__image_dots} />
+      <span className={styles.section__image_lines} />
       <div className={styles.section__image}></div>
       <div className={styles.section__text_container}>
         <h3 className={styles.section__heading}>Meet Dr. Ellen</h3>
