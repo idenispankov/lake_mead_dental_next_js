@@ -1,8 +1,8 @@
 .section {
   max-width: 1600px;
   margin: 0 auto;
-  min-height: 500px;
   padding: 30px;
+  position: relative;
 }
 
 .section__image {
@@ -22,7 +22,7 @@
 
 .section__text {
   font-size: 12px;
-  line-height: 18px;
+  line-height: 150%;
   margin-bottom: 20px;
 }
 
@@ -33,6 +33,10 @@
 
 .section__text:last-child {
   margin-bottom: 0;
+}
+
+.button {
+  font-size: 12px;
 }
 
 @media screen and (min-width: 450px) {
@@ -47,9 +51,72 @@
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
     gap: 20px;
   }
   .section__image {
     margin-bottom: 0;
+    height: 386px;
+  }
+  .section__heading {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 106.5%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding: 80px 100px;
+    gap: 25px;
+  }
+  .section__heading {
+    font-size: 30px;
+  }
+  .section__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .lines {
+    background: url('../public/images/round_lines_doctor.svg');
+    position: absolute;
+    width: 816px;
+    height: 712px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .dotes {
+    background: url('../public/images/dots_doctor.svg');
+    position: absolute;
+    width: 176px;
+    height: 191px;
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .section__image {
+    background: url('../public/images/doctor_ellen_desktop.jpg') no-repeat
+      center center/cover;
+    height: 583px;
+  }
+  .section__heading {
+    font-size: 30px;
+  }
+  .section__text {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 20px;
   }
 }

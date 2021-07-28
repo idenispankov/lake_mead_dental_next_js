@@ -12,6 +12,7 @@
   right: 0;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #333;
 }
 
 .navbar__container {

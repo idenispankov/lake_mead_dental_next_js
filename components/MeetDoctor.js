@@ -27,8 +27,14 @@ export default function MeetDoctor() {
           positive dental experience possible, combined with personalized care
           in a modern, comfortable environment. Learn More...
         </p>
-        <Button linkTo='meet-the-doctors' buttonText='Meet Our Doctors' />
+        <Button
+          linkTo='meet-the-doctors'
+          buttonText='Meet Our Doctors'
+          customButtonStyles={styles.button}
+        />
       </div>
+      <div className={styles.lines}></div>
+      <div className={styles.dotes}></div>
     </section>
   );
 }
