@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import styles from '../styles/MeetDoctor.module.css';
-import Button from './Button';
+import styles from './MeetDoctor.module.css';
+import Button from '../Button/Button';
 
 export default function MeetDoctor() {
   return (

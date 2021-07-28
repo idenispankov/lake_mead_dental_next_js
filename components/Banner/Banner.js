@@ -1,5 +1,5 @@
-import styles from '../styles/Banner.module.css';
-import Button from './Button';
+import styles from './Banner.module.css';
+import Button from '../Button/Button';
 
 export default function Header() {
   return (

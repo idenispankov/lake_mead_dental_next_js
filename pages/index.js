@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Banner from '../components/Banner';
-import MeetDoctor from '../components/MeetDoctor';
+import Banner from '../components/Banner/Banner';
+import MeetDoctor from '../components/MeetTheDoctor/MeetDoctor';
 
 export default function Home() {
   return (

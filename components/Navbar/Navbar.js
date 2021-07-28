@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import styles from '../styles/Navbar.module.css';
+import styles from './Navbar.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../public/images/logo_blue.png';
-import phoneIcon from '../public/images/phone_icon.svg';
-import mailIcon from '../public/images/mail_icon.svg';
+import logo from '../../public/images/logo_blue.png';
+import phoneIcon from '../../public/images/phone_icon.svg';
+import mailIcon from '../../public/images/mail_icon.svg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
