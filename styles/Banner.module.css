@@ -8,6 +8,7 @@
 
 .header__banner_overlay {
   background: linear-gradient(80deg, #003b74, rgba(196, 196, 196, 0));
+  min-width: 100%;
   height: 100%;
   padding-top: 40px;
   display: flex;
@@ -39,32 +40,39 @@
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 450px) {
   .header__banner {
-    max-width: 100%;
-    min-height: 309px;
+    background: url('../public/images/header_banner_laptop.png') no-repeat
+      center center/cover;
+    height: 309px;
   }
-}
-
-@media screen and (min-width: 600px) {
-  .header__banner {
-    max-width: 100%;
-    min-height: 409px;
+  .header__banner_overlay {
+    padding-top: 70px;
+    padding-left: 30px;
+    align-items: flex-start;
+  }
+  .header__banner_heading {
+    text-align: start;
+    max-width: 350px;
+    /* font-size: 40px; */
+    margin-bottom: 15px;
+  }
+  .header__banner_text {
+    text-align: start;
+    margin-bottom: 25px;
+    /* font-size: 14px; */
+    max-width: 315px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header__banner {
-    max-width: 100%;
-    min-height: 409px;
-    margin-top: 98px;
-    background: url('../public/images/header_banner_laptop.png') no-repeat
-      center center/cover;
+    height: 409px;
   }
   .header__banner_overlay {
     align-items: flex-start;
-    padding-top: 112px;
-    padding-left: 60px;
+    padding-top: 70px;
+    padding-left: 30px;
   }
   .header__banner_heading {
     text-align: start;
@@ -78,32 +86,18 @@
     font-size: 14px;
     max-width: 315px;
   }
-  .button {
-    font-size: 14px;
-  }
 }
 @media screen and (min-width: 1024px) {
   .header__banner {
     margin-top: 142px;
-    height: 466px;
+    height: 668px;
+    background: url('../public/images/header_banner_desktop.png') no-repeat
+      center center/cover;
+    max-width: 1600px;
+    margin: 0 auto;
   }
   .header__banner_overlay {
     padding-left: 100px;
-  }
-}
-
-@media screen and (min-width: 1140px) {
-  .header__banner {
-    height: 466px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header__banner {
-    max-width: 1600px;
-    height: 668px;
-    margin: 0 auto;
-    margin-top: 142px;
   }
   .header__banner_overlay {
     align-items: flex-start;
