@@ -2,7 +2,6 @@
   max-width: 1600px;
   margin: 0 auto;
   padding: 30px;
-  position: relative;
 }
 
 .section__image {
@@ -77,24 +76,6 @@
   .section__text {
     font-size: 14px;
     margin-bottom: 10px;
-  }
-  .lines {
-    background: url('../public/images/round_lines_doctor.svg');
-    position: absolute;
-    width: 816px;
-    height: 712px;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  .dotes {
-    background: url('../public/images/dots_doctor.svg');
-    position: absolute;
-    width: 176px;
-    height: 191px;
-    top: 40px;
-    left: 40px;
-    z-index: -1;
   }
 }
 

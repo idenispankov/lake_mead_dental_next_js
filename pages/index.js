@@ -30,7 +30,7 @@ export default function Home() {
         <link rel='covid-19' href='/site.webmanifest' />
       </Head>
       <Banner />
-      <MeetDoctor />
+      {/* <MeetDoctor /> */}
     </div>
   );
 }

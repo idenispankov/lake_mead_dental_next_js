@@ -33,8 +33,6 @@ export default function MeetDoctor() {
           customButtonStyles={styles.button}
         />
       </div>
-      <div className={styles.lines}></div>
-      <div className={styles.dotes}></div>
     </section>
   );
 }
