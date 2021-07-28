@@ -3,20 +3,21 @@ import styles from './MeetOurDoctors.module.css';
 export default function MeetOurDoctors() {
   return (
     <section className={styles.section}>
-      <h1s>Meet The Doctors</h1s>
+      <h1 className={styles.section__heading}>Meet The Doctors</h1>
+
       <div className={styles.section__container}>
-        <span className={styles.section__image_dots} />
-        <span className={styles.section__image_lines} />
-        <div className={styles.section__image}></div>
-        <div className={styles.section__text_container}>
-          <h3 className={styles.section__heading}>Meet Dr. Ellen</h3>
-          <p className={styles.section__text}>
-            <span className={styles.section__text_span}>
+        <span className={styles.section__container_image_dots} />
+        <span className={styles.section__container_image_lines} />
+        <div className={styles.section__container_image}></div>
+        <div className={styles.text__container}>
+          <h3 className={styles.text__container_heading}>Meet Dr. Ellen</h3>
+          <p className={styles.text__container_text}>
+            <span className={styles.text__container_text_span}>
               Dr. Ellen Piyevsky, DDS
             </span>
             Lake Mead Dental & Wigwam Dental
           </p>
-          <p className={styles.section__text}>
+          <p className={styles.text__container_text}>
             Dr Ellen graduated from USC School of Dentistry in 1995. She moved
             to Las Vegas 4 years after graduating and opened the doors of Wigwam
             Dental Care and Lake Mead Dental. Since then, she has been providing
@@ -24,7 +25,7 @@ export default function MeetOurDoctors() {
             for art and sculpture guides her into her love for cosmetic
             dentistry and full mouth reconstruction.
           </p>
-          <p className={styles.section__text}>
+          <p className={styles.text__container_text}>
             Dr. Ellen says: "Our mission is to provide our patients with the
             most positive dental experience possible, combined with personalized
             care in a modern, comfortable environment. This is achieved through
@@ -37,19 +38,20 @@ export default function MeetOurDoctors() {
           </p>
         </div>
       </div>
+
       <div className={styles.section__container}>
-        <span className={styles.section__image_dots} />
-        <span className={styles.section__image_lines} />
-        <div className={styles.section__image}></div>
-        <div className={styles.section__text_container}>
-          <h3 className={styles.section__heading}>Meet Dr. Ellen</h3>
-          <p className={styles.section__text}>
-            <span className={styles.section__text_span}>
+        <span className={styles.section__container_image_dots} />
+        <span className={styles.section__container_image_lines} />
+        <div className={styles.section__container_image}></div>
+        <div className={styles.text__container}>
+          <h3 className={styles.text__container_heading}>Meet Dr. Ellen</h3>
+          <p className={styles.text__container_text}>
+            <span className={styles.text__container_text_span}>
               Dr. Ellen Piyevsky, DDS
             </span>
             Lake Mead Dental & Wigwam Dental
           </p>
-          <p className={styles.section__text}>
+          <p className={styles.text__container_text}>
             Dr Ellen graduated from USC School of Dentistry in 1995. She moved
             to Las Vegas 4 years after graduating and opened the doors of Wigwam
             Dental Care and Lake Mead Dental. Since then, she has been providing
@@ -57,7 +59,7 @@ export default function MeetOurDoctors() {
             for art and sculpture guides her into her love for cosmetic
             dentistry and full mouth reconstruction.
           </p>
-          <p className={styles.section__text}>
+          <p className={styles.text__container_text}>
             Dr. Ellen says: "Our mission is to provide our patients with the
             most positive dental experience possible, combined with personalized
             care in a modern, comfortable environment. This is achieved through
@@ -70,19 +72,20 @@ export default function MeetOurDoctors() {
           </p>
         </div>
       </div>
+
       <div className={styles.section__container}>
-        <span className={styles.section__image_dots} />
-        <span className={styles.section__image_lines} />
-        <div className={styles.section__image}></div>
-        <div className={styles.section__text_container}>
-          <h3 className={styles.section__heading}>Meet Dr. Ellen</h3>
-          <p className={styles.section__text}>
-            <span className={styles.section__text_span}>
+        <span className={styles.section__container_image_dots} />
+        <span className={styles.section__container_image_lines} />
+        <div className={styles.section__container_image}></div>
+        <div className={styles.text__container}>
+          <h3 className={styles.text__container_heading}>Meet Dr. Ellen</h3>
+          <p className={styles.text__container_text}>
+            <span className={styles.text__container_text_span}>
               Dr. Ellen Piyevsky, DDS
             </span>
             Lake Mead Dental & Wigwam Dental
           </p>
-          <p className={styles.section__text}>
+          <p className={styles.text__container_text}>
             Dr Ellen graduated from USC School of Dentistry in 1995. She moved
             to Las Vegas 4 years after graduating and opened the doors of Wigwam
             Dental Care and Lake Mead Dental. Since then, she has been providing
@@ -90,7 +93,7 @@ export default function MeetOurDoctors() {
             for art and sculpture guides her into her love for cosmetic
             dentistry and full mouth reconstruction.
           </p>
-          <p className={styles.section__text}>
+          <p className={styles.text__container_text}>
             Dr. Ellen says: "Our mission is to provide our patients with the
             most positive dental experience possible, combined with personalized
             care in a modern, comfortable environment. This is achieved through
