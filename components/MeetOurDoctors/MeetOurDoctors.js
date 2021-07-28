@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from './MeetOurDoctors.module.css';
 
 export default function MeetOurDoctors() {
@@ -10,7 +11,7 @@ export default function MeetOurDoctors() {
         <span className={styles.section__container_image_lines} />
         <div className={styles.section__container_image}></div>
         <div className={styles.text__container}>
-          <h3 className={styles.text__container_heading}>Meet Dr. Ellen</h3>
+          <h2 className={styles.text__container_heading}>Meet Dr. Ellen</h2>
           <p className={styles.text__container_text}>
             <span className={styles.text__container_text_span}>
               Dr. Ellen Piyevsky, DDS
@@ -44,7 +45,7 @@ export default function MeetOurDoctors() {
         <span className={styles.section__container_image_lines} />
         <div className={styles.section__container_image}></div>
         <div className={styles.text__container}>
-          <h3 className={styles.text__container_heading}>Meet Dr. Ellen</h3>
+          <h2 className={styles.text__container_heading}>Meet Dr. Ellen</h2>
           <p className={styles.text__container_text}>
             <span className={styles.text__container_text_span}>
               Dr. Ellen Piyevsky, DDS
@@ -78,7 +79,7 @@ export default function MeetOurDoctors() {
         <span className={styles.section__container_image_lines} />
         <div className={styles.section__container_image}></div>
         <div className={styles.text__container}>
-          <h3 className={styles.text__container_heading}>Meet Dr. Ellen</h3>
+          <h2 className={styles.text__container_heading}>Meet Dr. Ellen</h2>
           <p className={styles.text__container_text}>
             <span className={styles.text__container_text_span}>
               Dr. Ellen Piyevsky, DDS
