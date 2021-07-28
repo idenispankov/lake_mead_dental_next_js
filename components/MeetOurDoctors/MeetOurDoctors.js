@@ -3,7 +3,7 @@ import styles from './MeetOurDoctors.module.css';
 export default function MeetOurDoctors() {
   return (
     <section className={styles.section__container}>
-      <div className={styles.section}>
+      {/* <div className={styles.section}>
         <span className={styles.section__image_dots} />
         <span className={styles.section__image_lines} />
         <div className={styles.section__image}></div>
@@ -29,7 +29,7 @@ export default function MeetOurDoctors() {
             in a modern, comfortable environment. Learn More...
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
