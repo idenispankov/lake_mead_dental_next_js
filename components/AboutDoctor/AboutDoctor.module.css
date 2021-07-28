@@ -89,6 +89,9 @@
     font-size: 14px;
     margin-bottom: 18px;
   }
+  .button {
+    font-size: 14px;
+  }
   .section__image_dots {
     background: url('../../public/images/dots_doctor.svg') no-repeat center;
     display: block;
@@ -109,9 +112,6 @@
     width: 816px;
     height: 712px;
     z-index: -1;
-  }
-  .button {
-    font-size: 14px;
   }
 }
 
