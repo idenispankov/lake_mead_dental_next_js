@@ -322,9 +322,6 @@
 }
 
 @media screen and (min-width: 1600px) {
-  .navbar {
-    border-bottom: none;
-  }
   .navbar__container {
     max-width: 1600px;
     margin: 0 auto;

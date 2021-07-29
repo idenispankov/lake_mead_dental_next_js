@@ -40,10 +40,14 @@ export default function MeetOurDoctors() {
         </div>
       </div>
 
-      <div className={styles.section__container}>
+      <div
+        className={`${styles.section__container} ${styles.section__container_flex}`}
+      >
         <span className={styles.section__container_image_dots} />
         <span className={styles.section__container_image_lines} />
-        <div className={styles.section__container_image}></div>
+        <div
+          className={`${styles.section__container_image} ${styles.section__container_image_flex}`}
+        ></div>
         <div className={styles.text__container}>
           <h2 className={styles.text__container_heading}>Meet Dr. Ellen</h2>
           <p className={styles.text__container_text}>

@@ -1,17 +1,16 @@
 .section__heading {
   margin: 0;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 106.5%;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 .section__container {
   max-width: 1600px;
   margin: 0 auto;
   padding: 30px;
-  padding-top: 0;
   position: relative;
   background: #f8fbfe;
   margin-bottom: 40px;
@@ -61,10 +60,6 @@
   margin-bottom: 0;
 }
 
-.button {
-  font-size: 12px;
-}
-
 @media screen and (min-width: 450px) {
   .section__container_image {
     background: url('../../public/images/doctor_ellen_tablet.png') no-repeat
@@ -76,14 +71,14 @@
 @media screen and (min-width: 768px) {
   .section__container {
     padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
   }
   .section__container_image {
     margin-bottom: 0;
+    min-width: 48%;
     height: 386px;
+    margin-right: 30px;
   }
   .text__container_heading {
     font-weight: bold;
@@ -91,47 +86,47 @@
     line-height: 106.5%;
     margin-bottom: 10px;
   }
+  .section__container_flex {
+    flex-direction: row-reverse;
+  }
+  .section__container_image_flex {
+    margin-right: 0;
+    margin-left: 30px;
+  }
   .section__heading {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .text__container_text {
+    margin-bottom: 10px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  .section__container {
+    padding: 80px 100px;
+  }
   .section__container_image {
     background: url('../../public/images/doctor_ellen_desktop.jpg') no-repeat
       center center/cover;
-    height: 430px;
-  }
-  .section__container {
-    padding: 80px 100px;
-    gap: 25px;
+    margin-right: 30px;
+    min-height: 460px;
   }
   .text__container_heading {
     font-size: 30px;
   }
   .text__container_text {
     font-size: 14px;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section__container {
     padding: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-  }
-}
-@media screen and (min-width: 1350px) {
-  .section__container {
-    padding: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
   }
   .section__container_image {
-    height: 650px;
+    min-height: 683px;
+    margin-right: 40px;
   }
   .text__container_heading {
     font-size: 30px;
@@ -139,5 +134,8 @@
   .text__container_text {
     font-size: 20px;
     margin-bottom: 30px;
+  }
+  .button {
+    font-size: 20px;
   }
 }
