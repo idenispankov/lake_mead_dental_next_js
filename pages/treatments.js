@@ -1,3 +1,5 @@
-export default function Treatments() {
-  return <div>Treatments</div>;
+import Treatments from '../components/Treatments/Treatments';
+
+export default function TreatmentsPage() {
+  return <Treatments />;
 }
