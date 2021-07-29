@@ -84,8 +84,8 @@ export default function Navbar() {
               className={styles.navbar__list_item}
               onClick={() => setIsOpen(false)}
             >
-              <Link href='/services'>
-                <a className={styles.navbar__list_link}>Services</a>
+              <Link href='/treatments'>
+                <a className={styles.navbar__list_link}>Treatments</a>
               </Link>
             </li>
             <li
