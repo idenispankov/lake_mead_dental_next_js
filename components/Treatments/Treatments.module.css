@@ -1,11 +1,14 @@
 .section {
   background: #f8fbfe;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .section__background_image {
   background: url('../../public/images/treatments__background_mobile.png')
     no-repeat center center/cover;
   width: 100%;
+  min-width: 100%;
   height: 124px;
 }
 
@@ -33,4 +36,160 @@
   line-height: 170%;
   opacity: 0.8;
   max-width: 240px;
+}
+
+.list {
+  padding: 30px;
+  list-style: none;
+  text-align: center;
+}
+
+.list__item {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 4px 107px rgba(0, 0, 0, 0.03);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.emergency {
+  background: url('../../public/images/emergency_icon.svg') no-repeat center
+    center/cover;
+}
+
+.dentures {
+  background: url('../../public/images/dentures_icon.svg') no-repeat center
+    center/cover;
+}
+
+.implants {
+  background: url('../../public/images/implants_icon.svg') no-repeat center
+    center/cover;
+}
+
+.whitening {
+  background: url('../../public/images/whitening_icon.svg') no-repeat center
+    center/cover;
+}
+
+.cosmetics {
+  background: url('../../public/images/cosmetics_icon.svg') no-repeat center
+    center/cover;
+}
+
+.crown {
+  background: url('../../public/images/crown_icon.svg') no-repeat center
+    center/cover;
+}
+
+.filling {
+  background: url('../../public/images/filling_icon.svg') no-repeat center
+    center/cover;
+}
+
+.cleaning {
+  background: url('../../public/images/cleaning_icon.svg') no-repeat center
+    center/cover;
+}
+
+.root_canal {
+  background: url('../../public/images/root_canal_icon.svg') no-repeat center
+    center/cover;
+}
+
+.list__icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.list__heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 170%;
+  margin-bottom: 8px;
+}
+
+.list__text {
+  font-size: 12px;
+  line-height: 170%;
+}
+
+@media screen and (min-width: 450px) {
+  .section__background_image {
+    height: 224px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section__background_overlay {
+    justify-content: start;
+    padding-top: 90px;
+  }
+  .section__background_image {
+    background: url('../../public/images/treatments__background_tablet.png')
+      no-repeat center;
+    height: 334px;
+  }
+  .section__heading {
+    font-size: 30px;
+  }
+  .section__text {
+    font-size: 14px;
+    max-width: 300px;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section__background_overlay {
+    padding-top: 130px;
+  }
+  .section__background_image {
+    background: url('../../public/images/treatments__background_desktop.png')
+      no-repeat center;
+    height: 443px;
+  }
+  .section__heading {
+    font-size: 40px;
+  }
+  .section__text {
+    font-size: 16px;
+    max-width: 300px;
+  }
+  .list__heading {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .list__text {
+    font-size: 14px;
+  }
+  .list__icon {
+    width: 31px;
+    height: 31px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section__heading {
+    font-size: 40px;
+  }
+  .section__text {
+    font-size: 16px;
+    max-width: 300px;
+  }
+  .list__icon {
+    width: 39px;
+    height: 39px;
+  }
+  .list__text {
+    font-size: 16px;
+  }
 }
