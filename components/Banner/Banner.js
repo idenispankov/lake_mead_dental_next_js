@@ -13,7 +13,7 @@ export default function Header() {
               Quarantine - We're Here For You!`}
         </p>
         <Button
-          linkTo='/'
+          linkTo='/treatments'
           buttonText='Browse Services'
           customButtonStyles={styles.button}
         />

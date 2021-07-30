@@ -104,6 +104,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.7);
   transform: translateX(-120vw);
   transition: all 0.5s linear;
+  padding: auto;
 }
 
 .show {
@@ -163,6 +164,7 @@
   }
   .navbar__list {
     border-top: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 40px 0;
   }
   .navbar__list_item {
     font-size: 20px;
@@ -281,6 +283,7 @@
     max-width: 900px;
     justify-content: space-between;
     border: none;
+    padding: 0;
   }
   .navbar {
     border-bottom: 1px solid black;
