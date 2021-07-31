@@ -1,0 +1,84 @@
+.section {
+  background: #f8fbfe;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.section__heading {
+  line-height: 106.5%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section__text {
+  font-size: 12px;
+  line-height: 170%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.section__container {
+  /* border: 1px solid red; */
+}
+
+.section__container_image_main {
+  background: url('../../public/images/why_us_main_mobile.png') no-repeat center;
+  background-color: #3292ef;
+  width: 265px;
+  height: 327px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.section__container__image_left {
+  background: url('../../public/images/why_us_left_mobile.png') no-repeat center;
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 0;
+  left: -70px;
+}
+
+.section__container__image_right {
+  background: url('../../public/images/why_us_right_mobile.png') no-repeat
+    center;
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 35px;
+  right: -40px;
+}
+
+.section__container_list {
+  list-style: none;
+}
+
+.section__container_list_item {
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  min-height: 90px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.section__container_list_item:last-child {
+  margin-bottom: 0;
+}
+
+.section__container_list_item_heading {
+  font-size: 14px;
+  line-height: 147%;
+  margin-bottom: 10px;
+}
+
+.section__container_list_item_text {
+  font-size: 12px;
+  line-height: 170%;
+
+  opacity: 0.8;
+}
