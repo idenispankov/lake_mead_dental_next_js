@@ -9,8 +9,9 @@ export default function WhyUs() {
       </p>
       <div className={styles.section__container}>
         <div className={styles.section__container_image_main}>
-          <div className={styles.section__container__image_left}></div>
-          <div className={styles.section__container__image_right}></div>
+          <div className={styles.section__container_image_left}></div>
+          <div className={styles.section__container_image_right}></div>
+          <div className={styles.section__container_background}></div>
         </div>
         <ul className={styles.section__container_list}>
           <li className={styles.section__container_list_item}>

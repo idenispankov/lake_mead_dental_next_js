@@ -2,11 +2,17 @@
   background: #f8fbfe;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 0 30px;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 
+.section__container_background {
+  display: none;
+}
+
 .section__heading {
+  font-size: 24px;
   line-height: 106.5%;
   margin-bottom: 10px;
   text-align: center;
@@ -20,10 +26,6 @@
   margin-bottom: 20px;
 }
 
-.section__container {
-  /* border: 1px solid red; */
-}
-
 .section__container_image_main {
   background: url('../../public/images/why_us_main_mobile.png') no-repeat center;
   background-color: #3292ef;
@@ -34,7 +36,7 @@
   margin-bottom: 20px;
 }
 
-.section__container__image_left {
+.section__container_image_left {
   background: url('../../public/images/why_us_left_mobile.png') no-repeat center;
   position: absolute;
   width: 150px;
@@ -43,7 +45,7 @@
   left: -70px;
 }
 
-.section__container__image_right {
+.section__container_image_right {
   background: url('../../public/images/why_us_right_mobile.png') no-repeat
     center;
   position: absolute;
@@ -58,7 +60,7 @@
 }
 
 .section__container_list_item {
-  padding: 10px;
+  padding: 20px;
   background: #fff;
   border-radius: 5px;
   min-height: 90px;
@@ -81,4 +83,118 @@
   line-height: 170%;
 
   opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    display: block;
+    background: url('../../public/images/why_us_background_lines.svg') no-repeat
+      center center/cover;
+    background-size: 1440px 433px;
+    background-position: -200px 0;
+    background-color: #f8fbfe;
+  }
+  .section__container_list {
+    display: grid;
+    max-width: 669px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 320px);
+    gap: 25px;
+  }
+  .section__container_list_item {
+    margin: 0;
+    background: #fff;
+    z-index: 1;
+    padding: 30px;
+    min-height: 200px;
+  }
+  .section__heading {
+    font-size: 30px;
+  }
+  .section__text {
+    font-size: 16px;
+  }
+  .section__container_list_item_heading {
+    font-size: 16px;
+  }
+  .section__container_list_item_text {
+    font-size: 16px;
+  }
+  .section__container_image_left {
+    top: 0;
+    left: -90px;
+  }
+  .section__container_image_right {
+    top: 65px;
+    right: -80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding-bottom: 0;
+  }
+  .section__container {
+    display: flex;
+  }
+
+  .section__container_list {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+  }
+  .section__container_image_main {
+    background: url('../../public/images/why_us_main_image_desktop.png')
+      no-repeat center center/cover;
+    width: 1000px;
+    height: 720px;
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+  .section__container_image_left {
+    display: none;
+  }
+  .section__container_image_right {
+    display: none;
+  }
+  .section__container_list {
+    margin: 0 auto;
+  }
+  .section__heading {
+    font-size: 40px;
+  }
+  .section__text {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .section__container_list_item_heading {
+    font-size: 18px;
+  }
+  .section__container_list_item_text {
+    font-size: 18px;
+  }
+  .section__container_list_item {
+    min-height: none;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .section__container_image_main {
+    width: 1100px;
+    height: 670px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .section__container_image_main {
+    width: 1100px;
+    height: 750px;
+    margin: 0;
+  }
+  .section__container_list_item_heading {
+    font-size: 24px;
+  }
+  .section__container_list_item_text {
+    font-size: 22px;
+  }
 }
