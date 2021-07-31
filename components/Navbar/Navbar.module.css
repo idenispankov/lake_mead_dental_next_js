@@ -98,7 +98,7 @@
   background: #262626;
   top: 48px;
   left: 0;
-  width: 100vw;
+  width: 110vw;
   height: 100vh;
   list-style: none;
   text-align: center;
@@ -109,7 +109,7 @@
 }
 
 .show {
-  transform: translateX(0);
+  transform: translateX(-5vw);
 }
 
 .navbar__list_item {
