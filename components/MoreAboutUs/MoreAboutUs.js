@@ -15,18 +15,16 @@ export default function MoreAboutUs() {
           <div className={styles.section__image}></div>
 
           <ul className={styles.section__list}>
-            {moreAboutUsData.map((item) => {
-              return (
-                <li key={item.id} className={styles.section__list_item}>
-                  <p className={styles.section__list_item_text}>
-                    <span className={styles.section__list_item_text_span}>
-                      &#187;
-                    </span>{' '}
-                    {item.text}
-                  </p>
-                </li>
-              );
-            })}
+            {moreAboutUsData.map(({ id, text }) => (
+              <li key={id} className={styles.section__list_item}>
+                <p className={styles.section__list_item_text}>
+                  <span className={styles.section__list_item_text_span}>
+                    &#187;
+                  </span>{' '}
+                  {text}
+                </p>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
