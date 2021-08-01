@@ -66,6 +66,7 @@
   min-height: 90px;
   margin: 0 auto;
   margin-bottom: 10px;
+  box-shadow: 3px 4px 107px rgba(0, 0, 0, 0.03);
 }
 
 .section__container_list_item:last-child {

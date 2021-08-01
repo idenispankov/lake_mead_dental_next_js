@@ -1,0 +1,58 @@
+.section {
+  background: #f8fbfe;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.image_text__container_heading {
+  font-size: 24px;
+  line-height: 106.5%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.image_text__container_text {
+  font-size: 12px;
+  line-height: 170%;
+  text-align: center;
+  opacity: 0.8;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.section__image {
+  background: url('../../public/images/doctor_ellen_mobile.png') no-repeat
+    center;
+  min-width: 100%;
+  min-height: 250px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section__list {
+  list-style: none;
+}
+
+.section__list_item {
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 100px;
+  box-shadow: 3px 4px 107px rgba(0, 0, 0, 0.03);
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.section__list_item_text {
+  font-size: 12px;
+  text-align: start;
+}
+
+.section__list_item_text_span {
+  color: #3393f0;
+  margin-right: 10px;
+}
