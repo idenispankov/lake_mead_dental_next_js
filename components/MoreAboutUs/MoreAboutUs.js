@@ -19,7 +19,7 @@ export default function MoreAboutUs() {
               <li key={id} className={styles.section__list_item}>
                 <p className={styles.section__list_item_text}>
                   <span className={styles.section__list_item_text_span}>
-                    &#187;
+                    &#10003;
                   </span>{' '}
                   {text}
                 </p>
