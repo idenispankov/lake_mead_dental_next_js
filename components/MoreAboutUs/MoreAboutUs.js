@@ -13,7 +13,6 @@ export default function MoreAboutUs() {
         </p>
         <div className={styles.image_text__container}>
           <div className={styles.section__image}></div>
-
           <ul className={styles.section__list}>
             {moreAboutUsData.map(({ id, text }) => (
               <li key={id} className={styles.section__list_item}>
