@@ -3,8 +3,8 @@
   max-width: 1600px;
   margin: 0 auto;
   padding: 30px;
-  padding-top: 0;
   overflow: hidden;
+  padding-top: 0;
 }
 
 .section__heading {
@@ -81,11 +81,11 @@
     min-width: 230px;
     padding: 12px;
   }
-  .image_text__container_heading {
+  .section__heading {
     font-size: 30px;
   }
 
-  .image_text__container_text {
+  .section__text {
     font-size: 16px;
     min-width: 700px;
   }
@@ -101,6 +101,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .section {
+    padding: 30px;
+  }
   .section__image {
     background: url('../../public/images/doctor_ellen_desktop.jpg') no-repeat
       center;
