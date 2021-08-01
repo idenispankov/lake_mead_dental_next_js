@@ -3,6 +3,7 @@ import Banner from '../components/Banner/Banner';
 import AboutDoctor from '../components/AboutDoctor/AboutDoctor';
 import Treatments from '../components/Treatments/Treatments';
 import WhyUs from '../components/WhyUs/WhyUs';
+import MoreAboutUs from '../components/MoreAboutUs/MoreAboutUs';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutDoctor />
       <Treatments />
       <WhyUs />
+      <MoreAboutUs />
     </>
   );
 }

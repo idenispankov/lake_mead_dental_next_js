@@ -1,0 +1,156 @@
+.section {
+  background: #f8fbfe;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.section__heading {
+  font-size: 24px;
+  line-height: 106.5%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section__text {
+  font-size: 12px;
+  line-height: 170%;
+  text-align: center;
+  opacity: 0.8;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.section__image {
+  background: url('../../public/images/doctor_ellen_mobile.png') no-repeat
+    center;
+  min-width: 100%;
+  min-height: 250px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section__list {
+  list-style: none;
+}
+
+.section__list_item {
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 100px;
+  box-shadow: 3px 4px 107px rgba(0, 0, 0, 0.03);
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.section__list_item_text {
+  font-size: 12px;
+  text-align: start;
+}
+
+.section__list_item_text_span {
+  color: #3393f0;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__image {
+    background: url('../../public/images/doctor_ellen_tablet.png') no-repeat
+      center;
+    min-width: 100%;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .image_text__container_text {
+    margin-bottom: 0;
+  }
+  .section__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .section__list_item {
+    min-width: 230px;
+    padding: 12px;
+  }
+  .image_text__container_heading {
+    font-size: 30px;
+  }
+
+  .image_text__container_text {
+    font-size: 16px;
+    min-width: 700px;
+  }
+  .section__list_item_text {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .section__list_item_text_span {
+    color: #3393f0;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section__image {
+    background: url('../../public/images/doctor_ellen_desktop.jpg') no-repeat
+      center;
+    min-width: 100%;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .image_text__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .section__image {
+    display: block;
+  }
+  .section__list {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    margin: 0;
+  }
+  .section__list_item {
+    min-width: 100%;
+    padding: 12px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 80px;
+  }
+  .section__heading {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .section__text {
+    font-size: 22px;
+    min-width: 800px;
+    margin-bottom: 30px;
+  }
+  .section__list_item_text {
+    font-size: 20px;
+    text-align: start;
+    text-align: center;
+    line-height: 170%;
+  }
+
+  .section__list_item_text_span {
+    color: #3393f0;
+    margin-right: 5px;
+  }
+}
