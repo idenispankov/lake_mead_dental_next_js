@@ -1,4 +1,5 @@
 import styles from './MoreAboutUs.module.css';
+import { moreAboutUsData } from '../../data/data';
 
 export default function MoreAboutUs() {
   return (
@@ -14,54 +15,18 @@ export default function MoreAboutUs() {
           <div className={styles.section__image}></div>
 
           <ul className={styles.section__list}>
-            <li className={styles.section__list_item}>
-              <p className={styles.section__list_item_text}>
-                <span className={styles.section__list_item_text_span}>
-                  &#187;
-                </span>{' '}
-                25 years of experience
-              </p>
-            </li>
-            <li className={styles.section__list_item}>
-              <p className={styles.section__list_item_text}>
-                <span className={styles.section__list_item_text_span}>
-                  &#187;
-                </span>{' '}
-                Same-day denture repair
-              </p>
-            </li>
-            <li className={styles.section__list_item}>
-              <p className={styles.section__list_item_text}>
-                <span className={styles.section__list_item_text_span}>
-                  &#187;
-                </span>{' '}
-                Most insurances accepted
-              </p>
-            </li>
-            <li className={styles.section__list_item}>
-              <p className={styles.section__list_item_text}>
-                <span className={styles.section__list_item_text_span}>
-                  &#187;
-                </span>{' '}
-                Extended hours
-              </p>
-            </li>
-            <li className={styles.section__list_item}>
-              <p className={styles.section__list_item_text}>
-                <span className={styles.section__list_item_text_span}>
-                  &#187;
-                </span>{' '}
-                Second location in Henderson
-              </p>
-            </li>
-            <li className={styles.section__list_item}>
-              <p className={styles.section__list_item_text}>
-                <span className={styles.section__list_item_text_span}>
-                  &#187;
-                </span>{' '}
-                In-House financing
-              </p>
-            </li>
+            {moreAboutUsData.map((item) => {
+              return (
+                <li key={item.id} className={styles.section__list_item}>
+                  <p className={styles.section__list_item_text}>
+                    <span className={styles.section__list_item_text_span}>
+                      &#187;
+                    </span>{' '}
+                    {item.text}
+                  </p>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
