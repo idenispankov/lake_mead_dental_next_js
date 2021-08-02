@@ -8,14 +8,14 @@
 }
 
 .section__heading {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 106.5%;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .section__text {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 170%;
   text-align: center;
   opacity: 0.8;
@@ -40,7 +40,7 @@
 .section__list_item {
   text-align: center;
   padding: 10px;
-  max-width: 300px;
+  max-width: 360px;
   margin: 0 auto;
   margin-bottom: 10px;
 }
@@ -50,9 +50,9 @@
 }
 
 .section__list_item_text {
-  font-size: 12px;
+  font-size: 16px;
   text-align: start;
-  text-align: center;
+  text-align: start;
 }
 
 .section__list_item_text_span {
@@ -68,7 +68,13 @@
     margin: 0 auto;
     margin-bottom: 0;
   }
-  .image_text__container_text {
+  .section__heading {
+    font-size: 40px;
+  }
+
+  .section__text {
+    font-size: 24px;
+    max-width: 600px;
     margin-bottom: 0;
   }
   .section__list {
@@ -81,30 +87,14 @@
   .section__list_item {
     margin: 0;
   }
-  .section__heading {
-    font-size: 30px;
-  }
-
-  .section__text {
-    font-size: 16px;
-  }
   .section__list_item_text {
-    font-size: 16px;
-    text-align: start;
-    max-width: 240px;
+    font-size: 18px;
+    min-width: 225px;
   }
 
   .section__list_item_text_span {
     color: #3393f0;
     margin-right: 5px;
-  }
-  .section__heading {
-    font-size: 30px;
-  }
-  .section__text {
-    font-size: 16px;
-    min-width: 400px;
-    margin-bottom: 0;
   }
 }
 
@@ -119,22 +109,25 @@
     margin: 0 auto;
   }
   .section__heading {
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 60px;
   }
   .section__text {
     font-size: 22px;
     min-width: 800px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .section__image {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .section__list {
-    max-width: 1100px;
+    max-width: 850px;
     justify-content: space-evenly;
   }
   .section__list_item {
     padding: 20px;
+  }
+  .section__list_item_text {
+    font-size: 18px;
+    min-width: 235px;
   }
 }
