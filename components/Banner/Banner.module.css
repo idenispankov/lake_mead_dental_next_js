@@ -9,7 +9,7 @@
   background: linear-gradient(80deg, #003b74, rgba(196, 196, 196, 0));
   min-width: 100%;
   height: 100%;
-  padding-top: 40px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,19 +23,19 @@
   line-height: 114.5%;
   text-align: center;
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .header__banner_text {
-  max-width: 250px;
-  font-size: 12px;
-  line-height: 188%;
+  max-width: 290px;
+  font-size: 16px;
+  line-height: 140%;
   text-align: center;
   margin-bottom: 18px;
 }
 
 .button {
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
