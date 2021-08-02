@@ -47,14 +47,14 @@ export default function Treatments() {
           <div className={`${styles.list__icon} ${styles.cosmetics}`}></div>
           <h3 className={styles.list__heading}>Cosmetics</h3>
           <p className={styles.list__text}>
-            We make your dream smile a reality using modern dental techniques.
+            We make your dream smile a reality using modern dental techniques
           </p>
         </li>
         <li className={styles.list__item}>
           <div className={`${styles.list__icon} ${styles.crown}`}></div>
           <h3 className={styles.list__heading}>Crown & Bridges</h3>
           <p className={styles.list__text}>
-            A crown is usually used to protect the tooth from a fracture.
+            A crown is usually used to protect the tooth from a fracture
           </p>
         </li>
         <li className={styles.list__item}>
