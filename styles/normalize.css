@@ -44,13 +44,13 @@ main {
 
 @media screen and (min-width: 768px) {
   main {
-    margin-top: 110px;
+    margin-top: 98px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   main {
-    margin-top: 154px;
+    margin-top: 142px;
   }
 }
 
