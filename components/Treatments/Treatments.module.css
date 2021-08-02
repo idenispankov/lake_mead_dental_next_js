@@ -25,17 +25,17 @@
 }
 
 .section__heading {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 106.5%;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
 .section__text {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 170%;
   opacity: 0.8;
-  max-width: 240px;
+  max-width: 260px;
 }
 
 .list {
@@ -48,7 +48,7 @@
   background: #fff;
   border-radius: 5px;
   box-shadow: 3px 4px 107px rgba(0, 0, 0, 0.03);
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 10px;
 }
 
@@ -98,21 +98,21 @@
 }
 
 .list__icon {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin: 0 auto;
   margin-bottom: 8px;
 }
 
 .list__heading {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 170%;
   margin-bottom: 8px;
 }
 
 .list__text {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 170%;
 }
 
@@ -125,7 +125,7 @@
 @media screen and (min-width: 768px) {
   .section__background_overlay {
     justify-content: start;
-    padding-top: 90px;
+    padding-top: 40px;
   }
   .section__background_image {
     background: url('../../public/images/treatments__background_tablet.png')
@@ -133,27 +133,27 @@
     height: 334px;
   }
   .section__heading {
-    font-size: 30px;
+    font-size: 40px;
   }
   .section__text {
-    font-size: 14px;
-    max-width: 300px;
+    font-size: 24px;
+    max-width: 400px;
   }
   .list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    margin-top: -120px;
+    gap: 10px;
+    margin-top: -140px;
   }
   .list__item {
     margin-bottom: 0;
-    padding: 20px;
+    padding: 20px 10px;
   }
   .list__icon {
-    margin-bottom: 13px;
+    margin-bottom: 5px;
   }
   .list__heading {
-    margin-bottom: 2px;
+    margin-bottom: 0;
   }
 }
 
@@ -167,11 +167,11 @@
     height: 443px;
   }
   .section__heading {
-    font-size: 40px;
+    font-size: 60px;
   }
   .section__text {
-    font-size: 16px;
-    max-width: 300px;
+    font-size: 22px;
+    max-width: 350px;
   }
   .list {
     margin-top: -150px;
@@ -182,29 +182,17 @@
   .list__heading {
     font-size: 22px;
   }
-
-  .list__text {
-    font-size: 14px;
-  }
-  .list__icon {
-    width: 31px;
-    height: 31px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
-  .section__heading {
-    font-size: 40px;
-  }
-  .section__text {
-    font-size: 16px;
-    max-width: 300px;
-  }
   .list__icon {
     width: 39px;
     height: 39px;
   }
+  .list__heading {
+    font-size: 30px;
+  }
   .list__text {
-    font-size: 16px;
+    font-size: 22px;
   }
 }

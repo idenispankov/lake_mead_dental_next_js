@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <Banner />
       <AboutDoctor />
-      {/* <Treatments /> */}
+      <Treatments />
       {/* <WhyUs /> */}
       {/* <MoreAboutUs /> */}
       {/* <ContactUs /> */}
