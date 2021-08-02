@@ -1,11 +1,16 @@
 import styles from './ContactUs.module.css';
 import emailjs from 'emailjs-com';
 
-export default function ContactUs() {
+export default function ContactUs(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, e.target, YOUR_USER_ID)
+      .sendForm(
+        'service_ptq977r',
+        'template_sr4a7v9',
+        e.target,
+        'user_Tj796lrC6HNVDvdZOm6EJ'
+      )
       .then(
         (result) => {
           console.log(result.text);
