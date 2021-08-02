@@ -21,18 +21,19 @@
   margin: 0 auto;
   margin-block-end: 20px;
   display: block;
+  border-radius: 10px;
 }
 
 .text__container_heading {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 21px;
   line-height: 106.5%;
   margin-bottom: 10px;
 }
 
 .text__container_text {
-  font-size: 12px;
-  line-height: 150%;
+  font-size: 16px;
+  line-height: 160%;
   margin-bottom: 20px;
 }
 
@@ -46,7 +47,7 @@
 }
 
 .button {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 450px) {
@@ -85,16 +86,17 @@
     background: url('../../public/images/doctor_ellen_desktop.jpg') no-repeat
       center center/cover;
     margin-right: 30px;
+    min-height: 510px;
   }
   .text__container_heading {
-    font-size: 30px;
+    font-size: 40px;
   }
   .text__container_text {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 12px;
   }
   .button {
-    font-size: 14px;
+    font-size: 20px;
   }
   .section__container_image_dots {
     background: url('../../public/images/dots_doctor.svg') no-repeat center;
@@ -127,14 +129,11 @@
     height: 583px;
     margin-right: 40px;
   }
-  .text__container_heading {
-    font-size: 30px;
-  }
   .text__container_text {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 30px;
   }
   .button {
-    font-size: 20px;
+    font-size: 24px;
   }
 }

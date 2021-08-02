@@ -21,13 +21,13 @@
 
 .section__subheading {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 140%;
   margin-bottom: 20px;
 }
 
 .section__text {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 160%;
   margin-bottom: 40px;
 }
@@ -37,6 +37,7 @@
   height: 286px;
   background: url('../../public/images/treatments__image_mobile.png') no-repeat
     center;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -66,15 +67,15 @@
       no-repeat center;
   }
   .section__heading {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
   }
   .section__subheading {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 20px;
   }
   .section__text {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -86,7 +87,7 @@
       no-repeat center;
   }
   .section__heading {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
   }
   .section__subheading {

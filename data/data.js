@@ -17,7 +17,7 @@ export const moreAboutUsData = [
   },
   {
     id: 5,
-    text: 'Second location in Henderson',
+    text: '2nd location in Henderson',
   },
   {
     id: 6,

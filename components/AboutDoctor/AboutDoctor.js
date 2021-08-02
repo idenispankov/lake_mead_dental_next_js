@@ -23,12 +23,7 @@ export default function MeetDoctor() {
             Dental Care and Lake Mead Dental. Since then, she has been providing
             quality dentistry to every single one of her patients. Her passion
             for art and sculpture guides her into her love for cosmetic
-            dentistry and full mouth reconstruction.
-          </p>
-          <p className={styles.text__container_text}>
-            Dr Ellen says: "Our mission is to provide our patients with the most
-            positive dental experience possible, combined with personalized care
-            in a modern, comfortable environment. Learn More...
+            dentistry and full mouth reconstruction. Learn More...
           </p>
           <Button
             linkTo='/meet-the-doctors'

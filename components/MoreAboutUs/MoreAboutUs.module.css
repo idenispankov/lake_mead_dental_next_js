@@ -9,14 +9,14 @@
 }
 
 .section__heading {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 106.5%;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .section__text {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 170%;
   text-align: center;
   opacity: 0.8;
@@ -32,19 +32,19 @@
   min-height: 250px;
   margin: 0 auto;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .section__list {
   list-style: none;
   max-width: 220px;
   margin: 0 auto;
-  /* border: 1px solid red; */
 }
 
 .section__list_item {
   padding: 10px;
-  /* max-width: 300px;
-  margin: 0 auto; */
+  max-width: 360px;
+  margin: 0 auto;
   margin-bottom: 10px;
 }
 
@@ -53,9 +53,9 @@
 }
 
 .section__list_item_text {
-  font-size: 12px;
+  font-size: 16px;
   text-align: start;
-  /* text-align: center; */
+  text-align: start;
 }
 
 .section__list_item_text_span {
@@ -72,14 +72,12 @@
     margin-bottom: 0;
   }
   .section__heading {
-    font-size: 30px;
+    font-size: 40px;
   }
+
   .section__text {
-    font-size: 16px;
-    min-width: 400px;
-    margin-bottom: 0;
-  }
-  .image_text__container_text {
+    font-size: 24px;
+    max-width: 600px;
     margin-bottom: 0;
   }
   .section__list {
@@ -93,17 +91,13 @@
     margin: 0;
   }
   .section__list_item_text {
-    font-size: 16px;
-    text-align: start;
-    max-width: 240px;
+    font-size: 18px;
+    min-width: 225px;
   }
 
   .section__list_item_text_span {
     color: #3393f0;
     margin-right: 5px;
-  }
-  .section__heading {
-    font-size: 30px;
   }
 }
 
@@ -118,22 +112,25 @@
     margin: 0 auto;
   }
   .section__heading {
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 60px;
   }
   .section__text {
     font-size: 22px;
     min-width: 800px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .section__image {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .section__list {
-    max-width: 1000px;
-    padding-left: 180px;
+    max-width: 1050px;
+    justify-content: space-evenly;
   }
   .section__list_item {
     padding: 20px;
+  }
+  .section__list_item_text {
+    font-size: 22px;
+    min-width: 310px;
   }
 }
