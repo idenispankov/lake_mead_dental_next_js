@@ -38,8 +38,8 @@
 
 .logo__image {
   margin-right: 10px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .logo__text {
@@ -79,11 +79,11 @@
 }
 
 .open .hamburger__menu_before {
-  transform: translateY(6px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
 }
 
 .open .hamburger__menu_after {
-  transform: translateY(-6px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .open .hamburger__menu_present {
@@ -140,10 +140,6 @@
     font-weight: bold;
     font-size: 30px;
     line-height: 163.2%;
-  }
-  .logo__image {
-    width: 40px;
-    height: 40px;
   }
 
   .logo {

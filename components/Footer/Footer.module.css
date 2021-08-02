@@ -30,8 +30,8 @@
 }
 
 .footer__logo__image {
-  width: 26px;
-  height: 26px;
+  width: 40px;
+  height: 40px;
   margin-right: 10px;
   background: url('../../public/images/white_logo.png') no-repeat center
     center/cover;
