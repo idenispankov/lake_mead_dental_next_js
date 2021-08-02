@@ -1,24 +1,18 @@
 import styles from './ContactUs.module.css';
 import emailjs from 'emailjs-com';
+import { serviceId, templateId, userId } from '../../env';
 
 export default function ContactUs(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        'service_ptq977r',
-        'template_sr4a7v9',
-        e.target,
-        'user_Tj796lrC6HNVDvdZOm6EJ'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, e.target, userId).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     console.log('Submitted');
     e.target.reset();
   };
