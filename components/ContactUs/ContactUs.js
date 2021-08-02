@@ -1,8 +1,19 @@
 import styles from './ContactUs.module.css';
+import emailjs from 'emailjs-com';
 
 export default function ContactUs() {
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs
+      .sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, e.target, YOUR_USER_ID)
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     console.log('Submitted');
     e.target.reset();
   };
@@ -38,6 +49,7 @@ export default function ContactUs() {
                   type='text'
                   placeholder=''
                   name='name'
+                  maxLength={20}
                 />
               </div>
               <div className={styles.label__inputs}>
@@ -49,6 +61,7 @@ export default function ContactUs() {
                   type='email'
                   placeholder=''
                   name='email'
+                  maxLength={20}
                 />
               </div>
             </div>
@@ -63,6 +76,7 @@ export default function ContactUs() {
                   type='text'
                   placeholder=''
                   name='concern'
+                  maxLength={20}
                 />
               </div>
               <div className={styles.label__inputs}>
@@ -71,9 +85,10 @@ export default function ContactUs() {
                 </label>
                 <input
                   className={styles.form__input}
-                  type='phone'
+                  type='text'
                   placeholder=''
                   name='phone'
+                  maxLength='20'
                 />
               </div>
             </div>
@@ -86,8 +101,11 @@ export default function ContactUs() {
               type='text'
               placeholder=''
               name='message'
+              maxLength={500}
             />
-            <button className={styles.form__button}>Submit</button>
+            <button type='submit' className={styles.form__button}>
+              Submit
+            </button>
           </form>
         </div>
       </div>
