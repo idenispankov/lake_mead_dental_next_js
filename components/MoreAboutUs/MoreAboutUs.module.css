@@ -120,14 +120,14 @@
     margin-bottom: 20px;
   }
   .section__list {
-    max-width: 850px;
+    max-width: 1050px;
     justify-content: space-evenly;
   }
   .section__list_item {
     padding: 20px;
   }
   .section__list_item_text {
-    font-size: 18px;
-    min-width: 235px;
+    font-size: 22px;
+    min-width: 310px;
   }
 }
