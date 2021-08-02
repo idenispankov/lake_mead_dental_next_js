@@ -21,6 +21,7 @@
   margin: 0 auto;
   margin-block-end: 20px;
   display: block;
+  border-radius: 10px;
 }
 
 .text__container_heading {

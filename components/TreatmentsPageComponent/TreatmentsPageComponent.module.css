@@ -37,6 +37,7 @@
   height: 286px;
   background: url('../../public/images/treatments__image_mobile.png') no-repeat
     center;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {
