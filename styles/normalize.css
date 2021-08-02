@@ -39,19 +39,18 @@ body {
 
 main {
   display: block;
-  /* min-height: 2000px; */
-  margin-top: 48px;
+  margin-top: 60px;
 }
 
 @media screen and (min-width: 768px) {
   main {
-    margin-top: 98px;
+    margin-top: 110px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   main {
-    margin-top: 142px;
+    margin-top: 154px;
   }
 }
 
