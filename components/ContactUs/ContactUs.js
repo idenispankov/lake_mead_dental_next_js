@@ -5,17 +5,25 @@ import { serviceId, templateId, userId } from '../../env';
 
 export default function ContactUs() {
   const [buttonDisabled, setButtonDisabled] = useState(true);
+  const [successButton, setSuccessButton] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [concern, setConcern] = useState('');
   const [message, setMessage] = useState('');
-  const [error, setError] = useState(false);
+  const [successMessage, setSuccessMessage] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // emailjs.sendForm(serviceId, templateId, e.target, userId);
-    e.target.reset();
+    setSuccessMessage(true);
+    emailjs.sendForm(serviceId, templateId, e.target, userId).then(() => {
+      setSuccessMessage(false);
+    });
+    setName('');
+    setEmail('');
+    setPhone('');
+    setConcern('');
+    setMessage('');
   };
 
   useEffect(() => {
@@ -62,7 +70,6 @@ export default function ContactUs() {
                   onChange={(e) => setName(e.target.value)}
                   className={styles.form__input}
                   type='text'
-                  placeholder=''
                   name='name'
                   maxLength={20}
                   value={name}
@@ -76,7 +83,6 @@ export default function ContactUs() {
                   onChange={(e) => setEmail(e.target.value)}
                   className={styles.form__input}
                   type='email'
-                  placeholder=''
                   name='email'
                   maxLength={20}
                   value={email}
@@ -93,7 +99,6 @@ export default function ContactUs() {
                   onChange={(e) => setConcern(e.target.value)}
                   className={styles.form__input}
                   type='text'
-                  placeholder=''
                   name='concern'
                   maxLength={20}
                   value={concern}
@@ -107,7 +112,6 @@ export default function ContactUs() {
                   onChange={(e) => setPhone(e.target.value)}
                   className={styles.form__input}
                   type='text'
-                  placeholder=''
                   name='phone'
                   maxLength='20'
                   value={phone}
@@ -129,7 +133,9 @@ export default function ContactUs() {
             />
             {buttonDisabled ? (
               <>
-                <span className={styles.error}>All Fields Required</span>
+                <span className={styles.error}>
+                  {successMessage ? 'Success' : name && 'All Fields Required'}
+                </span>
                 <button
                   type='submit'
                   className={`${styles.form__button_disabled}`}
@@ -139,12 +145,8 @@ export default function ContactUs() {
                 </button>
               </>
             ) : (
-              <button
-                type='submit'
-                className={styles.form__button}
-                disabled={true}
-              >
-                Submit
+              <button type='submit' className={styles.form__button}>
+                Submit{' '}
               </button>
             )}
           </form>
