@@ -1,5 +1,4 @@
 import styles from './NewPatients.module.css';
-// import Button from '../Button/Button';
 import Link from 'next/link';
 
 export default function NewPatients() {
@@ -9,11 +8,15 @@ export default function NewPatients() {
         <a className={styles.button}>New Patien Form</a>
       </Link>
       <div className={styles.header__container}>
-        <h2 className={styles.section__heading}>Now Accepting New Patients</h2>
-        <p className={styles.section__text}>
-          Come experience a new kind of dental care, where you are always put
-          first.
-        </p>
+        <div className={styles.header__text_container}>
+          <h2 className={styles.section__heading}>
+            Now Accepting New Patients
+          </h2>
+          <p className={styles.section__text}>
+            Come experience a new kind of dental care, where you are always put
+            first.
+          </p>
+        </div>
         <div className={styles.section__image}>
           <span className={styles.section__circle}></span>
           <span className={styles.section__square}></span>
@@ -34,9 +37,7 @@ export default function NewPatients() {
             team takes the time to really get to know you.
           </p>
         </div>
-      </div>
 
-      <div className={styles.grid__container}>
         <div className={styles.grid__item_container}>
           <div
             className={`${styles.grid__item_image} ${styles.difference}`}
@@ -48,9 +49,7 @@ export default function NewPatients() {
             will address any concerns that may bother you.
           </p>
         </div>
-      </div>
 
-      <div className={styles.grid__container}>
         <div className={styles.grid__item_container}>
           <div className={`${styles.grid__item_image} ${styles.service}`}></div>
           <h3 className={styles.grid__item_heading}>
