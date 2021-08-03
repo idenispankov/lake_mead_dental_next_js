@@ -12,7 +12,7 @@ export default function Testimonials() {
       <Carousel
         showStatus={false}
         infiniteLoop={true}
-        autoPlay={false}
+        autoPlay={true}
         showArrows={false}
       >
         <div className={styles.carousel__item}>
