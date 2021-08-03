@@ -12,6 +12,7 @@ export default function Testimonials() {
         infiniteLoop={true}
         autoPlay={true}
         showArrows={false}
+        showThumbs={false}
       >
         <div className={styles.carousel__item}>
           <div className={styles.carousel__quotes}>&ldquo;</div>
