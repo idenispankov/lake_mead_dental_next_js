@@ -1,0 +1,140 @@
+.section {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  padding-bottom: 0;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  background: #3393f0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+  text-align: center;
+  width: 70%;
+}
+
+.button:hover {
+  background-color: #02509e;
+}
+
+.section__heading {
+  font-size: 20px;
+  line-height: 106.5%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section__text {
+  font-size: 16px;
+  text-align: center;
+  line-height: 130%;
+  max-width: 360px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section__image {
+  background: url('../../public/images/new_patients_header_mobile.png')
+    no-repeat center;
+  /* max-width: 300px; */
+  min-width: 100%;
+  min-height: 225px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.section__square {
+  background: url('../../public/images/new_patients_dots.svg') no-repeat center;
+  width: 71px;
+  height: 78px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: -1;
+}
+.section__circle {
+  background: url('../../public/images/new_patients_circle.svg') no-repeat
+    center;
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.section__star_green {
+  background: url('../../public/images/star_green.svg') no-repeat center;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+  top: -20px;
+  left: 60px;
+}
+
+.section__star_red_left {
+  background: url('../../public/images/star_red.svg') no-repeat center;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+  top: 130px;
+  left: -15px;
+}
+
+.section__star_red_right {
+  background: url('../../public/images/star_red.svg') no-repeat center;
+  width: 9px;
+  height: 11px;
+  position: absolute;
+  top: 80px;
+  right: -15px;
+}
+
+.treat {
+  background: url('../../public/images/new_patients_treat.png') no-repeat center;
+}
+
+.difference {
+  background: url('../../public/images/new_patients_difference.png') no-repeat
+    center;
+}
+.service {
+  background: url('../../public/images/new_patients_best_service.png') no-repeat
+    center;
+}
+
+.grid__item_image {
+  min-width: 100%;
+  min-height: 170px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.grid__item_heading {
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+
+.grid__item_text {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.grid__item_container {
+  margin-bottom: 30px;
+  padding: 20px 10px;
+  background: #fff;
+  border-radius: 10px;
+}
