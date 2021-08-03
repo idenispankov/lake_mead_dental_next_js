@@ -63,8 +63,9 @@
   align-items: center;
   position: absolute;
   top: 0;
-  right: 5px;
+  right: 1px;
   z-index: 2;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {
