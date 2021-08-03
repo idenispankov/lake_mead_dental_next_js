@@ -37,7 +37,7 @@ export default function Footer() {
             <li className={styles.social__icons_list_item}>
               <a
                 className={styles.social__icons_list_item_link}
-                href='https://www.facebook.com/lakemeaddental'
+                href='https://www.instagram.com/lakemeaddental/'
                 rel='noopener noreferrer'
                 target='_blank'
               >
@@ -49,7 +49,7 @@ export default function Footer() {
             <li className={styles.social__icons_list_item}>
               <a
                 className={styles.social__icons_list_item_link}
-                href='https://www.facebook.com/lakemeaddental'
+                href='https://www.linkedin.com/company/lake-mead-dental/'
                 rel='noopener noreferrer'
                 target='_blank'
               >
@@ -61,7 +61,7 @@ export default function Footer() {
             <li className={styles.social__icons_list_item}>
               <a
                 className={styles.social__icons_list_item_link}
-                href='https://www.facebook.com/lakemeaddental'
+                href='https://twitter.com/lakemeaddental'
                 rel='noopener noreferrer'
                 target='_blank'
               >
