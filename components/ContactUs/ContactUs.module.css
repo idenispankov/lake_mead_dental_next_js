@@ -3,7 +3,6 @@
   margin: 0 auto;
   background: #f8fbfe;
 }
-
 .form__container_heading {
   display: none;
 }
@@ -98,6 +97,27 @@
 
 .form__button:hover {
   background-color: #02509e;
+}
+
+.form__button_disabled {
+  border: none;
+  cursor: not-allowed;
+  background: rgb(185, 185, 185);
+  color: #fff;
+  border-radius: 100px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  transition: all 0.3s linear;
+  font-size: 16px;
+}
+
+.error {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #3393f0;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
