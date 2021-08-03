@@ -1,8 +1,6 @@
 import styles from './Testimonials.module.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import Image from 'next/image';
-import jamesImage from '../../public/images/testimonial_james.png';
 
 export default function Testimonials() {
   return (
@@ -18,7 +16,9 @@ export default function Testimonials() {
         <div className={styles.carousel__item}>
           <div className={styles.carousel__quotes}>&ldquo;</div>
           <div className={styles.image}>
-            <Image src={jamesImage} alt='reviewer headshot' />
+            <span className={styles.stars}>
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </span>
           </div>
           <div className={styles.text__container}>
             <h3 className={styles.carousel__heading}>James Anderson</h3>
@@ -32,7 +32,9 @@ export default function Testimonials() {
         <div className={styles.carousel__item}>
           <div className={styles.carousel__quotes}>&ldquo;</div>
           <div className={styles.image}>
-            <Image src={jamesImage} alt='reviewer headshot' />
+            <span className={styles.stars}>
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </span>
           </div>
           <div className={styles.text__container}>
             <h3 className={styles.carousel__heading}>Kyle Stone</h3>
@@ -45,7 +47,9 @@ export default function Testimonials() {
         <div className={styles.carousel__item}>
           <div className={styles.carousel__quotes}>&ldquo;</div>
           <div className={styles.image}>
-            <Image src={jamesImage} alt='reviewer headshot' />
+            <span className={styles.stars}>
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </span>
           </div>
           <div className={styles.text__container}>
             <h3 className={styles.carousel__heading}>Evelyn Otero-Ruiz</h3>

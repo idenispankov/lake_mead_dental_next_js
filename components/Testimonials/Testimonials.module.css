@@ -22,7 +22,7 @@
 .carousel__item {
   margin: 0 auto;
   max-width: 450px;
-  min-height: 200px;
+  min-height: 180px;
   padding: 20px;
   position: relative;
   border-radius: 10px;
@@ -30,12 +30,14 @@
 }
 
 .image {
-  width: 45px;
-  height: 45px;
   margin: 0 auto;
-  margin-bottom: 20px;
-  border: 1px solid #3393f0;
-  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: gold;
+  display: inline-block;
+  font-size: 18px;
 }
 
 .carousel__heading {
@@ -45,8 +47,8 @@
 
 .carousel__text {
   font-size: 14px;
-  margin-bottom: 20px;
   opacity: 0.7;
+  padding-bottom: 20px;
 }
 
 .carousel__quotes {
@@ -76,30 +78,23 @@
     text-align: center;
     margin-bottom: 20px;
   }
-  .image {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .stars {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
   .carousel__item {
-    min-height: 250px;
-    margin-bottom: 50px;
+    min-height: 300px;
     max-width: 700px;
-    display: flex;
-    align-items: center;
-  }
-  .text__container {
-    display: flex;
-    flex-direction: column;
   }
   .carousel__heading {
-    font-size: 20px;
+    font-size: 24px;
   }
   .carousel__text {
-    font-size: 18px;
+    font-size: 22px;
     max-width: 500px;
+    margin: 0 auto;
     line-height: 160%;
   }
   .carousel__quotes {
