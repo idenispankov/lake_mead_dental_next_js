@@ -1,3 +1,5 @@
-export default function Covid() {
-  return <div>Covid 19</div>;
+import Covid from '../components/Covid/Covid';
+
+export default function Covid19() {
+  return <Covid />;
 }

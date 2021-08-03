@@ -1,0 +1,116 @@
+.section {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.section__heading {
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section__text {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.section__image {
+  background: url('../../public/images/covid19.jpg') no-repeat center
+    center/cover;
+  max-width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section__list {
+  list-style: none;
+}
+
+.section__list_item {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 30px 10px;
+  font-size: 18px;
+  line-height: 150%;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.section__list_item_heading {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__text {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .section__list_item {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .section__image {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .section__heading {
+    font-size: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .section__list_item_heading {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section__image {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .section__text {
+    max-width: 700px;
+    font-size: 22px;
+  }
+  .section__list_item {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section__image {
+    max-width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .section__heading {
+    font-size: 60px;
+    max-width: 800px;
+  }
+  .section__text {
+    max-width: 900px;
+    font-size: 26px;
+  }
+  .section__list_item {
+    max-width: 1000px;
+    font-size: 24px;
+  }
+  .section__list_item_heading {
+    font-size: 26px;
+  }
+}
