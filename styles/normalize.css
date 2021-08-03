@@ -33,6 +33,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.carousel .control-dots .dot.selected,
+.carousel .control-dots .dot:hover,
+.carousel.carousel-slider .control-arrow:hover {
+  background: #3393f0;
+}
+.carousel-root {
+  background: #f8fbfe;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
