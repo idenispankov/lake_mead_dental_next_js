@@ -22,8 +22,9 @@
 .section__image {
   background: url('../../public/images/covid_19.jpeg') no-repeat center
     center/cover;
-  max-width: 100%;
-  min-height: 200px;
+  max-width: 300px;
+  margin: 0 auto;
+  height: 120px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -49,7 +50,7 @@
 
 @media screen and (min-width: 600px) {
   .section__image {
-    height: 300px;
+    height: 250px;
   }
   .section__text {
     max-width: 600px;
