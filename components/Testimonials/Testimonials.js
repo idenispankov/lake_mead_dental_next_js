@@ -13,6 +13,8 @@ export default function Testimonials() {
         autoPlay={true}
         showArrows={false}
         showThumbs={false}
+        transitionTime={1000}
+        interval={4000}
       >
         <div className={styles.carousel__item}>
           <div className={styles.carousel__quotes}>&ldquo;</div>
