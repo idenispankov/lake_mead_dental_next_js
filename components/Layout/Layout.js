@@ -10,9 +10,9 @@ export default function Layout({ children }) {
       <div>
         <main>{children}</main>
       </div>
-      <ContactUs />
-      <Testimonials />
-      <Footer />
+      {/* <ContactUs /> */}
+      {/* <Testimonials /> */}
+      {/* <Footer /> */}
     </>
   );
 }
