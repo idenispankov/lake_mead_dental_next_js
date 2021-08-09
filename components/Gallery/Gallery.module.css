@@ -38,6 +38,12 @@
   font-size: 16px;
   color: #17224d;
   opacity: 0.8;
+  cursor: pointer;
+  transition: color 0.3s linear;
+}
+
+.section__list_item:hover {
+  color: #3393f0;
 }
 
 .active {

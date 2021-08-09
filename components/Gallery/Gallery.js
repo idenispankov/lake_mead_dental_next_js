@@ -123,53 +123,6 @@ export default function Gallery() {
             />
           ))}
       </div>
-      {/* TABLET */}
-      {/* <div className={styles.section__grid_desktop}>
-        {interior &&
-          galleryData.mobile.interior.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
-        {exterior &&
-          galleryData.mobile.exterior.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
-        {treatment &&
-          galleryData.mobile.treatment.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
-        {patients &&
-          galleryData.mobile.patients.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
-      </div> */}
     </section>
   );
 }
