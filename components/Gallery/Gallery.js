@@ -1,12 +1,7 @@
 import styles from './Gallery.module.css';
 import Image from 'next/image';
 import { useState } from 'react';
-import {
-  interiorMobileGalleryData,
-  exteriorMobileGalleryData,
-  treatmentsMobileGalleryData,
-  patientsMobileGalleryData,
-} from '../../data/data';
+import galleryData from '../../data/galleryData';
 
 export default function Gallery() {
   const [interior, setInterior] = useState(true);
@@ -84,7 +79,7 @@ export default function Gallery() {
       </ul>
       <div className={styles.section__grid_mobile}>
         {interior &&
-          interiorMobileGalleryData.map(({ id, src, alt }) => (
+          galleryData.mobile.interior.map(({ id, src, alt }) => (
             <Image
               key={id}
               src={src}
@@ -95,7 +90,7 @@ export default function Gallery() {
             />
           ))}
         {exterior &&
-          exteriorMobileGalleryData.map(({ id, src, alt }) => (
+          galleryData.mobile.exterior.map(({ id, src, alt }) => (
             <Image
               key={id}
               src={src}
@@ -106,7 +101,7 @@ export default function Gallery() {
             />
           ))}
         {treatment &&
-          treatmentsMobileGalleryData.map(({ id, src, alt }) => (
+          galleryData.mobile.treatment.map(({ id, src, alt }) => (
             <Image
               key={id}
               src={src}
@@ -117,7 +112,7 @@ export default function Gallery() {
             />
           ))}
         {patients &&
-          patientsMobileGalleryData.map(({ id, src, alt }) => (
+          galleryData.mobile.patients.map(({ id, src, alt }) => (
             <Image
               key={id}
               src={src}
@@ -128,6 +123,53 @@ export default function Gallery() {
             />
           ))}
       </div>
+      {/* TABLET */}
+      {/* <div className={styles.section__grid_desktop}>
+        {interior &&
+          galleryData.mobile.interior.map(({ id, src, alt }) => (
+            <Image
+              key={id}
+              src={src}
+              alt={alt}
+              width={351}
+              height={164}
+              className={styles.section__grid_image}
+            />
+          ))}
+        {exterior &&
+          galleryData.mobile.exterior.map(({ id, src, alt }) => (
+            <Image
+              key={id}
+              src={src}
+              alt={alt}
+              width={351}
+              height={164}
+              className={styles.section__grid_image}
+            />
+          ))}
+        {treatment &&
+          galleryData.mobile.treatment.map(({ id, src, alt }) => (
+            <Image
+              key={id}
+              src={src}
+              alt={alt}
+              width={351}
+              height={164}
+              className={styles.section__grid_image}
+            />
+          ))}
+        {patients &&
+          galleryData.mobile.patients.map(({ id, src, alt }) => (
+            <Image
+              key={id}
+              src={src}
+              alt={alt}
+              width={351}
+              height={164}
+              className={styles.section__grid_image}
+            />
+          ))}
+      </div> */}
     </section>
   );
 }

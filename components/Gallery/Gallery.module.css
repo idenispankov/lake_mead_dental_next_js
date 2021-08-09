@@ -19,6 +19,8 @@
   max-width: 300px;
   margin: 0 auto;
   margin-bottom: 20px;
+  color: #17224d;
+  opacity: 0.8;
 }
 
 .section__list {
@@ -34,10 +36,13 @@
   padding-bottom: 5px;
   margin-bottom: 15px;
   font-size: 16px;
+  color: #17224d;
+  opacity: 0.8;
 }
 
 .active {
-  border-bottom: 2px solid #3393f0;
+  border-bottom: 3px solid #3393f0;
+  color: #3393f0;
 }
 
 .section__grid_mobile {
@@ -50,4 +55,53 @@
 
 .section__grid_image {
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__heading {
+    font-size: 40px;
+  }
+  .section__text {
+    font-size: 24px;
+    max-width: 500px;
+  }
+  .section__list {
+    max-width: 600px;
+  }
+  .section__list_item {
+    font-size: 20px;
+  }
+  .section__grid_mobile {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section__heading {
+    font-size: 60px;
+  }
+  .section__text {
+    font-size: 32px;
+    max-width: 700px;
+  }
+  .section__list_item {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section__list {
+    margin-bottom: 30px;
+  }
+  .section__list_item {
+    font-size: 20px;
+  }
+  .section__grid_mobile {
+    min-width: 1100px;
+    height: 600px;
+    gap: 30px;
+  }
 }
