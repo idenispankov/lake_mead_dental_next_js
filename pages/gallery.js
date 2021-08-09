@@ -1,3 +1,5 @@
-export default function Gallery() {
-  return <div>Gallery</div>;
+import Gallery from '../components/Gallery/Gallery';
+
+export default function GalleryPage() {
+  return <Gallery />;
 }

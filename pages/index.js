@@ -4,6 +4,8 @@ import AboutDoctor from '../components/AboutDoctor/AboutDoctor';
 import Treatments from '../components/Treatments/Treatments';
 import WhyUs from '../components/WhyUs/WhyUs';
 import MoreAboutUs from '../components/MoreAboutUs/MoreAboutUs';
+import Testimonials from '../components/Testimonials/Testimonials';
+import ContactUs from '../components/ContactUs/ContactUs';
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Treatments />
       <WhyUs />
       <MoreAboutUs />
+      <Testimonials />
+      <ContactUs />
     </>
   );
 }

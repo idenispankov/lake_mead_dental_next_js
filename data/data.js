@@ -57,3 +57,55 @@ export const whyChooseUsData = [
     text: 'We Are Providers For Most Major Insurance Companies',
   },
 ];
+
+export const interiorMobileGalleryData = [
+  {
+    id: 1,
+    src: '/images/gallery_1-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+  {
+    id: 2,
+    src: '/images/gallery_2-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+  {
+    id: 3,
+    src: '/images/gallery_3-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+  {
+    id: 4,
+    src: '/images/gallery_4-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+  {
+    id: 5,
+    src: '/images/gallery_5-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+];
+
+export const exteriorMobileGalleryData = [
+  {
+    id: 1,
+    src: '/images/gallery_2-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+];
+
+export const treatmentsMobileGalleryData = [
+  {
+    id: 1,
+    src: '/images/gallery_3-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+];
+
+export const patientsMobileGalleryData = [
+  {
+    id: 1,
+    src: '/images/gallery_4-mobile.png',
+    alt: 'We have after-hours lines. Call our office directly and connect to our emergency lines',
+  },
+];
