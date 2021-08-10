@@ -42,7 +42,7 @@ export default function Insurance() {
             our office manager or one of our treatment coordinators to discuss
             the best option for each individual treatment plan.
           </p>
-          <div className='buttons__container'>
+          <div className={styles.buttons__container}>
             <a href='tel:7023041234' className={styles.button}>
               Call Now Las Vegas
             </a>

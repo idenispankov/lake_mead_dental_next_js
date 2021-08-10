@@ -76,3 +76,37 @@
 .button:hover {
   background-color: #02509e;
 }
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 30px;
+    padding-bottom: 0;
+  }
+  .image__container_mobile {
+    min-width: 700px;
+  }
+  .container__subheading {
+    font-size: 22px;
+  }
+  .container__heading {
+    font-size: 24px;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  .container__text {
+    font-size: 18px;
+    max-width: 600px;
+  }
+  .buttons__container {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .button {
+    display: inline-block;
+    margin: 0;
+  }
+}
