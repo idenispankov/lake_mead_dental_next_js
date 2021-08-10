@@ -1,6 +1,6 @@
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-// import ContactUs from '../ContactUs/ContactUs';
+import ContactUs from '../ContactUs/ContactUs';
 import Testimonials from '../Testimonials/Testimonials';
 
 export default function Layout({ children }) {
@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       <div>
         <main>{children}</main>
       </div>
-      {/* <ContactUs /> */}
+      <ContactUs />
       <Testimonials />
       <Footer />
     </>
