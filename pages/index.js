@@ -21,8 +21,6 @@ export default function Home() {
       <Treatments />
       <WhyUs />
       <MoreAboutUs />
-      <Testimonials />
-      <ContactUs />
     </>
   );
 }
