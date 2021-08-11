@@ -1,11 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from './Insurance.module.css';
+import { useState } from 'react';
 import Image from 'next/image';
 import imageMobile from '../../public/images/insurance_image_mobile.png';
 import imageDesktop from '../../public/images/insurance_image_desktop.png';
-import Button from '../Button/Button';
+import insuranceData, { inputsData } from '../../data/insuranceData';
 
 export default function Insurance() {
+  const [value, setValue] = useState([]);
+
+  const handleClick = (e) => {
+    console.log(e.target.value);
+    setValue(insuranceData.filter((item) => item[0] === e.target.value));
+  };
+
   return (
     <section className={styles.section}>
       <div className={styles.container}>
@@ -52,6 +60,24 @@ export default function Insurance() {
           </div>
         </div>
       </div>
+      <div className={styles.search__container}>
+        {inputsData.map((item) => (
+          <input
+            key={item}
+            className={styles.input}
+            type='button'
+            value={item}
+            onClick={handleClick}
+          />
+        ))}
+      </div>
+      <ul className={styles.search__list}>
+        {value.map((item) => (
+          <li key={item} className={styles.list__item}>
+            {item}
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
