@@ -80,6 +80,53 @@ export default function Insurance() {
           </li>
         ))}
       </ul>
+      <div className={styles.options__container}>
+        <h2 className={styles.options__heading}>
+          What are the Differences between Insurance Options
+        </h2>
+        <p className={styles.options__text}>
+          Insurances divide into Indemnity plans, PPO plans, Self-funded plans,
+          and HMO plans.{' '}
+        </p>
+        <h2 className={styles.options__heading}>Indemnity</h2>
+        <p className={styles.options__text}>
+          Plans that do not have any particular fee schedule for covered
+          procedures. Prices and copayments for procedures depend on the fees
+          charged by each particular dentist. There is no restriction on the
+          choice of dentist; however, some dentists might ask for a payment from
+          the patient and then provide the patient with special forms to be
+          reimbursed by the insurance company.{' '}
+        </p>
+        <h2 className={styles.options__heading}>PPO</h2>
+        <p className={styles.options__text}>
+          PPO plans have a panel of dentists who are preferred providers for
+          that particular insurance. Fees for each covered procedure are
+          contracted between the insurance company and dentist, which is usually
+          much lower than dentists’ customary fees. Therefore, copayments for
+          the same procedures do not vary among dentists in the same geographic
+          area and are much lower if the procedure is done at the preferred
+          provider office. A list of providers can be found on the insurance
+          company website. Our Dental Offices in Las Vegas and Henderson are
+          providers for all PPO plans.{' '}
+        </p>
+        <h2 className={styles.options__heading}>Self-funded</h2>
+        <p className={styles.options__text}>
+          plans are usually based on the individual union. Most of these plans
+          choose their own coverage for each procedure and use various insurance
+          companies as their administrators. Most of these plans are PPO plans;
+          however, these particular plans can only be used at preferred provider
+          offices. We are proud to inform that we have a special contrcat with
+          UNIONS 14, 711, AND 986, RESULTING IN ZERO COPAYMENTS TO THE PATIENT
+          FOR COVERED PROCEDURES WITHIN THE YEARLY MAXIMUM PROVIDED BY UNION.
+          <br />
+          <br />
+          Who knows better what insurance plan is most favorable for a patient’s
+          needs, given the option, than the staff that has dealt with dental
+          insurance for years. PLEASE DO NOT HESITATE TO MAKE AN APPOINTMENT
+          WITH OUR OFFICE MANAGER OR ONE OF OUR TREATMENT COORDINATORS TO
+          DISCUSS THE BEST OPTION FOR EACH INDIVIDUAL TREATMENT PLAN.{' '}
+        </p>
+      </div>
     </section>
   );
 }
