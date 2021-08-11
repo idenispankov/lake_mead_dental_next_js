@@ -115,7 +115,7 @@ export default function Insurance() {
           choose their own coverage for each procedure and use various insurance
           companies as their administrators. Most of these plans are PPO plans;
           however, these particular plans can only be used at preferred provider
-          offices. We are proud to inform that we have a special contrcat with
+          offices. We are proud to inform that we have a special contract with
           UNIONS 14, 711, AND 986, RESULTING IN ZERO COPAYMENTS TO THE PATIENT
           FOR COVERED PROCEDURES WITHIN THE YEARLY MAXIMUM PROVIDED BY UNION.
           <br />
