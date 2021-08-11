@@ -92,12 +92,12 @@
 }
 
 .search__list {
-  list-style: none;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .list__item {
-  line-height: 150%;
+  line-height: 200%;
 }
 
 @media screen and (min-width: 768px) {
