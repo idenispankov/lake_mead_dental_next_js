@@ -40,8 +40,7 @@ export default function Insurance() {
         <div className={styles.text__container}>
           <p className={styles.container__subheading}>Insurance/financing</p>
           <h1 className={styles.container__heading}>
-            We Are Preferred Providers For The Following Insurance Plans In Las
-            Vegas & Henderson :
+            We Are Providers For Most Major Insurance Companies
           </h1>
           <p className={styles.container__text}>
             Who knows better than the staff that has dealt with dental insurance
@@ -60,6 +59,9 @@ export default function Insurance() {
           </div>
         </div>
       </div>
+      <p className={styles.insurance__text}>
+        ​Insurance Plans In Las Vegas & Henderson:{' '}
+      </p>
       <div className={styles.search__container}>
         {inputsData.map((item) => (
           <input

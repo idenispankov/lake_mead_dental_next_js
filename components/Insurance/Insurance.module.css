@@ -100,6 +100,15 @@
   line-height: 200%;
 }
 
+.insurance__text {
+  font-weight: 700;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .buttons__container {
     display: flex;
