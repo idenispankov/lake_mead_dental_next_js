@@ -225,4 +225,7 @@
   .options__text {
     font-size: 22px;
   }
+  .insurance__text {
+    margin-bottom: 40px;
+  }
 }
