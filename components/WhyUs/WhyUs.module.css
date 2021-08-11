@@ -2,9 +2,8 @@
   background: #f8fbfe;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0 30px;
-  padding-bottom: 30px;
-  overflow: hidden;
+  padding: 20px;
+  overflow-x: hidden;
 }
 
 .section__container_background {
@@ -23,17 +22,17 @@
   line-height: 170%;
   text-align: center;
   opacity: 0.8;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .section__container_image_main {
-  background: url('../../public/images/why_us_main_mobile.png') no-repeat center;
   background-color: #3292ef;
-  width: 265px;
-  height: 327px;
+  border-radius: 20px;
+  width: 100%;
   position: relative;
+  max-width: 360px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .section__container_image_left {
@@ -41,8 +40,8 @@
   position: absolute;
   width: 150px;
   height: 100px;
-  top: 0;
-  left: -70px;
+  top: -40px;
+  left: -60px;
 }
 
 .section__container_image_right {
@@ -51,8 +50,8 @@
   position: absolute;
   width: 105px;
   height: 105px;
-  top: 35px;
-  right: -40px;
+  top: 70px;
+  right: -30px;
 }
 
 .section__container_list {
@@ -60,12 +59,13 @@
 }
 
 .section__container_list_item {
+  max-width: 500px;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
   min-height: 90px;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   box-shadow: 3px 4px 107px rgba(0, 0, 0, 0.03);
 }
 
@@ -100,7 +100,7 @@
     max-width: 669px;
     margin: 0 auto;
     grid-template-columns: repeat(2, 320px);
-    gap: 25px;
+    gap: 20px;
   }
   .section__container_list_item {
     margin: 0;
@@ -123,11 +123,14 @@
     top: 65px;
     right: -80px;
   }
+  .section__container_image_main {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .section {
-    padding-bottom: 0;
+    padding: 40px;
   }
   .section__container {
     display: flex;
@@ -138,12 +141,7 @@
     max-width: 100%;
   }
   .section__container_image_main {
-    background: url('../../public/images/why_us_main_image_desktop.png')
-      no-repeat center center/cover;
-    width: 1000px;
-    height: 720px;
-    margin-bottom: 0;
-    margin-right: 40px;
+    display: none;
   }
   .section__container_image_left {
     display: none;
@@ -165,14 +163,6 @@
   }
 }
 
-@media screen and (min-width: 1170px) {
-  .section__container_image_main {
-    width: 1100px;
-    height: 670px;
-    margin: 0;
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .section__container_list_item_heading {
     font-size: 24px;
@@ -180,14 +170,12 @@
   .section__container_list_item_text {
     font-size: 18px;
   }
+  .section__container_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (min-width: 1470px) {
-  .section__container_image_main {
-    width: 1100px;
-    height: 750px;
-    margin: 0;
-  }
   .section__container_list_item_text {
     font-size: 22px;
   }

@@ -1,6 +1,8 @@
 import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './WhyUs.module.css';
 import { whyChooseUsData } from '../../data/data';
+import Image from 'next/image';
+import mainImage from '../../public/images/why_us_main_image_desktop.png';
 
 export default function WhyUs() {
   return (
@@ -11,6 +13,12 @@ export default function WhyUs() {
       </p>
       <div className={styles.section__container}>
         <div className={styles.section__container_image_main}>
+          <Image
+            src={mainImage}
+            alt='doctor with paper and pen'
+            layout='responsive'
+            className={styles.image}
+          />
           <div className={styles.section__container_image_left}></div>
           <div className={styles.section__container_image_right}></div>
           <div className={styles.section__container_background}></div>
