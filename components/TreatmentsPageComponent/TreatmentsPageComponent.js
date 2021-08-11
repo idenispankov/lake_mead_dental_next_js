@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './TreatmentsPageComponent.module.css';
 import Treatments from '../../components/Treatments/Treatments';
 
@@ -7,7 +8,7 @@ export default function TreatmentsPageComponent() {
       <section className={styles.section}>
         <div className={styles.section__container}>
           <div className={styles.heading__container}>
-            <h2 className={styles.section__heading}>Our Treatments</h2>
+            <h2 className={MainStyles.heading}>Our Treatments</h2>
             <h3 className={styles.section__subheading}>
               Many ways to better serve our Summerlin, Las Vegas Community
             </h3>

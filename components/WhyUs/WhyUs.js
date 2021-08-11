@@ -1,10 +1,11 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './WhyUs.module.css';
 import { whyChooseUsData } from '../../data/data';
 
 export default function WhyUs() {
   return (
     <section className={styles.section}>
-      <h2 className={styles.section__heading}>Why Choose Us</h2>
+      <h2 className={MainStyles.heading}>Why Choose Us</h2>
       <p className={styles.section__text}>
         Many Ways To Better Serve Our Community
       </p>

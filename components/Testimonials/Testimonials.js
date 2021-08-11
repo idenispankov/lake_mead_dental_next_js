@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './Testimonials.module.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
@@ -5,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 export default function Testimonials() {
   return (
     <section className={styles.section}>
-      <h2 className={styles.section__heading}>Our Happy Clients</h2>
+      <h2 className={MainStyles.heading}>Our Happy Clients</h2>
       <p className={styles.section__text}>What clients says about us</p>
       <Carousel
         showStatus={false}

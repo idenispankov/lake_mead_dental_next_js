@@ -1,0 +1,20 @@
+.heading {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #17224d;
+  line-height: 106.5%;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .heading {
+    font-size: 60px;
+  }
+}

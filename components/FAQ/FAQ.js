@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './FAQ.module.css';
 import { useState } from 'react';
 
@@ -118,7 +119,7 @@ export default function FAQ() {
 
   return (
     <section className={styles.section}>
-      <h1 className={styles.section__heading}>F.A.Q</h1>
+      <h1 className={MainStyles.heading}>F.A.Q</h1>
       <p className={styles.section__text}>
         This page answers some of the frequently asked questions
       </p>

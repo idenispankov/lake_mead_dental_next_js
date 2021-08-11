@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './NotFound.module.css';
 import Image from 'next/image';
 import image from '../../public/images/not_found.jpg';
@@ -5,7 +6,7 @@ import image from '../../public/images/not_found.jpg';
 export default function NotFound() {
   return (
     <section className={styles.section}>
-      <h1 className={styles.section__heading}>404 Page</h1>
+      <h1 className={MainStyles.heading}>404 Page</h1>
       <div className={styles.image__container}>
         <Image
           src={image}

@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './ContactPageComponent.module.css';
 import Image from 'next/image';
 import phoneIcon from '../../public/images/contact_phone_icon.svg';
@@ -7,7 +8,7 @@ import emailIcon from '../../public/images/contact_email_icon.svg';
 export default function ContactPageComponent() {
   return (
     <section className={styles.section}>
-      <h1 className={styles.section__heading}>Contact Us</h1>
+      <h1 className={MainStyles.heading}>Contact Us</h1>
       <p className={styles.section__text}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
         corporis?

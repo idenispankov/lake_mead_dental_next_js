@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './Gallery.module.css';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -39,7 +40,7 @@ export default function Gallery() {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.section__heading}>Our Gallery</h2>
+      <h2 className={MainStyles.heading}>Our Gallery</h2>
       <p className={styles.section__text}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, qui?
       </p>

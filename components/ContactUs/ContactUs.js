@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './ContactUs.module.css';
 import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
@@ -42,7 +43,7 @@ export default function ContactUs() {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.section__heading}>Contact Us</h2>
+      <h2 className={MainStyles.heading}>Contact Us</h2>
       <p className={styles.section__text}>
         Experience a new kind of dental care, where you are always put first.
       </p>

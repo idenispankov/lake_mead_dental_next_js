@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './MeetOurDoctors.module.css';
 import Image from 'next/image';
 import doctorImage from '../../public/images/doctor_ellen_desktop.jpg';
@@ -6,7 +7,7 @@ import doctorImage from '../../public/images/doctor_ellen_desktop.jpg';
 export default function MeetOurDoctors() {
   return (
     <section className={styles.section}>
-      <h1 className={styles.section__heading}>Meet The Doctors</h1>
+      <h1 className={MainStyles.heading}>Meet The Doctors</h1>
       <div className={styles.section__container}>
         <div className={styles.image__container}>
           <Image

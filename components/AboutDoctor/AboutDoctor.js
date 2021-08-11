@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from './AboutDoctor.module.css';
 import Button from '../Button/Button';
+import Image from 'next/image';
+import doctorImageMobile from '../../public/images/doctor_ellen_mobile.png';
+import doctorImageDesktop from '../../public/images/doctor_ellen_desktop.jpg';
 
 export default function MeetDoctor() {
   return (
@@ -8,7 +11,14 @@ export default function MeetDoctor() {
       <div className={styles.section__container}>
         <span className={styles.section__container_image_dots} />
         <span className={styles.section__container_image_lines} />
-        <div className={styles.section__container_image}></div>
+        <div className={styles.section__container_image}>
+          <Image
+            src={doctorImageDesktop}
+            alt='Doctor Ellen'
+            layout='responsive'
+            className={styles.image}
+          />
+        </div>
         <div className={styles.text__container}>
           <h2 className={styles.text__container_heading}>Meet Dr. Ellen</h2>
           <p className={styles.text__container_text}>

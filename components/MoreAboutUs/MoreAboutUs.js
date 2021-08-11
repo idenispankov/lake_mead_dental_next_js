@@ -1,3 +1,4 @@
+import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './MoreAboutUs.module.css';
 import { moreAboutUsData } from '../../data/data';
 
@@ -5,7 +6,7 @@ export default function MoreAboutUs() {
   return (
     <section className={styles.section}>
       <div className={styles.section__container}>
-        <h2 className={styles.section__heading}>More About Us</h2>
+        <h2 className={MainStyles.heading}>More About Us</h2>
         <p className={styles.section__text}>
           Our office, provides you with an estimate before each treatment so you
           can be financially prepared, whether it applies to full procedure or
