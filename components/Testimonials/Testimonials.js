@@ -16,6 +16,7 @@ export default function Testimonials() {
         showThumbs={false}
         transitionTime={1000}
         interval={4000}
+        showIndicators={false}
       >
         <div className={styles.carousel__item}>
           <div className={styles.carousel__quotes}>&ldquo;</div>

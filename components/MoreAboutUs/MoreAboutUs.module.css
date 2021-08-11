@@ -120,10 +120,6 @@
   .section__image {
     margin-bottom: 20px;
   }
-  .section__list {
-    max-width: 750px;
-    justify-content: space-evenly;
-  }
   .section__list_item_text {
     font-size: 28px;
     min-width: 310px;
