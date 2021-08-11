@@ -83,6 +83,7 @@ export default function ContactUs() {
                   name='name'
                   maxLength={20}
                   value={name}
+                  placeholder='Your Name'
                 />
               </div>
               <div className={styles.label__inputs}>
@@ -96,6 +97,7 @@ export default function ContactUs() {
                   name='email'
                   maxLength={20}
                   value={email}
+                  placeholder='Your Email'
                 />
               </div>
             </div>
@@ -112,6 +114,7 @@ export default function ContactUs() {
                   name='concern'
                   maxLength={20}
                   value={concern}
+                  placeholder='Your Concern'
                 />
               </div>
               <div className={styles.label__inputs}>
@@ -125,6 +128,7 @@ export default function ContactUs() {
                   name='phone'
                   maxLength='20'
                   value={phone}
+                  placeholder='Your Phone'
                 />
               </div>
             </div>
@@ -136,7 +140,7 @@ export default function ContactUs() {
               onChange={(e) => setMessage(e.target.value)}
               className={styles.form__textarea}
               type='text'
-              placeholder=''
+              placeholder='Your message here'
               name='message'
               maxLength={500}
               value={message}
