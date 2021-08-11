@@ -1,0 +1,31 @@
+.section {
+  padding: 20px;
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.section__heading {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.image__container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section__heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section__heading {
+    font-size: 60px;
+  }
+}
