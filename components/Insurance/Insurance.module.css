@@ -158,6 +158,15 @@
     grid-template-columns: repeat(2, 1fr);
     min-width: 550px;
   }
+  .options__container {
+    max-width: 600px;
+  }
+  .options__heading {
+    font-size: 22px;
+  }
+  .options__text {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -206,5 +215,14 @@
   .search__container {
     max-width: 1050px;
     margin-bottom: 40px;
+  }
+  .options__container {
+    max-width: 900px;
+  }
+  .options__heading {
+    font-size: 24px;
+  }
+  .options__text {
+    font-size: 22px;
   }
 }
