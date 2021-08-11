@@ -18,10 +18,10 @@ export default function Home() {
       </Head>
       <Banner />
       <AboutDoctor />
-      <Treatments />
-      <WhyUs />
-      <MoreAboutUs />
-      <Testimonials />
+      {/* <Treatments /> */}
+      {/* <WhyUs /> */}
+      {/* <MoreAboutUs /> */}
+      {/* <Testimonials /> */}
       <ContactUs />
     </>
   );

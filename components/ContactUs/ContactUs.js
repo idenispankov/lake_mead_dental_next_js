@@ -3,6 +3,8 @@ import styles from './ContactUs.module.css';
 import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { serviceId, templateId, userId } from '../../env';
+import Image from 'next/image';
+import contactImage from '../../public/images/contact_image_mobile.png';
 
 export default function ContactUs() {
   const [buttonDisabled, setButtonDisabled] = useState(true);
@@ -48,7 +50,14 @@ export default function ContactUs() {
         Experience a new kind of dental care, where you are always put first.
       </p>
       <div className={styles.section__container}>
-        <div className={styles.section__container_image}></div>
+        <div className={styles.section__container_image}>
+          <Image
+            src={contactImage}
+            alt='happy people in dental office'
+            layout='responsive'
+            className={styles.image}
+          />
+        </div>
         <div className={styles.form__container}>
           <h2
             className={`${styles.section__heading} ${styles.form__container_heading}`}
