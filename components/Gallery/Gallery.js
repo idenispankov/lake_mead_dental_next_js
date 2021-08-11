@@ -41,9 +41,7 @@ export default function Gallery() {
   return (
     <section className={styles.section}>
       <h2 className={MainStyles.heading}>Our Gallery</h2>
-      <p className={styles.section__text}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, qui?
-      </p>
+      <p className={styles.section__text}>Explore Our Gallery</p>
       <ul className={styles.section__list}>
         <li
           onClick={handleInteriorClick}
