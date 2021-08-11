@@ -24,6 +24,7 @@
   max-width: 450px;
   min-height: 180px;
   padding: 20px;
+  margin: 0 10px;
   position: relative;
   border-radius: 10px;
   box-shadow: inset 3px 4px 107px rgba(0, 0, 0, 0.05);
