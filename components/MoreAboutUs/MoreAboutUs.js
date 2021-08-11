@@ -1,6 +1,8 @@
 import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './MoreAboutUs.module.css';
 import { moreAboutUsData } from '../../data/data';
+import Image from 'next/image';
+import doctorImageDesktop from '../../public/images/doctor_ellen_desktop.jpg';
 
 export default function MoreAboutUs() {
   return (
@@ -13,7 +15,14 @@ export default function MoreAboutUs() {
           copayment.
         </p>
         <div className={styles.image_text__container}>
-          <div className={styles.section__image}></div>
+          <div className={styles.section__image}>
+            <Image
+              src={doctorImageDesktop}
+              alt='doctor ellen'
+              layout='responsive'
+              className={styles.image}
+            />
+          </div>
           <ul className={styles.section__list}>
             {moreAboutUsData.map(({ id, text }) => (
               <li key={id} className={styles.section__list_item}>

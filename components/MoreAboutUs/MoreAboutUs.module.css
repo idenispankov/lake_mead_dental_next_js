@@ -2,10 +2,8 @@
   background: #f8fbfe;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 30px;
-  padding-top: 0;
+  padding: 20px;
   overflow: hidden;
-  padding-top: 0;
 }
 
 .section__heading {
@@ -26,26 +24,24 @@
 }
 
 .section__image {
-  background: url('../../public/images/doctor_ellen_mobile.png') no-repeat
-    center;
-  min-width: 100%;
-  min-height: 250px;
+  width: 100%;
+  max-width: 500px;
   margin: 0 auto;
-  margin-bottom: 10px;
-  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.image {
+  border-radius: 20px;
 }
 
 .section__list {
   list-style: none;
-  max-width: 420px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .section__list_item {
-  padding: 10px;
-  max-width: 360px;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section__list_item:last-child {
@@ -63,29 +59,28 @@
   margin-right: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .section__image {
-    background: url('../../public/images/doctor_ellen_tablet.png') no-repeat
-      center;
-    min-height: 450px;
-    margin: 0 auto;
-    margin-bottom: 0;
-  }
-  .section__heading {
-    font-size: 40px;
-  }
-
-  .section__text {
-    font-size: 24px;
-    max-width: 600px;
-    margin-bottom: 0;
-  }
+@media screen and (min-width: 450px) {
   .section__list {
-    max-width: 600px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 30px;
+  }
+  .image_text__container {
+    display: flex;
+  }
+  .section__image {
+    max-width: 60%;
+    margin-right: 30px;
+  }
+  .section__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
-    padding-left: 50px;
   }
   .section__list_item {
     margin: 0;
@@ -99,25 +94,28 @@
     color: #3393f0;
     margin-right: 5px;
   }
+  .section__heading {
+    font-size: 40px;
+  }
+
+  .section__text {
+    font-size: 24px;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .section {
-    padding-top: 40px;
-  }
-  .section__image {
-    background: url('../../public/images/doctor_ellen_desktop.jpg') no-repeat
-      center;
-    min-height: 450px;
-    margin: 0 auto;
+    padding: 40px;
   }
   .section__heading {
     font-size: 60px;
   }
   .section__text {
-    font-size: 22px;
+    font-size: 32px;
     min-width: 800px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .section__image {
     margin-bottom: 20px;
@@ -126,11 +124,8 @@
     max-width: 750px;
     justify-content: space-evenly;
   }
-  .section__list_item {
-    padding: 20px;
-  }
   .section__list_item_text {
-    font-size: 22px;
+    font-size: 28px;
     min-width: 310px;
   }
 }
