@@ -1,5 +1,10 @@
 import styles from './NewPatients.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
+import mainImage from '../../public/images/new_patients_header_tablet.png';
+import treatImage from '../../public/images/new_patients_treat.png';
+import differenceImage from '../../public/images/new_patients_difference.png';
+import serviceImage from '../../public/images/new_patients_best_service.png';
 
 export default function NewPatients() {
   return (
@@ -18,6 +23,12 @@ export default function NewPatients() {
           </p>
         </div>
         <div className={styles.section__image}>
+          <Image
+            src={mainImage}
+            alt='two people are talking'
+            layout='responsive'
+            className={styles.image}
+          />
           <span className={styles.section__circle}></span>
           <span className={styles.section__square}></span>
           <span className={styles.section__star_green}></span>
@@ -27,7 +38,14 @@ export default function NewPatients() {
       </div>
       <div className={styles.grid__container}>
         <div className={styles.grid__item_container}>
-          <div className={`${styles.grid__item_image} ${styles.treat}`}></div>
+          <div className={`${styles.grid__item_image} ${styles.treat}`}>
+            <Image
+              src={treatImage}
+              alt='doctor standing at front desk'
+              layout='responsive'
+              className={styles.image}
+            />
+          </div>
           <h3 className={styles.grid__item_heading}>
             We Treat You As A Person
           </h3>
@@ -39,9 +57,14 @@ export default function NewPatients() {
         </div>
 
         <div className={styles.grid__item_container}>
-          <div
-            className={`${styles.grid__item_image} ${styles.difference}`}
-          ></div>
+          <div className={`${styles.grid__item_image} ${styles.difference}`}>
+            <Image
+              src={differenceImage}
+              alt='doctor standing at front desk'
+              layout='responsive'
+              className={styles.image}
+            />
+          </div>
           <h3 className={styles.grid__item_heading}>We Make The Difference</h3>
           <p className={styles.grid__item_text}>
             Our doctors and assistants in Las Vegas & Henderson will explain
@@ -51,7 +74,14 @@ export default function NewPatients() {
         </div>
 
         <div className={styles.grid__item_container}>
-          <div className={`${styles.grid__item_image} ${styles.service}`}></div>
+          <div className={`${styles.grid__item_image} ${styles.service}`}>
+            <Image
+              src={serviceImage}
+              alt='doctor standing at front desk'
+              layout='responsive'
+              className={styles.image}
+            />
+          </div>
           <h3 className={styles.grid__item_heading}>
             We Provide the best service
           </h3>

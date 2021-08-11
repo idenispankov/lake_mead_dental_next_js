@@ -1,7 +1,7 @@
 .section {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 20px;
   padding-bottom: 0;
 }
 
@@ -42,14 +42,15 @@
 }
 
 .section__image {
-  background: url('../../public/images/new_patients_header_mobile.png')
-    no-repeat center;
-  max-width: 339px;
-  min-height: 225px;
+  width: 100%;
+  max-width: 500px;
   margin: 0 auto;
   position: relative;
-  border-radius: 10px;
   margin-bottom: 60px;
+}
+
+.image {
+  border-radius: 20px;
 }
 
 .section__square {
@@ -100,24 +101,10 @@
   right: -15px;
 }
 
-.treat {
-  background: url('../../public/images/new_patients_treat.png') no-repeat center;
-}
-
-.difference {
-  background: url('../../public/images/new_patients_difference.png') no-repeat
-    center;
-}
-.service {
-  background: url('../../public/images/new_patients_best_service.png') no-repeat
-    center;
-}
-
 .grid__item_image {
-  max-width: 350px;
+  width: 100%;
+  max-width: 500px;
   margin: 0 auto;
-  min-height: 170px;
-  border-radius: 10px;
   margin-bottom: 20px;
 }
 
@@ -135,7 +122,7 @@
 }
 
 .grid__item_container {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 20px 10px;
@@ -144,6 +131,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section {
+    padding: 30px;
+  }
   .section__heading {
     font-size: 40px;
   }
@@ -152,14 +142,7 @@
     max-width: 500px;
   }
   .section__image {
-    background: url('../../public/images/new_patients_header_tablet.png')
-      no-repeat center;
-    max-width: 650px;
-    min-height: 400px;
-    margin: 0 auto;
-    position: relative;
-    border-radius: 10px;
-    margin-bottom: 60px;
+    max-width: 70%;
   }
   .section__square {
     top: -30px;
@@ -172,8 +155,8 @@
   .grid__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    max-width: 1280px;
+    gap: 20px;
+    max-width: 1180px;
     margin: 0 auto;
   }
   .grid__item_heading {
@@ -193,13 +176,23 @@
   .section__heading {
     font-size: 60px;
   }
+  .section__text {
+    font-size: 32px;
+    max-width: 700px;
+  }
   .grid__item_heading {
     font-size: 22px;
   }
   .grid__item_text {
     font-size: 18px;
   }
-}
-
-@media screen and (min-width: 1280px) {
+  .section__square {
+    display: none;
+  }
+  .section__circle,
+  .section__star_green,
+  .section__star_red_left,
+  .section__star_red_right {
+    display: none;
+  }
 }
