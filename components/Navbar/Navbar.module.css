@@ -92,7 +92,7 @@
 
 /* Nav bar List */
 .navbar__list {
-  overflow-y: scroll;
+  overflow-y: auto;
   position: absolute;
   background: #262626;
   top: 60px;
@@ -113,6 +113,7 @@
 
 .navbar__list_item {
   padding: 20px 0;
+  outline: none;
 }
 .navbar__list_link {
   color: #fff;
