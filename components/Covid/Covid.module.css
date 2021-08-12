@@ -1,32 +1,27 @@
 .section {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 30px 20px;
-}
-
-.section__heading {
-  font-size: 22px;
-  line-height: 130%;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .section__text {
+  margin: 0 auto;
+  text-align: center;
   font-size: 18px;
   line-height: 140%;
   margin-bottom: 20px;
-  padding-left: 10px;
+  max-width: 600px;
 }
 
 .section__image {
-  background: url('../../public/images/covid_19.jpeg') no-repeat center
-    center/cover;
-  max-width: 300px;
+  width: 100%;
+  max-width: 500px;
   margin: 0 auto;
-  height: 120px;
-  border-radius: 10px;
   margin-bottom: 20px;
+}
+
+.image {
+  border-radius: 20px;
 }
 
 .section__list {
@@ -34,13 +29,19 @@
 }
 
 .section__list_item {
+  max-width: 600px;
+  margin: 0 auto;
   background: #fff;
   margin-bottom: 20px;
-  padding: 30px 10px;
+  padding: 10px;
   font-size: 18px;
   line-height: 150%;
   border-radius: 10px;
   opacity: 0.8;
+}
+
+.section__list_item:last-child {
+  margin-bottom: 0;
 }
 
 .section__list_item_heading {
@@ -48,16 +49,9 @@
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 600px) {
-  .section__image {
-    height: 250px;
-  }
-  .section__text {
-    max-width: 600px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding-left: 0;
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 30px;
   }
   .section__list_item {
     max-width: 700px;
@@ -67,12 +61,10 @@
     margin-bottom: 20px;
   }
   .section__image {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 80%;
     margin-bottom: 30px;
   }
   .section__heading {
-    font-size: 40px;
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -83,11 +75,14 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .section {
+    padding: 40px;
+  }
+  .section__heading {
+    max-width: 700px;
+  }
   .section__image {
     max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    height: 400px;
   }
   .section__text {
     max-width: 700px;
@@ -101,11 +96,8 @@
 @media screen and (min-width: 1280px) {
   .section__image {
     max-width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 30px;
   }
   .section__heading {
-    font-size: 60px;
     max-width: 800px;
   }
   .section__text {
