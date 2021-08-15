@@ -4,38 +4,30 @@ import Image from 'next/image';
 import { useState } from 'react';
 import galleryData from '../../data/galleryData';
 
+const GALLERY = {
+  interior: 'interior',
+  exterior: 'exterior',
+  treatment: 'treatment',
+  patients: 'patients',
+};
+
 export default function Gallery() {
-  const [interior, setInterior] = useState(true);
-  const [exterior, setExterior] = useState(false);
-  const [treatment, setTreatment] = useState(false);
-  const [patients, setPatience] = useState(false);
+  const [active, setActive] = useState(GALLERY.interior);
 
   const handleInteriorClick = () => {
-    setExterior(false);
-    setTreatment(false);
-    setPatience(false);
-    setInterior(true);
+    setActive('interior');
   };
 
   const handleExteriorClick = () => {
-    setTreatment(false);
-    setPatience(false);
-    setInterior(false);
-    setExterior(true);
+    setActive('exterior');
   };
 
   const handleTreatmentClick = () => {
-    setExterior(false);
-    setPatience(false);
-    setInterior(false);
-    setTreatment(true);
+    setActive('treatment');
   };
 
   const handlePatientsClick = () => {
-    setExterior(false);
-    setTreatment(false);
-    setInterior(false);
-    setPatience(true);
+    setActive('patients');
   };
 
   return (
@@ -46,7 +38,7 @@ export default function Gallery() {
         <li
           onClick={handleInteriorClick}
           className={`${styles.section__list_item} ${
-            interior && styles.active
+            active === 'interior' && styles.active
           }`}
         >
           Interior
@@ -54,7 +46,7 @@ export default function Gallery() {
         <li
           onClick={handleExteriorClick}
           className={`${styles.section__list_item} ${
-            exterior && styles.active
+            active === 'exterior' && styles.active
           }`}
         >
           Exterior
@@ -62,7 +54,7 @@ export default function Gallery() {
         <li
           onClick={handleTreatmentClick}
           className={`${styles.section__list_item} ${
-            treatment && styles.active
+            active === 'treatment' && styles.active
           }`}
         >
           Treatment
@@ -70,57 +62,23 @@ export default function Gallery() {
         <li
           onClick={handlePatientsClick}
           className={`${styles.section__list_item} ${
-            patients && styles.active
+            active === 'patients' && styles.active
           }`}
         >
           Patients
         </li>
       </ul>
       <div className={styles.section__grid_mobile}>
-        {interior &&
-          galleryData.mobile.interior.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
-        {exterior &&
-          galleryData.mobile.exterior.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
-        {treatment &&
-          galleryData.mobile.treatment.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
-        {patients &&
-          galleryData.mobile.patients.map(({ id, src, alt }) => (
-            <Image
-              key={id}
-              src={src}
-              alt={alt}
-              width={351}
-              height={164}
-              className={styles.section__grid_image}
-            />
-          ))}
+        {galleryData.mobile[active].map(({ id, src, alt }) => (
+          <Image
+            key={id}
+            src={src}
+            alt={alt}
+            width={351}
+            height={164}
+            className={styles.section__grid_image}
+          />
+        ))}
       </div>
     </section>
   );

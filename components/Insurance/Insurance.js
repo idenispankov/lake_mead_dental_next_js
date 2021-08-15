@@ -4,14 +4,13 @@ import { useState } from 'react';
 import Image from 'next/image';
 import imageMobile from '../../public/images/insurance_image_mobile.png';
 import imageDesktop from '../../public/images/insurance_image_desktop.png';
-import insuranceData, { inputsData } from '../../data/insuranceData';
+import insuranceData from '../../data/insuranceData';
 
 export default function Insurance() {
   const [value, setValue] = useState([]);
 
   const handleClick = (e) => {
-    console.log(e.target.value);
-    setValue(insuranceData.filter((item) => item[0] === e.target.value));
+    setValue(insuranceData[e.target.value]);
   };
 
   return (
@@ -63,7 +62,7 @@ export default function Insurance() {
         ​Insurance Plans In Las Vegas & Henderson:{' '}
       </p>
       <div className={styles.search__container}>
-        {inputsData.map((item) => (
+        {Object.keys(insuranceData).map((item) => (
           <input
             key={item}
             className={styles.input}

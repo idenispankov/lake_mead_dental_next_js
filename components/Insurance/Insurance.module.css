@@ -78,6 +78,7 @@
 }
 
 .input {
+  outline: none;
   display: inline-block;
   cursor: pointer;
   background: transparent;
@@ -211,6 +212,7 @@
   .search__list {
     max-width: 950px;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
   }
   .search__container {
     max-width: 1050px;
