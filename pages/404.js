@@ -5,11 +5,11 @@ export default function NotFoundPage() {
   return (
     <>
       <Head>
-        <title>404 | Not Found | Lake Mead Dental</title>
         <meta
           name='description'
           content='404 page, with footer and navbar but no content '
         />
+        <title>404 | Not Found | Lake Mead Dental</title>
       </Head>
       <NotFound />
     </>
