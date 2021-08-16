@@ -21,7 +21,7 @@ export default function Home() {
           property='og:description'
           content='We welcome you to Lake Mead Dental, your family dentist in the heart of Summerlin, Las Vegas. We offer same-day emergency appointments, denture repair, extended hours, and in-house financing. Call Us Now!'
         />
-        <meta name='image' property='og:image' content='/images/og_image.png' />
+        <meta name='image' property='og:image' content='/og_image.png' />
         <title>
           Lake Mead Dental | Best Family Dentists in Summerlin, Las Vegas
         </title>
