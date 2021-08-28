@@ -9,8 +9,10 @@ import serviceImage from '../../public/images/new_patients_best_service.png';
 export default function NewPatients() {
   return (
     <section className={styles.section}>
-      <Link href='/patient_information_form_2.docx' download='docx'>
-        <a className={styles.button}>New Patien Form</a>
+      <Link href='/new_patients_form.pdf' download='pdf'>
+        <a target='_blank' rel='noreferrer noopener' className={styles.button}>
+          New Patien Form
+        </a>
       </Link>
       <div className={styles.header__container}>
         <div className={styles.header__text_container}>

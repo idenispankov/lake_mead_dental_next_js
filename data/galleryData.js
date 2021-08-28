@@ -90,7 +90,6 @@ const galleryData = {
       },
     ],
   },
-  // TABLET
 };
 
 export default galleryData;
