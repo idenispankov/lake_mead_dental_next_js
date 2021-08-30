@@ -95,7 +95,7 @@ export default function ContactUs() {
                   className={styles.form__input}
                   type='email'
                   name='email'
-                  maxLength={20}
+                  maxLength={30}
                   value={email}
                   placeholder='Your Email'
                 />
