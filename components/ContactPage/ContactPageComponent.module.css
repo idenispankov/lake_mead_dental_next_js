@@ -89,15 +89,13 @@
 }
 
 .map {
-  /* background: url('../../public/images/map.png') no-repeat center center/cover; */
-  width: 95%;
-  height: 164px;
+  width: 90%;
+  min-height: 264px;
   display: block;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 20px;
   border: none;
   border-radius: 10px;
-  /* border: 2px solid red; */
 }
 
 @media screen and (min-width: 768px) {
@@ -114,7 +112,7 @@
     max-width: 200px;
   }
   .map {
-    height: 240px;
+    height: 440px;
     margin-top: 40px;
   }
 }
@@ -133,7 +131,7 @@
     max-width: 200px;
   }
   .map {
-    height: 440px;
+    min-height: 440px;
     margin-top: 60px;
   }
   .container__list {
