@@ -89,10 +89,15 @@
 }
 
 .map {
-  background: url('../../public/images/map.png') no-repeat center center/cover;
-  width: 100%;
+  /* background: url('../../public/images/map.png') no-repeat center center/cover; */
+  width: 95%;
   height: 164px;
+  display: block;
+  margin: 0 auto;
   margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
 @media screen and (min-width: 768px) {
