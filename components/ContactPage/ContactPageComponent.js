@@ -53,8 +53,6 @@ export default function ContactPageComponent() {
             </ul>
           </div>
         </div>
-        {/* <div className={styles.map}></div> */}
-        {/* <div className={styles.map}> */}
         <div>
           <iframe
             className={styles.map}
