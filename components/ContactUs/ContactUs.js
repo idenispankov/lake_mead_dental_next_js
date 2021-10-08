@@ -20,7 +20,9 @@ export default function ContactUs() {
     e.preventDefault();
     setSuccessMessage(true);
     emailjs.sendForm(serviceId, templateId, e.target, userId).then(() => {
-      setSuccessMessage(false);
+      setTimeout(() => {
+        setSuccessMessage(false);
+      }, 2000);
     });
     setName('');
     setEmail('');
@@ -148,7 +150,9 @@ export default function ContactUs() {
             {buttonDisabled ? (
               <>
                 <span className={styles.error}>
-                  {successMessage ? 'Success' : name && 'All Fields Required'}
+                  {successMessage
+                    ? 'Email Sent'
+                    : name && 'All Fields Required'}
                 </span>
                 <button
                   type='submit'
