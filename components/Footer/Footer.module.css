@@ -66,12 +66,6 @@
 .instagram {
   background: url('../../public/images/instagram_icon.svg') no-repeat center;
 }
-.linkedin {
-  background: url('../../public/images/linkedin_icon.svg') no-repeat center;
-}
-.twitter {
-  background: url('../../public/images/twitter_icon.svg') no-repeat center;
-}
 
 .social__icons_list_item_icon:hover {
   transform: scale(1.5);

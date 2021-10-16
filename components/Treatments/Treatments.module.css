@@ -59,48 +59,48 @@
 }
 
 .emergency {
-  background: url('../../public/images/emergency_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/emergency_icon.svg')
+    no-repeat center center/cover;
 }
 
 .dentures {
-  background: url('../../public/images/dentures_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/dentures_icon.svg')
+    no-repeat center center/cover;
 }
 
 .implants {
-  background: url('../../public/images/implants_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/implants_icon.svg')
+    no-repeat center center/cover;
 }
 
 .whitening {
-  background: url('../../public/images/whitening_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/whitening_icon.svg')
+    no-repeat center center/cover;
 }
 
 .cosmetics {
-  background: url('../../public/images/cosmetics_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/cosmetics_icon.svg')
+    no-repeat center center/cover;
 }
 
 .crown {
-  background: url('../../public/images/crown_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/crown_icon.svg')
+    no-repeat center center/cover;
 }
 
 .filling {
-  background: url('../../public/images/filling_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/filling_icon.svg')
+    no-repeat center center/cover;
 }
 
 .cleaning {
-  background: url('../../public/images/cleaning_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/cleaning_icon.svg')
+    no-repeat center center/cover;
 }
 
 .root_canal {
-  background: url('../../public/images/root_canal_icon.svg') no-repeat center
-    center/cover;
+  background: url('../../public/images/treatments_icons/root_canal_icon.svg')
+    no-repeat center center/cover;
 }
 
 .list__icon {

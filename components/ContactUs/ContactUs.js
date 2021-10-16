@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { serviceId, templateId, userId } from '../../env';
 import Image from 'next/image';
-import contactImage from '../../public/images/contact_image_mobile.png';
+import contactImage from '../../public/images/contact_us.jpg';
 
 export default function ContactUs() {
   const [buttonDisabled, setButtonDisabled] = useState(true);

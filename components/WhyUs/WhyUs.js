@@ -2,7 +2,7 @@ import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './WhyUs.module.css';
 import { whyChooseUsData } from '../../data/data';
 import Image from 'next/image';
-import mainImage from '../../public/images/why_us_main_image_desktop.png';
+import mainImage from '../../public/images/why_choose_us_4.jpg';
 
 export default function WhyUs() {
   return (
@@ -19,9 +19,9 @@ export default function WhyUs() {
             layout='responsive'
             className={styles.image}
           />
-          <div className={styles.section__container_image_left}></div>
+          {/* <div className={styles.section__container_image_left}></div>
           <div className={styles.section__container_image_right}></div>
-          <div className={styles.section__container_background}></div>
+          <div className={styles.section__container_background}></div> */}
         </div>
         <ul className={styles.section__container_list}>
           {whyChooseUsData.map(({ id, heading, text }) => (

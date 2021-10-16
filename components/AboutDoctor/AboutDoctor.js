@@ -2,7 +2,7 @@
 import styles from './AboutDoctor.module.css';
 import Button from '../Button/Button';
 import Image from 'next/image';
-import doctorImageDesktop from '../../public/images/doctor_ellen_desktop.jpg';
+import doctorImageDesktop from '../../public/images/doctors/dr_ellen.jpg';
 
 export default function MeetDoctor() {
   return (
