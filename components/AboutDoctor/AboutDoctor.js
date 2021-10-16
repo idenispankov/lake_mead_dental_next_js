@@ -16,6 +16,7 @@ export default function MeetDoctor() {
             alt='Doctor Ellen'
             layout='responsive'
             className={styles.image}
+            priority={true}
           />
         </div>
         <div className={styles.text__container}>

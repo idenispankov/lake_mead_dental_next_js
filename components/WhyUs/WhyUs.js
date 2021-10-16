@@ -18,10 +18,8 @@ export default function WhyUs() {
             alt='doctor with paper and pen'
             layout='responsive'
             className={styles.image}
+            priority={true}
           />
-          {/* <div className={styles.section__container_image_left}></div>
-          <div className={styles.section__container_image_right}></div>
-          <div className={styles.section__container_background}></div> */}
         </div>
         <ul className={styles.section__container_list}>
           {whyChooseUsData.map(({ id, heading, text }) => (

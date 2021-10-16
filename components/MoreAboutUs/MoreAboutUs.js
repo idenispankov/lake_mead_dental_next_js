@@ -21,6 +21,7 @@ export default function MoreAboutUs() {
               alt='doctor ellen'
               layout='responsive'
               className={styles.image}
+              priority={true}
             />
           </div>
           <ul className={styles.section__list}>

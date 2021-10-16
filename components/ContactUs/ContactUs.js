@@ -58,6 +58,7 @@ export default function ContactUs() {
             alt='happy people in dental office'
             layout='responsive'
             className={styles.image}
+            priority={true}
           />
         </div>
         <div className={styles.form__container}>
