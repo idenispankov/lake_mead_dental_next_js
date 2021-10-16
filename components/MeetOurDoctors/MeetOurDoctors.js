@@ -3,7 +3,7 @@ import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './MeetOurDoctors.module.css';
 import Image from 'next/image';
 import drEllen from '../../public/images/doctors/dr_ellen.jpg';
-import doctorKhoramshahi from '../../public/images/doctors/dr_khoramshahi.jpg';
+import doctorNikki from '../../public/images/doctors/dr_nikki.jpg';
 
 export default function MeetOurDoctors() {
   return (
@@ -45,7 +45,7 @@ export default function MeetOurDoctors() {
       <div className={styles.section__container}>
         <div className={styles.image__container}>
           <Image
-            src={doctorKhoramshahi}
+            src={doctorNikki}
             alt='doctor'
             className={styles.section__image}
           />
