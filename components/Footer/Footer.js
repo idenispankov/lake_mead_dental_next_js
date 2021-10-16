@@ -46,30 +46,6 @@ export default function Footer() {
                 ></div>
               </a>
             </li>
-            {/* <li className={styles.social__icons_list_item}>
-              <a
-                className={styles.social__icons_list_item_link}
-                href='https://www.linkedin.com/company/lake-mead-dental/'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                <div
-                  className={`${styles.social__icons_list_item_icon} ${styles.linkedin}`}
-                ></div>
-              </a>
-            </li> */}
-            {/* <li className={styles.social__icons_list_item}>
-              <a
-                className={styles.social__icons_list_item_link}
-                href='https://twitter.com/lakemeaddental'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                <div
-                  className={`${styles.social__icons_list_item_icon} ${styles.twitter}`}
-                ></div>
-              </a>
-            </li> */}
           </ul>
         </div>
         <div className={styles.contact__container}>
