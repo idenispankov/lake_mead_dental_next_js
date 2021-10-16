@@ -2,7 +2,7 @@ import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './MoreAboutUs.module.css';
 import { moreAboutUsData } from '../../data/data';
 import Image from 'next/image';
-import doctorImageDesktop from '../../public/images/group.JPG';
+import doctorImageDesktop from '../../public/images/group.jpg';
 
 export default function MoreAboutUs() {
   return (
