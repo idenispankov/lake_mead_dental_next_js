@@ -55,7 +55,7 @@ export default function ContactUs() {
         <div className={styles.section__container_image}>
           <Image
             src={contactImage}
-            alt='happy people in dental office'
+            alt='Brunette man sitting in front desc, smiling, holding a phone, welcoming people to contact an office'
             layout='responsive'
             className={styles.image}
             priority={true}

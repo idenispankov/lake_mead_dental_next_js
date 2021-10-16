@@ -4,7 +4,7 @@ const galleryData = {
       {
         id: 1,
         src: '/images/treatment/treatment_1.jpg',
-        alt: 'Dr. Ellen performing treatment for a patient',
+        alt: 'Dr. Nikki Norton and her assistant performing a dental procedure for a patient',
         fit: 'cover',
         width: '300',
         height: '300',
@@ -12,7 +12,7 @@ const galleryData = {
       {
         id: 2,
         src: '/images/treatment/treatment_2.jpg',
-        alt: 'Hygienist performing cleaning treatment for a patient',
+        alt: 'Dr. Ellen performing treatment for a patient',
         fit: 'cover',
         width: '300',
         height: '300',
@@ -48,7 +48,7 @@ const galleryData = {
       {
         id: 2,
         src: '/images/stuff/stuff_2.jpg',
-        alt: 'Brunette man standing and smiling in a blue medical shirt',
+        alt: 'Blonde woman standing and smiling in a blue medical shirt',
         fit: 'cover',
         width: '300',
         height: '400',
@@ -65,7 +65,7 @@ const galleryData = {
       {
         id: 4,
         src: '/images/stuff/stuff_4.jpg',
-        alt: 'Blonde woman, wearing glasses, smiling while sitting on a chair in a blue medical shirt',
+        alt: 'Brunette man standing and smiling in a blue medical shirt',
         fit: 'cover',
         width: '300',
         height: '400',
@@ -74,7 +74,7 @@ const galleryData = {
       {
         id: 5,
         src: '/images/stuff/stuff_5.jpg',
-        alt: 'Dark-red-ish hair woman sitting and smiling in a blue medical shirt',
+        alt: 'Brunette man standing and smiling in a blue medical shirt',
         fit: 'cover',
         width: '300',
         height: '400',
@@ -83,7 +83,7 @@ const galleryData = {
       {
         id: 6,
         src: '/images/stuff/stuff_6.jpg',
-        alt: 'Brunette woman sitting and smiling in a blue medical shirt',
+        alt: 'Brunette woman standing and smiling in a blue medical shirt',
         fit: 'cover',
         width: '300',
         height: '400',
@@ -92,7 +92,7 @@ const galleryData = {
       {
         id: 7,
         src: '/images/stuff/stuff_7.jpg',
-        alt: 'Brunette woman sitting and smiling in a dark long sleave top',
+        alt: 'Brunette woman sitting and smiling in a blue medical shirt',
         fit: 'cover',
         width: '300',
         height: '400',
@@ -101,7 +101,7 @@ const galleryData = {
       {
         id: 8,
         src: '/images/stuff/stuff_8.jpg',
-        alt: 'Blonde woman sitting and smiling in a blue medical shirt',
+        alt: 'Dark-red ish hair woman standing and smiling in a dark top',
         fit: 'cover',
         width: '300',
         height: '400',
@@ -110,7 +110,7 @@ const galleryData = {
       {
         id: 9,
         src: '/images/stuff/stuff_9.jpg',
-        alt: 'Brunette woman sitting and smiling in a dark blue long sleave medical shirt',
+        alt: 'Brunette woman standing and smiling in a dark blue medical shirt',
         fit: 'cover',
         width: '300',
         height: '400',
@@ -119,36 +119,18 @@ const galleryData = {
       {
         id: 10,
         src: '/images/stuff/stuff_10.jpg',
-        alt: 'Brunette woman sitting and smiling in a dark long sleave dress',
+        alt: 'Brunette man sitting and smiling in a dark long sleave suit with white top under it',
         fit: 'cover',
         width: '300',
         height: '400',
         position: 'top',
       },
-      // {
-      //   id: 11,
-      //   src: '/images/stuff/stuff_11.jpg',
-      //   alt: 'Red hair woman sitting and smiling in a dark long sleave dress',
-      //   fit: 'cover',
-      //   width: '300',
-      //   height: '400',
-      //   position: 'top',
-      // },
-      // {
-      //   id: 12,
-      //   src: '/images/stuff/stuff_12.jpg',
-      //   alt: 'Brunette woman sitting and smiling in a grey long sleave dress',
-      //   fit: 'cover',
-      //   width: '300',
-      //   height: '400',
-      //   position: 'top',
-      // },
     ],
     interior: [
       {
         id: 1,
         src: '/images/interior/interier_1.jpg',
-        alt: 'Interior iside Wigwam dental office, waiting area, with sofa, chairs',
+        alt: 'Interior inside Lake Mead dental office, waiting area, with sofa, chairs',
         fit: 'cover',
         width: '300',
         height: '200',
@@ -156,7 +138,7 @@ const galleryData = {
       {
         id: 2,
         src: '/images/interior/interier_2.jpg',
-        alt: 'Interior iside Wigwam dental office, waiting area, with 3 chairs',
+        alt: 'Interior inside Lake Mead dental office, waiting area, with 3 chairs',
         fit: 'contain',
         width: '300',
         height: '200',
@@ -164,7 +146,7 @@ const galleryData = {
       {
         id: 3,
         src: '/images/interior/interier_3.jpg',
-        alt: 'Interior iside Wigwam dental office, waiting area, with 2 chairs',
+        alt: 'Interior inside Lake Mead dental office, patient chair for procedures',
         fit: 'contain',
         position: 'right',
         width: '300',
@@ -173,7 +155,7 @@ const galleryData = {
       {
         id: 4,
         src: '/images/interior/interier_4.jpg',
-        alt: 'Interior iside Wigwam dental office, patient chair for procedures',
+        alt: 'Dental instruments for doctors use',
         fit: 'contain',
         width: '300',
         height: '200',

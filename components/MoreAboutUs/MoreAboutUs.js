@@ -18,7 +18,7 @@ export default function MoreAboutUs() {
           <div className={styles.section__image}>
             <Image
               src={doctorImageDesktop}
-              alt='doctor ellen'
+              alt='Group of people that works in a office stays together and smiling'
               layout='responsive'
               className={styles.image}
               priority={true}

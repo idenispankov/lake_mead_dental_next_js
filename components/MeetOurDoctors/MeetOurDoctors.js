@@ -11,7 +11,11 @@ export default function MeetOurDoctors() {
       <h1 className={MainStyles.heading}>Meet The Doctors</h1>
       <div className={styles.section__container}>
         <div className={styles.image__container}>
-          <Image src={drEllen} alt='doctor' className={styles.section__image} />
+          <Image
+            src={drEllen}
+            alt='Doctor Ellen, Blonde woman, wearing pink-framed glasses, standing and smiling in a dark dress'
+            className={styles.section__image}
+          />
         </div>
         <div className={styles.text__container}>
           <h2 className={styles.text__container_heading}>Meet Dr. Ellen</h2>
@@ -46,7 +50,7 @@ export default function MeetOurDoctors() {
         <div className={styles.image__container}>
           <Image
             src={doctorNikki}
-            alt='doctor'
+            alt='Doctor Nikki Norton, Blonde with blu-ish hair woman, wearing white medical long sleve dress, sitting and smiling'
             className={styles.section__image}
           />
         </div>

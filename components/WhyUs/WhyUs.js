@@ -15,7 +15,7 @@ export default function WhyUs() {
         <div className={styles.section__container_image_main}>
           <Image
             src={mainImage}
-            alt='doctor with paper and pen'
+            alt='One male and two females standing and smiling behind front desc'
             layout='responsive'
             className={styles.image}
             priority={true}

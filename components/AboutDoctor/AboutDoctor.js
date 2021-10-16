@@ -13,7 +13,7 @@ export default function MeetDoctor() {
         <div className={styles.section__container_image}>
           <Image
             src={doctorImageDesktop}
-            alt='Doctor Ellen'
+            alt='Doctor Ellen, Blonde woman, wearing glasses, standing and smiling in a dark dress'
             layout='responsive'
             className={styles.image}
             priority={true}

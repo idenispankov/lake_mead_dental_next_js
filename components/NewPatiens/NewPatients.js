@@ -44,7 +44,7 @@ export default function NewPatients() {
           <div className={`${styles.grid__item_image} ${styles.treat}`}>
             <Image
               src={treatImage}
-              alt='dental assistance in dark blue long sleave medical dress talks to a patient, explains how and why to use flossing procedure'
+              alt='Two people are talking, happy customer and office representative'
               layout='responsive'
               className={styles.image}
               priority={true}
@@ -64,7 +64,7 @@ export default function NewPatients() {
           <div className={`${styles.grid__item_image} ${styles.difference}`}>
             <Image
               src={differenceImage}
-              alt='Two dental assistance in a process of a cleaning procedure for a patient'
+              alt='Dental assistance in a process of a taking a X-ray for a patient'
               layout='responsive'
               className={styles.image}
               priority={true}
@@ -82,7 +82,7 @@ export default function NewPatients() {
           <div className={`${styles.grid__item_image} ${styles.service}`}>
             <Image
               src={serviceImage}
-              alt='Process of taking an CT-scan for a patient'
+              alt='A process of a dental procedure for a patient'
               layout='responsive'
               className={styles.image}
               priority={true}

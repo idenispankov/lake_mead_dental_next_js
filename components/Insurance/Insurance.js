@@ -19,7 +19,7 @@ export default function Insurance() {
         <div className={styles.image__container_mobile}>
           <Image
             src={imageMobile}
-            alt='insurance'
+            alt='picture of insurance paper'
             width={350}
             height={180}
             className={styles.image}
@@ -29,7 +29,7 @@ export default function Insurance() {
         <div className={styles.image__container_desktop}>
           <Image
             src={imageDesktop}
-            alt='insurance'
+            alt='picture of insurance paper'
             width={565}
             height={502}
             className={styles.image}
