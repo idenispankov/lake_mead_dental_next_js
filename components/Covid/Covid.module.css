@@ -4,6 +4,13 @@
   padding: 20px;
 }
 
+.section__heading {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .section__text {
   margin: 0 auto;
   text-align: center;
@@ -68,6 +75,7 @@
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
+    text-align: center;
   }
   .section__list_item_heading {
     font-size: 22px;

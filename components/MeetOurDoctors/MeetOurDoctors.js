@@ -2,7 +2,8 @@
 import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './MeetOurDoctors.module.css';
 import Image from 'next/image';
-import doctorImage from '../../public/images/doctor_ellen_desktop.jpg';
+import drEllen from '../../public/images/doctors/dr_ellen.jpg';
+import doctorKhoramshahi from '../../public/images/doctors/dr_khoramshahi.jpg';
 
 export default function MeetOurDoctors() {
   return (
@@ -10,11 +11,7 @@ export default function MeetOurDoctors() {
       <h1 className={MainStyles.heading}>Meet The Doctors</h1>
       <div className={styles.section__container}>
         <div className={styles.image__container}>
-          <Image
-            src={doctorImage}
-            alt='doctor'
-            className={styles.section__image}
-          />
+          <Image src={drEllen} alt='doctor' className={styles.section__image} />
         </div>
         <div className={styles.text__container}>
           <h2 className={styles.text__container_heading}>Meet Dr. Ellen</h2>
@@ -48,7 +45,7 @@ export default function MeetOurDoctors() {
       <div className={styles.section__container}>
         <div className={styles.image__container}>
           <Image
-            src={doctorImage}
+            src={doctorKhoramshahi}
             alt='doctor'
             className={styles.section__image}
           />

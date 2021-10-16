@@ -1,7 +1,7 @@
 import styles from './Covid.module.css';
-import MainStyles from '../../styles/MainStyles.module.css';
+// import MainStyles from '../../styles/MainStyles.module.css';
 import Image from 'next/image';
-import mainImage from '../../public/images/covid_19.jpeg';
+import mainImage from '../../public/images/covid.jpg';
 
 export default function Covid() {
   return (
@@ -10,12 +10,12 @@ export default function Covid() {
         <div className={styles.section__image}>
           <Image
             src={mainImage}
-            alt='covid-19 banner'
+            alt='Covid-19 modern sterilization device for patients and stuff rooms'
             layout='responsive'
             className={styles.image}
           />
         </div>
-        <h1 className={`${MainStyles.heading} ${styles.section__heading}`}>
+        <h1 className={styles.section__heading}>
           COVID-19 Office Sterilization Protocols
         </h1>
         <p className={styles.section__text}>

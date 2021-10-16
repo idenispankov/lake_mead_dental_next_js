@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import MainStyles from '../../styles/MainStyles.module.css';
 import styles from './TreatmentsPageComponent.module.css';
 import Treatments from '../../components/Treatments/Treatments';
+import drEllen from '../../public/images/treatments_main_1.jpg';
 
 export default function TreatmentsPageComponent() {
   return (
@@ -20,7 +22,14 @@ export default function TreatmentsPageComponent() {
               amenities to make you feel at home.
             </p>
           </div>
-          <div className={styles.section__image}></div>
+          <div className={styles.image__container}>
+            <Image
+              src={drEllen}
+              alt='Doctor Ellen, Blonde woman, wearing glasses, standing and smiling in a light-blue medical uniform'
+              className={styles.image}
+              priority={true}
+            />
+          </div>
         </div>
       </section>
       <Treatments />

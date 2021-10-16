@@ -1,10 +1,10 @@
 import styles from './NewPatients.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import mainImage from '../../public/images/new_patients_header_tablet.png';
-import treatImage from '../../public/images/new_patients_treat.png';
-import differenceImage from '../../public/images/new_patients_difference.png';
-import serviceImage from '../../public/images/new_patients_best_service.png';
+import mainImage from '../../public/images/new_patients_1.jpg';
+import treatImage from '../../public/images/we_treat_you_1.jpg';
+import differenceImage from '../../public/images/difference_1.jpg';
+import serviceImage from '../../public/images/service_1.jpg';
 
 export default function NewPatients() {
   return (
@@ -27,9 +27,10 @@ export default function NewPatients() {
         <div className={styles.section__image}>
           <Image
             src={mainImage}
-            alt='two people are talking'
+            alt='Two people are talking, happy customer and office representative'
             layout='responsive'
             className={styles.image}
+            priority={true}
           />
           <span className={styles.section__circle}></span>
           <span className={styles.section__square}></span>
@@ -43,9 +44,10 @@ export default function NewPatients() {
           <div className={`${styles.grid__item_image} ${styles.treat}`}>
             <Image
               src={treatImage}
-              alt='doctor standing at front desk'
+              alt='dental assistance in dark blue long sleave medical dress talks to a patient, explains how and why to use flossing procedure'
               layout='responsive'
               className={styles.image}
+              priority={true}
             />
           </div>
           <h3 className={styles.grid__item_heading}>
@@ -62,9 +64,10 @@ export default function NewPatients() {
           <div className={`${styles.grid__item_image} ${styles.difference}`}>
             <Image
               src={differenceImage}
-              alt='doctor standing at front desk'
+              alt='Two dental assistance in a process of a cleaning procedure for a patient'
               layout='responsive'
               className={styles.image}
+              priority={true}
             />
           </div>
           <h3 className={styles.grid__item_heading}>We Make The Difference</h3>
@@ -79,9 +82,10 @@ export default function NewPatients() {
           <div className={`${styles.grid__item_image} ${styles.service}`}>
             <Image
               src={serviceImage}
-              alt='doctor standing at front desk'
+              alt='Process of taking an CT-scan for a patient'
               layout='responsive'
               className={styles.image}
+              priority={true}
             />
           </div>
           <h3 className={styles.grid__item_heading}>
