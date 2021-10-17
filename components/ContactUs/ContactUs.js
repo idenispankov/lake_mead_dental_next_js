@@ -115,7 +115,7 @@ export default function ContactUs() {
                   className={styles.form__input}
                   type='text'
                   name='concern'
-                  maxLength={20}
+                  maxLength={30}
                   value={concern}
                   placeholder='Your Concern'
                 />
@@ -127,7 +127,7 @@ export default function ContactUs() {
                 <input
                   onChange={(e) => setPhone(e.target.value)}
                   className={styles.form__input}
-                  type='text'
+                  type='tel'
                   name='phone'
                   maxLength='20'
                   value={phone}
