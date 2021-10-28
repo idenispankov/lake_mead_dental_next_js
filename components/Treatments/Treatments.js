@@ -14,6 +14,20 @@ export default function Treatments() {
       </div>
       <ul className={styles.list}>
         <li className={styles.list__item}>
+          <div className={`${styles.list__icon} ${styles.implants}`}></div>
+          <h3 className={styles.list__heading}>Implants</h3>
+          <p className={styles.list__text}>
+            Dental implants are replacement tooth roots made of titanium
+          </p>
+        </li>
+        <li className={styles.list__item}>
+          <div className={`${styles.list__icon} ${styles.cosmetics}`}></div>
+          <h3 className={styles.list__heading}>Cosmetics</h3>
+          <p className={styles.list__text}>
+            We make your dream smile a reality using modern dental techniques
+          </p>
+        </li>
+        <li className={styles.list__item}>
           <div className={`${styles.list__icon} ${styles.emergency}`}></div>
           <h3 className={styles.list__heading}>Emergency</h3>
           <p className={styles.list__text}>
@@ -29,25 +43,11 @@ export default function Treatments() {
           </p>
         </li>
         <li className={styles.list__item}>
-          <div className={`${styles.list__icon} ${styles.implants}`}></div>
-          <h3 className={styles.list__heading}>Implants</h3>
-          <p className={styles.list__text}>
-            Dental implants are replacement tooth roots made of titanium
-          </p>
-        </li>
-        <li className={styles.list__item}>
           <div className={`${styles.list__icon} ${styles.whitening}`}></div>
           <h3 className={styles.list__heading}>Teeth Whitening</h3>
           <p className={styles.list__text}>
             Many whitening options, from toothpastes to professional solutions
             such as Zoom
-          </p>
-        </li>
-        <li className={styles.list__item}>
-          <div className={`${styles.list__icon} ${styles.cosmetics}`}></div>
-          <h3 className={styles.list__heading}>Cosmetics</h3>
-          <p className={styles.list__text}>
-            We make your dream smile a reality using modern dental techniques
           </p>
         </li>
         <li className={styles.list__item}>
