@@ -35,7 +35,7 @@ const galleryData = {
         height: '300',
       },
     ],
-    stuff: [
+    staff: [
       {
         id: 1,
         src: '/images/stuff/stuff.jpg',

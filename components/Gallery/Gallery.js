@@ -6,7 +6,7 @@ import galleryData from '../../data/galleryData';
 
 const GALLERY = {
   interior: 'interior',
-  stuff: 'stuff',
+  stuff: 'staff',
   treatment: 'treatment',
 };
 
@@ -18,7 +18,7 @@ export default function GalleryFunc() {
   };
 
   const handleStuffClick = () => {
-    setActive('stuff');
+    setActive('staff');
   };
 
   const handleTreatmentClick = () => {
@@ -41,10 +41,10 @@ export default function GalleryFunc() {
         <li
           onClick={handleStuffClick}
           className={`${styles.section__list_item} ${
-            active === 'stuff' && styles.active
+            active === 'staff' && styles.active
           }`}
         >
-          Stuff
+          Staff
         </li>
         <li
           onClick={handleInteriorClick}
