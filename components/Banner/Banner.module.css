@@ -27,7 +27,7 @@
 }
 
 .header__banner_text {
-  max-width: 290px;
+  max-width: 250px;
   font-size: 16px;
   line-height: 170%;
   text-align: center;
@@ -57,7 +57,7 @@
   .header__banner_text {
     text-align: start;
     margin-bottom: 25px;
-    max-width: 315px;
+    max-width: 265px;
   }
 }
 
@@ -80,7 +80,6 @@
     text-align: start;
     margin-bottom: 25px;
     font-size: 16px;
-    max-width: 315px;
   }
 }
 @media screen and (min-width: 1024px) {
